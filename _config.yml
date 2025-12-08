@@ -9,7 +9,7 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-theme: jekyll-theme-arcietect
+theme: jekyll-theme-archietect
 title: Octocat's homepage
 description: Bookmark this to keep an eye on my project updates!
 include:
@@ -18,6 +18,5 @@ include:
   - LICENSE.md
   - COPYING.md
   - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
