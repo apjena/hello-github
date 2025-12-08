@@ -1,23 +1,3 @@
-<style>
-@import url(https://fonts.googleapis.com/css?family=Denk+One);
-@import url(https://fonts.googleapis.com/css?family=Arimo);
-.rotingtxt{
-	-webkit-transform: rotate(331deg);
-	-moz-transform: rotate(331deg);
-	-o-transform: rotate(331deg);
-	transform: rotate(331deg);
-	font-size: 12em;
-	color: rgba(255, 5, 5, 0.17);
-	position: absolute;
-	font-family: 'Denk One', sans-serif;
-	text-transform:uppercase;
-	padding-left: 10%;
-}
-</style>
-
-<p class="rotingtxt">Personal use only, apjena</p>
-<input type="button" value="Print this page" onClick="window.print()">
-
 # head 1
 
 - **bold** 
@@ -54,7 +34,7 @@ $$
 U = \langle H(q, p) \rangle = \int H(q, p) \rho(q, p) d^{\otimes N}q d^{\otimes N}p
 $$
 
-[testlinkmarkor](testmarkor.md)
+[testlinkmarkor](CppCBCSPhysics1.ipynb)
 
 <style>
 mark{
