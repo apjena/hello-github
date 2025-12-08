@@ -9,7 +9,7 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-theme: jekyll-theme-hacker
+theme: jekyll-theme-dinky
 title: Octocat's homepage
 description: Bookmark this to keep an eye on my project updates!
 include:
