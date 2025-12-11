@@ -10,7 +10,7 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-#theme: jekyll-theme-minimal     
+theme: jekyll-theme-leap-day     
 title: Wave of Thoughts
 description: Bookmark this to keep an eye on my project updates!
 include:
