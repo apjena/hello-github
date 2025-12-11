@@ -11,7 +11,7 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-theme: jekyll-theme-dinky    
+theme: jekyll-theme-slate    
 title: Wave of Thoughts
 description: Bookmark this to keep an eye on my project updates!
 include:
