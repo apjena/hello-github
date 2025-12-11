@@ -4,13 +4,14 @@
 - _italicks_
 
 <details markdown='1'><summary>Expand / Collapse</summary>
-This is a detail folded.  A line space needed to render table or math.
+This is a detail folded.  A line space needed to render table or math. How long can it run? As long as the aragraph is not broken... 
 
 $$\alpha + t = 5$$
 
 ------
 R  | T
 ------
+No, as long as the details tag is not broken!!!
 
 </details>
 
