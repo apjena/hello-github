@@ -9,7 +9,7 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-theme: jekyll-theme-minimal
+theme: daattali/beautiful-jekyll@v6.0.1     # jekyll-theme-minimal     
 title: Wave of Thoughts
 description: Bookmark this to keep an eye on my project updates!
 include:
