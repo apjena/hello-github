@@ -9,8 +9,8 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-theme: jekyll-theme-architect
-title: Octocat's homepage
+theme: jekyll-theme-modernist
+title: Wave of Thoughts
 description: Bookmark this to keep an eye on my project updates!
 include:
   - CONTRIBUTING.md
