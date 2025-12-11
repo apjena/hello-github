@@ -1,7 +1,7 @@
 #remote_theme: pages-themes/slate@v0.2.0
 remote_theme: pages-themes/tactile@v0.2.0
 #remote_theme: pages-themes/modernist@v0.2.0
-#remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: pages-themes/cayman@v0.2.0
 #remote_theme: pages-themes/midnight@v0.2.0
 #remote_theme: pages-themes/leap-day@v0.2.0
 #remote_theme: pages-themes/dinky@v0.2.0
@@ -11,7 +11,7 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-theme: jekyll-theme-slate    
+theme: jekyll-theme-cayman    
 title: Wave of Thoughts
 description: Bookmark this to keep an eye on my project updates!
 include:
