@@ -8,10 +8,12 @@
 plugins:
   - jekyll-remote-theme
   - jekyll-relative-links
+remote_theme:  mmistakes/minimal-mistakes
 relative_links:
   enabled: true
   collections: true
-theme: jekyll-theme-cayman  
+# For github inbuilt themes instead:
+#theme: jekyll-theme-cayman  
 # architect cayman dinky hacker leap-day merlot
 # midnight minimal minimal modernist 
 # slate tactile time-machine 
