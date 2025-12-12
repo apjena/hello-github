@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Home
+---
+
 <h1>Latest Posts</h1>
 <ul>
   {% for post in site.posts %}
@@ -11,8 +13,6 @@ title: Home
     </li>
   {% endfor %}
 </ul>
-
----
 
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
