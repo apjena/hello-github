@@ -16,24 +16,8 @@ nav: true
   {% endfor %}
 </ul>
 
-# Site Pages
-
-<ul>
-{% assign pages_list = site.html_pages | sort: "title" %}
-{% for page in pages_list %}
-  {% if page.title %}
-  <li>
-    <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-  </li>
-  {% endif %}
-{% endfor %}
-</ul>
 
 # <span style='text-shadow: 0px 0px 2px #0000FF; color: white'>Random Thoughts</span> 
-
-{% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
-{% endfor %}
 
 - **bold** 
 - _italicks_
