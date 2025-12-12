@@ -13,7 +13,7 @@ relative_links:
   enabled: true
   collections: true
 # For github inbuilt themes instead:
-theme: jekyll-theme-minimal  
+theme: jekyll-theme-sleek  
 # architect cayman dinky hacker leap-day merlot
 # midnight minimal minimal modernist 
 # slate tactile time-machine 
