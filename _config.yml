@@ -13,7 +13,7 @@ relative_links:
   collections: true
 theme: jekyll-theme-cayman    
 title: Wave of Thoughts
-description: Bookmark this to keep an eye on my project updates!
+description: ~~~~~~~~~~~~~~
 include:
   - CONTRIBUTING.md
   - README.md
