@@ -1,6 +1,12 @@
 ---
 layout: page
 title: "PAGE-ONE"
+subtitle: "Being had a beginning!"
+feature-img: "assets/img/sample.png" 
+permalink: /about/                   # Set a permalink your your page
+hide: true                           # Prevent the page title to appear in the navbar
+icon: "fa-search"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
+tags: [sample, markdown, html]
 ---
 
 ### +3-III-S-CBCS(MS)-Sc(H)-Core-V-Phy-R&B
