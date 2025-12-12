@@ -11,7 +11,7 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-theme: jekyll-theme-leap-day    
+theme: jekyll-theme-tactile   
 # architect cayman dinky hacker leap-day merlot
 # midnight minimal minimal modernist 
 # slate tactile time-machine 
