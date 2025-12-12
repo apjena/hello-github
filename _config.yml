@@ -18,6 +18,7 @@ theme: jekyll-theme-architect
 title: Wave of Thoughts
 description: ~~~~~~~~~~~~~~
 include:
+  - ['_pages']
   - CONTRIBUTING.md
   - README.md
   - LICENSE.md
