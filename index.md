@@ -5,7 +5,7 @@ title: Home
 
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-# head 1
+# <span style='text-shadow: 0px 0px 2px #0000FF; color: white'>Random Thoughts</span> 
 
 - **bold** 
 - _italicks_
