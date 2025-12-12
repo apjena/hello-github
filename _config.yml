@@ -11,7 +11,7 @@ plugins:
 relative_links:
   enabled: true
   collections: true
-theme: jekyll-theme-cayman    
+theme: jekyll-theme-tactile    
 title: Wave of Thoughts
 description: ~~~~~~~~~~~~~~
 include:
