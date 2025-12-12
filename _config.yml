@@ -37,3 +37,5 @@ menu:
     url: /contact/
 mathjax: true
 show_downloads: false
+github:
+  is_project_page: false
