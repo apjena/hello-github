@@ -43,6 +43,10 @@ permalink: /pages/
 
 # <span style='text-shadow: 0px 0px 2px #0000FF; color: white'>Random Thoughts</span> 
 
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
+
 - **bold** 
 - _italicks_
 
