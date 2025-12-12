@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: <span style='text-shadow: 0px 0px 2px #0000FF; color: white'>Random Thoughts</span>
 ---
 
 <h1>Latest Posts</h1>
@@ -16,6 +16,25 @@ title: Home
 
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+---
+layout: default
+title: All Pages
+permalink: /pages/
+---
+
+# Site Pages
+
+<ul>
+{% assign pages_list = site.html_pages | sort: "title" %}
+{% for page in pages_list %}
+  {% if page.title %}
+  <li>
+    <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
 # <span style='text-shadow: 0px 0px 2px #0000FF; color: white'>Random Thoughts</span> 
 
 - **bold** 
