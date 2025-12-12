@@ -4,29 +4,16 @@ title: Wave of Thoughts
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
----
-layout: default
-title: All Pages
-permalink: /pages/
----
-<h1>Latest Posts</h1>
+<h2>Latest Posts</h2>
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <p>{{ post.date | date_to_string }}</p>
       {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
-
-
-
----
-layout: default
-title: All Pages
-permalink: /pages/
----
 
 # Site Pages
 
