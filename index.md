@@ -2,7 +2,13 @@
 layout: default
 title: Wave of Thoughts 
 ---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
+---
+layout: default
+title: All Pages
+permalink: /pages/
+---
 <h1>Latest Posts</h1>
 <ul>
   {% for post in site.posts %}
@@ -15,7 +21,7 @@ title: Wave of Thoughts
 </ul>
 
 
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 ---
 layout: default
 title: All Pages
