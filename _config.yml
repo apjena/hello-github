@@ -17,7 +17,7 @@ relative_links:
 # architect cayman dinky hacker leap-day merlot
 # midnight minimal minimal modernist 
 # slate tactile time-machine 
-title: Wave of Thoughts
+#title: Wave of Thoughts
 #description: 
 include:
   - ['_pages']
