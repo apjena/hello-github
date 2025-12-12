@@ -36,3 +36,4 @@ menu:
   - title: Contact
     url: /contact/
 mathjax: true
+show_downloads: false
