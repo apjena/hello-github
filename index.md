@@ -16,7 +16,7 @@ title: <span style='text-shadow: 0px 0px 2px #0000FF; color: white'>Random Thoug
 
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
----
+
 layout: default
 title: All Pages
 permalink: /pages/
