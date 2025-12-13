@@ -14,6 +14,8 @@ description: "me with you"      # used by search engines
 #favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
+header_pages: 
+ - about.md
 header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
 header_feature_image: assets/img/IMG-20251213-WA0011.jpg #assets/img/header/triangular.jpeg
 #header_feature_image_responsive: true
