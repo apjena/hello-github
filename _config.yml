@@ -55,6 +55,6 @@ exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node
 
 
 # For github inbuilt themes instead:
-theme: jekyll-theme-minimal  # other options below:
+theme: jekyll-theme-leap-day  # other options below:
 # architect cayman dinky hacker leap-day merlot
 # midnight minimal minimal modernist 
