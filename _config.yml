@@ -1,8 +1,8 @@
 plugins:
   - jekyll-remote-theme
   - jekyll-relative-links
-#remote_theme: sylhare/Type-on-Strap
-remote_theme: barryclark/jekyll-now
+remote_theme: sylhare/Type-on-Strap
+#remote_theme: barryclark/jekyll-now
 # SITE CONFIGURATION
 #baseurl: "/Type-on-Strap"
 url: "https://apjena.github.io"
