@@ -5,18 +5,6 @@ nav: true
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-<h2>Latest Posts</h2>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.date | date_to_string }}</p>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
-
-
 # <span style='text-shadow: 0px 0px 2px #0000FF; color: white'>Random Thoughts</span> 
 
 - **bold** 
