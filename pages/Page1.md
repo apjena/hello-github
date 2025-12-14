@@ -2,7 +2,7 @@
 layout: page
 title: "PAGE-ONE"
 subtitle: "Being had a beginning!"
-feature-img: "assets/img/sample.png" 
+feature-img: "assets/img/lineart.png" 
 permalink: /page-one/                   # Set a permalink your your page
 hide: false                           # Prevent the page title to appear in the navbar
 #icon: "fa-search"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
@@ -10,9 +10,11 @@ tags: [sample, markdown, html, apj]
 ---
 
 ### +3-III-S-CBCS(MS)-Sc(H)-Core-V-Phy-R&B
+
 #### 2023 | Full Marks : 60
 
 ##### PART-I | Answer the following questions. | 1x8
+
 * The Fourier series is useful to represent a _____ function. 
 * If A(w) is zero, then the given function is _____.
 * All eigen values of Pn(x) are _____ and lie between -1 to 1
@@ -23,6 +25,7 @@ tags: [sample, markdown, html, apj]
 * The value of $\Gamma (0)$ is _____.
 
 ##### PART-II | Answer any eight within two to three sentences. | 1.5x8
+
 * The Beta function is also known as Euler integral of the first kind. Explain. 
 * Define error function.
 * Write Fourier series for sawtooth wave.
@@ -35,6 +38,7 @@ tags: [sample, markdown, html, apj]
 * Find the value of $2x^2+3x^3$ in terms of legendre polynomials.
 
 ##### PART-III | Answer any eight of the following (in maximum 75 words.) | 2x8
+
 * Write the values of three Fourier series.
 * Find the Fourier integral of $f(x) =e^{-kx}$, when x>0, k>0 for f(x) is an even function.
 * What is essential singular point ?
