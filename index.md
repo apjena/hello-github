@@ -12,7 +12,7 @@ layout: home
 entries_layout: grid
 author_profile: true
 header:
-  overlay_image: assets/img/IMG-20251213-WA0011.jpg
+  overlay_image: assets/img/headerbanner.jpg
 ---
 
 <div class="posts">
