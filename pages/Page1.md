@@ -5,8 +5,8 @@ subtitle: "Being had a beginning!"
 feature-img: "assets/img/sample.png" 
 permalink: /page-one/                   # Set a permalink your your page
 hide: false                           # Prevent the page title to appear in the navbar
-icon: "fa-search"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
-tags: [sample, markdown, html]
+#icon: "fa-search"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
+tags: [sample, markdown, html, apj]
 ---
 
 ### +3-III-S-CBCS(MS)-Sc(H)-Core-V-Phy-R&B
@@ -14,11 +14,11 @@ tags: [sample, markdown, html]
 
 ##### PART-I | Answer the following questions. | 1x8
 * The Fourier series is useful to represent a _____ function. 
-* If Aw) is zero, then the given function is _____.
+* If A(w) is zero, then the given function is _____.
 * All eigen values of Pn(x) are _____ and lie between -1 to 1
 * Qn(x) is considered as _____ series. 
 * The generating function for Legendre's function is given as _____ .
-* The partial differential equation $xy\frac{\partial z}{\partial x}=5\frac{\partial^2z}{\partial y^2}$ can be classified as ____.
+* The partial differential equation $$xy\frac{\partial z}{\partial x}=5\frac{\partial^2z}{\partial y^2}$$ can be classified as ____.
 * Write the equation of vibrating string.
 * The value of $\Gamma (0)$ is _____.
 
@@ -26,7 +26,7 @@ tags: [sample, markdown, html]
 * The Beta function is also known as Euler integral of the first kind. Explain. 
 * Define error function.
 * Write Fourier series for sawtooth wave.
-* For a function $f(x)=x^2$, $-\pi<x<\pi$, prove that the coefficients $b_n$ are zero.
+* For a function $f(x)=x^2$, $-\pi\lt x\lt \pi$, prove that the coefficients $b_n$ are zero.
 * Prove that $P_{-n+1)}(x)=P_n(x)$.
 * Find the polynomial of $2x^2+x+3$ in terms of Legendre's polynomials.
 * Write the Laplace equation in spherical polar co-ordinate system.

@@ -5,7 +5,7 @@ subtitle: README of the Theme package
 permalink: /Guide/
 excluded: true
 position: 4
-tags: [Page]
+tags: [Page, apj]
 ---
 
 # Type on Strap 🎨
