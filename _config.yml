@@ -32,8 +32,8 @@ cookie_consent: false     # To respect the usage of cookies
 color_theme: auto         # auto, dark or light
 
 # PAGINATION
-paginate: 5
-paginate_path: "/blog/page:num"
+#paginate: 5
+#paginate_path: "/blog/page:num"
 
 # PORTFOLIO
 collections:
@@ -42,9 +42,9 @@ collections:
     permalink: /:collection/:name
 
 # BUILD SETTINGS
-#sass:
-#  style: compressed
-#  quiet_deps: true
+sass:
+  style: compressed
+  quiet_deps: true
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*", ".github/*"]
 
