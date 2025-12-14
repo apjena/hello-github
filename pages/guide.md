@@ -539,7 +539,7 @@ title: Gallery
 gallery: "assets/img/pexels"
 ---
 
-{% include default/gallery.html gallery_path=page.gallery %}
+{% include gallery.html gallery_path=page.gallery %}
 ```
 
 ### Feature: Search 🔍
