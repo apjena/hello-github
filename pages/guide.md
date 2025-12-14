@@ -488,7 +488,7 @@ layout: page
 title : Portfolio 
 ---
 
-{% include default/portfolio.html %}
+{% include defaults/portfolio.html %}
 ```
 
 #### Portfolio posts
