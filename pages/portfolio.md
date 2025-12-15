@@ -8,4 +8,3 @@ position: 4
 tags: [Page]
 ---
 
-{% include portfolio.html %}
