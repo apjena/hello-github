@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: page #default 
 title: Wave of Thoughts main 
 nav: true
 ---
