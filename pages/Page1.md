@@ -15,7 +15,7 @@ The partial differential equation \(xy\frac{\partial z}{\partial x}=5\frac{\part
 
 Write the equation of vibrating string.
 
-The value of \(\Gamma (0)\) is _____.
+The value of $$\Gamma (0)$$ is _____.
 
 ### +3-III-S-CBCS(MS)-Sc(H)-Core-V-Phy-R&B
 
