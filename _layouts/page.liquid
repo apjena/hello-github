@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+            {% include breadcrumbs.html %}
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
     <header id="main" style="background-image: url('{{ page.feature-img | relative_url }}')">
         <div class="title-padder">
@@ -12,7 +13,6 @@ layout: default
                     <h2 class="subtitle">{{ page.subtitle }}</h2>
                 {% endif %}
             {% endif %}
-            {% include breadcrumbs.html %}
         </div>
     </header>
     <section class="post-content">
