@@ -9,6 +9,14 @@ hide: false                           # Prevent the page title to appear in the 
 tags: [sample, markdown, html, apj]
 ---
 
+The generating function for Legendre's function is given as _____ .
+
+The partial differential equation \(xy\frac{\partial z}{\partial x}=5\frac{\partial^2z}{\partial y^2}\) can be classified as ____.
+
+Write the equation of vibrating string.
+
+The value of \(\Gamma (0)\) is _____.
+
 ### +3-III-S-CBCS(MS)-Sc(H)-Core-V-Phy-R&B
 
 #### 2023 | Full Marks : 60
