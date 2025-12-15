@@ -97,4 +97,4 @@ Here is how it looks like:
 
 <br>
 
-[^1]: {% include citation.html key="highlight" %}
+[^1]: {% # include citation.html key="highlight" # %}
