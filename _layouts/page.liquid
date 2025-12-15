@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-            {% include breadcrumbs.html %}
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
     <header id="main" style="background-image: url('{{ page.feature-img | relative_url }}')">
-        <div class="title-padder">
+            {% include breadcrumbs.html %}
+	<div class="title-padder">
             {% if page.hide_title %}
                 <div class="feature-image-padding"></div>
             {% else %}
