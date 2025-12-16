@@ -4,8 +4,8 @@ plugins:
   - jekyll-optional-front-matter
 
 #remote_theme: sylhare/Type-on-Strap
-#remote_theme: barryclark/jekyll-now
-remote_theme: sighingnow/jekyll-gitbook
+remote_theme: barryclark/jekyll-now
+#remote_theme: sighingnow/jekyll-gitbook
 
 
 # SITE CONFIGURATION
