@@ -8,10 +8,22 @@ hide: false                           # Prevent the page title to appear in the 
 #icon: "fa-search"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
 tags: [sample, markdown, html, apj]
 ---
+```yaml
+---
+layout: page
+title: "PAGE-TWO"
+subtitle: "Being had a beginning!"
+feature-img: "assets/img/header/headerbanner.jpg" 
+permalink: /page-two/                   # Set a permalink your your page
+hide: false                           # Prevent the page title to appear in the navbar
+#icon: "fa-search"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
+tags: [sample, markdown, html, apj]
+---
+```
 
 <!-- <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> -->
 
-# <span style='text-shadow: 0px 0px 2px #0000FF; color: white'>Random Thoughts</span> 
+# HEAD:<span style='text-shadow: 0px 0px 2px #0000FF; color: white'>Random Thoughts</span> 
 
 - **bold** 
 - _italicks_

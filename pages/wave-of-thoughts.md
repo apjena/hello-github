@@ -4,8 +4,14 @@ title: Wave of Thoughts main
 nav: true
 ---
 <!-- <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> -->
-
-# <span style='text-shadow: 0px 0px 2px #0000FF; color: white'>Random Thoughts</span> 
+```yaml
+---
+layout: page #default 
+title: Wave of Thoughts main 
+nav: true
+---
+```
+# HEAD <span style='text-shadow: 0px 0px 2px #0000FF; color: white'>WAVE OF THOUGHTS</span> 
 
 - **bold** 
 - _italicks_
