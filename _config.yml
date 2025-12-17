@@ -6,7 +6,8 @@ plugins:
 #remote_theme: sylhare/Type-on-Strap
 #remote_theme: barryclark/jekyll-now
 #remote_theme: sighingnow/jekyll-gitbook
-remote_theme: chauff/cse-theme
+theme: minimal-mistakes-jekyll
+#remote_theme: chauff/cse-theme
 
 # SITE CONFIGURATION
 #baseurl: "/Type-on-Strap"
