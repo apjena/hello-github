@@ -43,6 +43,8 @@ description: "me with you"                              # used by search engines
 #gitbook theme supported declarations:
 toc:      
     enabled: true
+    h_min: 1
+    h_max: 3
 collections:
   pages:
     output: true
