@@ -40,8 +40,23 @@ description: "me with you"                              # used by search engines
 #google_analytics:                                       # Measurement ID, e.g. "G-00000"
 #cookie_consent: false                                   # To respect the usage of cookies
 #color_theme: auto      # auto, dark or light
-toc:      # gitbook theme
+#gitbook theme supported declarations:
+toc:      
     enabled: true
+collections:
+  pages:
+    output: true
+    sort_by: date
+    permalink: /:collection/:year-:month-:day-:title:output_ext
+  others:
+    output: true
+    sort_by: date
+    permalink: /:collection/:year-:month-:day-:title:output_ext
+
+ordered_collections:
+  - posts
+  - pages
+  - others
 
 # PAGINATION
 #paginate: 5
