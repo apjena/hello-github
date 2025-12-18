@@ -1,42 +1,48 @@
-title: Wave of Thoughts
-description: ME WITH YOU.
-baseurl: ""
-url: "apjena.github.io"
-repository: 
-paginate: 28
+# Setup
+title:               Proof
+tagline:             a Jekyll Theme for Mathematical Writings
+description:         >- # this means to ignore newlines until "url:"
+  Proof is a minimal Jekyll theme for collaborating and documenting mathematics.
+url:                 https://mahrud.github.io
+baseurl:             '/proof' # the subpath of your site, e.g. /blog
+gtag:                UA-131373039-2 # Google Analytics Tag
 
-banner: "/assets/res/banner.png" # site banner (load when someone share your page url)
-favicon: "/assets/res/favicon.png" # site's favicon (icon left side of your page)
+# Color scheme. Options: red, orange, magenta, cyan, blue, brown
+color-scheme:
 
-# MatJek specific configurations
-user: 
-  name: "APJ"
-  email: "dinhanhthimail@gmail.com"
-  website: "math2it.com"
-  avatar: "/assets/res/user.png"
-  github: "apjena"
-google_tracking_id: ""
-google_site_verification: ""
-disqus_shortname: this-site
+# Permalinks
+permalink: pretty
+permalink: /:title/
 
-# Build settings
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Collections for entries
+collections:
+  posts:
+    output: true
+
+# Markdown specs
 markdown: kramdown
-highlighter: rouge
-permalink: /:title
 
-gems:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-archives
-  - jekyll-redirect-from
+kramdown:
+  # we use KaTeX
+  math_engine: null
+  # ↩ followed by a symbol to prevent emoji conversion
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  # don't make typographical conversions like >> to »
+  gfm_quirks: [paragraph_end, no_auto_typographic]
+  # disables syntax highlighter
+  #syntax_highlighter_opts:
+  #  disable: true
 
+# Exclusions from the final site
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - vendor
+  - README.md
+  - LICENSE.md
+  - Gemfile*
+  - proof.gemspec
 
-sass:
-  style: compressed
-
-  future: true
+# Theme
+remote_theme: "mahrud/proof"
