@@ -9,6 +9,7 @@ plugins:
 remote_theme: minimal-mistakes-jekyll
 #remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 #remote_theme: chauff/cse-theme
+remote_theme: alshedivat/al-folio
 
 # SITE CONFIGURATION
 #baseurl: "/Type-on-Strap"
