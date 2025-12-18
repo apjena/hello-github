@@ -6,10 +6,10 @@ plugins:
 #remote_theme: sylhare/Type-on-Strap
 #remote_theme: barryclark/jekyll-now
 #remote_theme: sighingnow/jekyll-gitbook
-remote_theme: minimal-mistakes-jekyll
+#remote_theme: minimal-mistakes-jekyll
 #remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 #remote_theme: chauff/cse-theme
-remote_theme: alshedivat/al-folio
+#remote_theme: alshedivat/al-folio
 
 # SITE CONFIGURATION
 #baseurl: "/Type-on-Strap"
@@ -82,6 +82,6 @@ exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node
 
 
 # For github inbuilt themes instead:
-#theme: jekyll-theme-cayman  # other options below:
+theme: jekyll-theme-cayman  # other options below:
 # architect cayman dinky hacker leap-day merlot
 # midnight minimal minimal modernist 
