@@ -1,8 +1,11 @@
-plugins:
-  - jekyll-remote-theme
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
+title: Wave of Thoughts
+description: ME WITH YOU.
+baseurl: ""
+url: "apjena.github.io"
+repository: 
+paginate: 28
 
+<<<<<<< HEAD
 #remote_theme: sylhare/Type-on-Strap
 #remote_theme: barryclark/jekyll-now
 #remote_theme: sighingnow/jekyll-gitbook
@@ -10,26 +13,44 @@ plugins:
 #remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 #remote_theme: chauff/cse-theme
 #remote_theme: alshedivat/al-folio
+=======
+banner: "/assets/res/banner.png" # site banner (load when someone share your page url)
+favicon: "/assets/res/favicon.png" # site's favicon (icon left side of your page)
 
-# SITE CONFIGURATION
-#baseurl: "/Type-on-Strap"
-url: "https://apjena.github.io"
+# MatJek specific configurations
+user: 
+  name: "APJ"
+  email: "dinhanhthimail@gmail.com"
+  website: "math2it.com"
+  avatar: "/assets/res/user.png"
+  github: "apjena"
+google_tracking_id: ""
+google_site_verification: ""
+disqus_shortname: this-site
 
-# THEME-SPECIFIC CONFIGURATION
-title: Waves of Thoughts                                   # site's title
-description: "me with you"                              # used by search engines
-#avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-#favicon: assets/favicon.ico                             # Icon displayed in the tab
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title
 
-# Header and footer text
-#header_pages: 
-# - about.md
-#header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
-#header_feature_image: assets/img/headerbanner.jpg         #assets/img/header/triangular.jpeg
-#header_feature_image_responsive: true
-#footer_text: >
-#  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+>>>>>>> 1249c19 (18.12No1)
 
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  style: compressed
+
+<<<<<<< HEAD
 # Blog
 #excerpt: false                                           # Or "truncate" (first 250 characters), "false" to disable
 #post_navigation: true
@@ -85,3 +106,6 @@ exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node
 theme: jekyll-theme-cayman  # other options below:
 # architect cayman dinky hacker leap-day merlot
 # midnight minimal minimal modernist 
+=======
+  future: true
+>>>>>>> 1249c19 (18.12No1)
