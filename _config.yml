@@ -2,22 +2,26 @@
 #baseurl: "/Type-on-Strap"
 url: "https://apjena.github.io"
 
-# THEME-SPECIFIC CONFIGURATION
-title: Waves of Thoughts                                # site's title
-description: "me with you"                              # used by search engines
-avatar: assets/img/avtar.png #triangle.png              # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+# META AND BRANDING
+title: Waves of Thoughts                           # site's title
+description: "me with you"                         # used by search engines
+avatar: assets/img/avtar.png #triangle.png         # Empty for no avatar in navbar
+favicon: assets/favicon.ico                        # Icon displayed in the tab
+color_theme: auto                                  # auto | dark | light
 
+# THEME-SPECIFIC CONFIGURATION 
 # Header and footer text
 header_pages: 
  - about.md
-header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
+header_text: Welcome to the waves           # Change Blog header text
 header_feature_image: assets/img/header/headerbanner.jpg         #assets/img/header/triangular.jpeg
 header_feature_image_responsive: true
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/">Jekyll</a> based on <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a> theme and proudly hosted on <a href="https://github.com">GitHub</a>.
+  2025; Powered by <a href="https://jekyllrb.com/">Jekyll</a> based on <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a> theme and proudly hosted on <a href="https://github.com">GitHub</a>.
 
-# Blog
+# BLOG & PAGINATION
+paginate: 10
+paginate_path: "/blog/page:num"
 excerpt: false                                           # Or "truncate" (first 250 characters), "false" to disable
 post_navigation: true
 #color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
@@ -29,11 +33,7 @@ katex: true           # Enable if using math markup
 mermaid: default      # Enable mermaid-js for diagrams, use theme: base, forest, dark, default, neutral
 google_analytics:         # Measurement ID, e.g. "G-00000"
 cookie_consent: false     # To respect the usage of cookies
-color_theme: auto         # auto, dark or light
 
-# PAGINATION
-paginate: 10
-paginate_path: "/blog/page:num"
 
 # PORTFOLIO
 collections:
