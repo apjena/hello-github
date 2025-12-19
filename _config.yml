@@ -7,7 +7,7 @@ description:         >- # this means to ignore newlines until "url:"
 #  Proof is a minimal Jekyll theme for collaborating and documenting mathematics.
   Me with You
 url:                 https://apjena.github.io
-baseurl:             #'/proof' # the subpath of your site, e.g. /blog
+baseurl:             '/proof' # the subpath of your site, e.g. /blog
 gtag:                #UA-131373039-2 # Google Analytics Tag
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
