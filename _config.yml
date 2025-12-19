@@ -1,8 +1,6 @@
 # Setup
-title:               Waves of Thoughts
-#Proof
-tagline:             Life just flows 
-# a Jekyll Theme for Mathematical Writings
+title:               Waves of Thoughts  #Proof
+tagline:             Life just flows  # a Jekyll Theme for Mathematical Writings
 description:         >- # this means to ignore newlines until "url:"
 #  Proof is a minimal Jekyll theme for collaborating and documenting mathematics.
   Me with You
