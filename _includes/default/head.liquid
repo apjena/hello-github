@@ -41,6 +41,14 @@
     {% endif %}
 
     <!-- KaTeX 0.16.25 -->
+
+    <!-- Load KaTeX CSS -->
+    <link rel="stylesheet" href="cdn.jsdelivr.net" integrity="sha384-0515K2PT3LbV+8Zfd+L8/91H71s72tJp+ZzH5B3C7+sH3r+0WqN2M" crossorigin="anonymous">
+    <!-- Load KaTeX JS -->
+    <script defer src="cdn.jsdelivr.net" integrity="sha384-f3FIHk25G+sKz5qj5z4Jp/y/W1k5/qgG7F+W2H4Z2W4/W1k5/qgG7F+W2H4Z2W4/" crossorigin="anonymous"></script>
+    <!-- Load Autorender JS -->
+    <script defer src="cdn.jsdelivr.net" integrity="sha384-yqhlS4E3Vls+22wS5J61Dq06b2f4gW4y4Q4jG7F+W2H4Z2W4/W1k5/qgG7F+W2H4Z2W4/" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
     {% if site.katex or site.theme_settings.katex %}
     <script defer src="{{ '/assets/js/vendor/katex.min.js' | relative_url }}"></script>
     <script defer src="{{ '/assets/js/vendor/katex.auto-render.min.js' | relative_url }}" onload="renderMathInElement(document.body);"></script>
