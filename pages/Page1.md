@@ -9,21 +9,13 @@ hide: false                           # Prevent the page title to appear in the 
 tags: [sample, markdown, html, apj]
 ---
 
-# Test markdown file 
+The generating function for Legendre's function is given as _____ .
 
-Math Test: The value of $\Gamma (0)$ is _____.
-```yaml
----
-layout: page
-title: "PAGE-ONE"
-subtitle: "Being had a beginning!"
-feature-img: "assets/img/header/headerbanner.jpg" 
-permalink: /page-one/                   # Set a permalink your your page
-hide: false                           # Prevent the page title to appear in the navbar
-#icon: "fa-search"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
-tags: [sample, markdown, html, apj]
----
-```
+The partial differential equation $$xy\frac{\partial z}{\partial x}=5\frac{\partial^2z}{\partial y^2}$$ can be classified as ____.
+
+Write the equation of vibrating string.
+
+* The value of $\Gamma (0)$ is _____.
 
 ### +3-III-S-CBCS(MS)-Sc(H)-Core-V-Phy-R&B
 
@@ -66,3 +58,13 @@ tags: [sample, markdown, html, apj]
 * Solve the differential equation $\frac{\partial^2y}{\partial x^2}+4y=\cos 2x$.
 * Write 3D Laplace's equation in cylinderical and spherical polar coordinates.
 
+##### PART-IV | Answer within 500 words each | 6x4
+4) Derive an expression for complex form of Fourier series. Also write some uses of Fourier series.
+
+###### OR
+Derive cosine and sine series of Fourier expansion for even and odd function.
+
+5) Derive an expression for Legendre differential equation using Frobenius method.
+
+###### OR
+Using the generating function of Hermite polynomials evaluate the value of $H_2(x)$ and $H_3(x)$.
