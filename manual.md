@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Manual
+title: Manual page of Proof from ED theme
 editor: admin
 toc: [background, write, review, publish]
 repository: https://github.com/mahrud/proof
