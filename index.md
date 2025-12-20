@@ -28,7 +28,7 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
  {% if item.author %} by {{ item.author }}{% endif %}{% endfor %}
 ~      
 
-## pages.
+## All the Pages.
 {% for item in site.pages %}
 * [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
  {% if item.author %} by {{ item.author }}{% endif %}{% endfor %}
@@ -36,7 +36,7 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
-### HTML canvas drawings:
+## HTML canvas drawings:
 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
 Your browser does not support the HTML canvas element.
 </canvas>
