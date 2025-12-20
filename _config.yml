@@ -42,7 +42,7 @@ collections:
     permalink: /:collection/:name
   apjfolio:
     output: true
-    permalink: /:apjfolio/:name
+    permalink: /:collection/:name
 
 # BUILD SETTINGS
 sass:
