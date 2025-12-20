@@ -1,7 +1,7 @@
 --- 
 layout: page
-title : APJPortfolio 
-permalink: /APJportfolio/
+title : apjfolio 
+permalink: /apjfolio/
 subtitle: "Projects APJ is working on" 
 feature-img: "assets/img/pexels/computer.jpeg"
 position: 5
