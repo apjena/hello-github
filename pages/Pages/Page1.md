@@ -24,6 +24,7 @@ Write the equation of vibrating string.
 
 ##### PART-I | Answer the following questions. | 1x8
 
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 * The Fourier series is useful to represent a _____ function. 
 * If A(w) is zero, then the given function is _____.
 * All eigen values of Pn(x) are _____ and lie between -1 to 1
