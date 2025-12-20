@@ -15,26 +15,26 @@ header:
   <li {% if page.url contains '/about' %}class="active"{% endif %}><a href="/about/">About</a></li>
   <li {% if page.url contains '/blog' %}class="active"{% endif %}><a href="/blog/">Blog</a></li>
 </ul>
-
+---
 
 # Hello World!!!
 To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 
 ---
-
-## posts.
-{% for item in site.posts %}
-* [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
- {% if item.author %} by {{ item.author }}{% endif %}{% endfor %}
-~      
-
 ## All the Pages.
 {% for item in site.pages %}
 * [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
  {% if item.author %} by {{ item.author }}{% endif %}{% endfor %}
 ~      
+---
+## List of Posts.
+{% for item in site.posts %}
+* [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
+ {% if item.author %} by {{ item.author }}{% endif %}{% endfor %}
+---
 
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+---
 
 ## HTML canvas drawings:
 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
