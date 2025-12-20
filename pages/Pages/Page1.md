@@ -4,7 +4,7 @@ title: "PAGE-ONE"
 subtitle: "Being had a beginning!"
 #feature-img: "assets/img/header/headerbanner.jpg" 
 permalink: /Pages/page-one/                   # Set a permalink your your page
-hide: false                           # Prevent the page title to appear in the navbar
+hide: true                           # Prevent the page title to appear in the navbar
 icon: "fa-home"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
 tags: [sample, markdown, html, apj]
 ---
