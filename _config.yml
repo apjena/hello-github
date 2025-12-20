@@ -40,6 +40,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:name
+  apjfolio:
+    output: true
+    permalink: /:apjfolio/:name
 
 # BUILD SETTINGS
 sass:
