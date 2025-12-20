@@ -8,13 +8,6 @@ hide: false                           # Prevent the page title to appear in the 
 icon: "fa-home"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
 tags: [sample, markdown, html, apj]
 ---
-<title>KaTeX in HTML List</title>
-    <!-- Load KaTeX CSS -->
-    <link rel="stylesheet" href="cdn.jsdelivr.net" integrity="sha384-0515K2PT3LbV+8Zfd+L8/91H71s72tJp+ZzH5B3C7+sH3r+0WqN2M" crossorigin="anonymous">
-    <!-- Load KaTeX JS -->
-    <script defer src="cdn.jsdelivr.net" integrity="sha384-f3FIHk25G+sKz5qj5z4Jp/y/W1k5/qgG7F+W2H4Z2W4/W1k5/qgG7F+W2H4Z2W4/" crossorigin="anonymous"></script>
-    <!-- Load Autorender JS -->
-    <script defer src="cdn.jsdelivr.net" integrity="sha384-yqhlS4E3Vls+22wS5J61Dq06b2f4gW4y4Q4jG7F+W2H4Z2W4/W1k5/qgG7F+W2H4Z2W4/" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 
 The generating function for Legendre's function is given as _____ .
 
