@@ -38,7 +38,7 @@ cookie_consent: false     # To respect the usage of cookies
 # PORTFOLIO
 collections:
   portfolio:
-    output: false
+    output: true
     permalink: /:collection/:name
 
 # BUILD SETTINGS
