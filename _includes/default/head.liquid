@@ -42,20 +42,17 @@
 
     <!-- KaTeX 0.16.25 -->
     {% if site.katex or site.theme_settings.katex %}
-    <script defer src="{{ '/assets/js/vendor/katex.min.js' | relative_url }}"></script>
-    <script defer src="{{ '/assets/js/vendor/katex.auto-render.min.js' | relative_url }}" onload="renderMathInElement(document.body);"></script>
+    <script defer src="{{ '/assets/js1/vendor/katex.min.js' | relative_url }}"></script>
+    <script defer src="{{ '/assets/js1/vendor/katex.auto-render.min.js' | relative_url }}" onload="renderMathInElement(document.body);"></script>
     <!-- Load KaTeX CSS -->
-<!-- The loading of KaTeX is deferred to speed up page rendering -->
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js"></script>
-<!-- To automatically render math in text elements -->
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js"
-        onload="renderMathInElement(document.body);"></script>
-    <link rel="stylesheet" href="cdn.jsdelivr.net" integrity="sha384-0515K2PT3LbV+8Zfd+L8/91H71s72tJp+ZzH5B3C7+sH3r+0WqN2M" crossorigin="anonymous">
-    <!-- Load KaTeX JS -->
-    <script defer src="cdn.jsdelivr.net" integrity="sha384-f3FIHk25G+sKz5qj5z4Jp/y/W1k5/qgG7F+W2H4Z2W4/W1k5/qgG7F+W2H4Z2W4/" crossorigin="anonymous"></script>
-    <!-- Load Autorender JS -->
-    <script defer src="cdn.jsdelivr.net" integrity="sha384-yqhlS4E3Vls+22wS5J61Dq06b2f4gW4y4Q4jG7F+W2H4Z2W4/W1k5/qgG7F+W2H4Z2W4/" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/katex.min.css" integrity="sha384-Pu5+C18nP5dwykLJOhd2U4Xen7rjScHN/qusop27hdd2drI+lL5KvX7YntvT8yew" crossorigin="anonymous">
 
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/katex.min.js" integrity="sha384-2B8pfmZZ6JlVoScJm/5hQfNS2TI/6hPqDZInzzPc8oHpN5SgeNOf4LzREO6p5YtZ" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.27/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
     {% endif %}
 
     <!-- Mermaid 11.12.0 -->
