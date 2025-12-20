@@ -8,7 +8,6 @@ hide: false                           # Prevent the page title to appear in the 
 icon: "fa-home"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
 tags: [sample, markdown, html, apj]
 ---
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 The generating function for Legendre's function is given as _____ .
 
@@ -32,7 +31,7 @@ Write the equation of vibrating string.
 * The generating function for Legendre's function is given as _____ .
 * The partial differential equation \(xy\frac{\partial z}{\partial x}=5\frac{\partial^2z}{\partial y^2}\) can be classified as ____.
 * Write the equation of vibrating string.
-* The value of \(\Gamma (0)\) is _____.
+* The value of $$\Gamma (0)$$ is _____.
 
 ##### PART-II | Answer any eight within two to three sentences. | 1.5x8
 
