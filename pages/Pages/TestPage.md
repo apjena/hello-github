@@ -14,7 +14,11 @@ header:
 * $$katex$$ support in kramdown only supports `$$ math $$` not single dollar as in case of many md based note takers! Inline and display modes are detected automatically. 
 * `site.portfolio` is identified as a liquid variable by jekyll when _config.yml defines a collections by that name.
 * Posts in _posts folder without file name convention, even if, it has layout defined by yaml, is not jekylled.
- 
+
+# And then,
+* ipynb parsing and possibilities in academician theme.
+* a1 theme to be looked. Not suitably required to be used.
+
 # Bootstrap testing.
 <div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
