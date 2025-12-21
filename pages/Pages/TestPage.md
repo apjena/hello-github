@@ -12,7 +12,7 @@ header:
 # Observations so far
 * pagination works with `layout: home` only in `index.html` not in `index.md` or any other file.
 * $$katex$$ support in kramdown only supports `$$ math $$` not single dollar as in case of many md based note takers! Inline and display modes are detected automatically. 
-* `site.portfolio` is identified as a liquid variable by jekyll when _config.yml defines a collections by that name. see [apjfolio]()
+* `site.portfolio` is identified as a liquid variable by jekyll when _config.yml defines a collections by that name. See [apjfolio]({{site.baseurl}}/apjfolio/) for steps.
 * Posts in _posts folder without file name convention, even if, it has layout defined by yaml, is not jekylled.
 
 # And then,

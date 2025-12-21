@@ -8,10 +8,14 @@ position: 5
 tags: [Page]
 ---
 ## test apj Portfolio forked by name apjfolio
-can it be renamed to say, questions/cbcs policies etc. 
-to group all Semester wise questions.
-can we have another stuff like this with other name say study materials, and have it's own folios. with that name grouped in that folder _study Materials like existing example _portfolio. 
+Can it be renamed/replicated to something else, say questions/cbcs policies etc. to group all Semester wise questions?
+Can we have another stuff like this with other name say study materials, and have it's own folios. with that name grouped in that folder _studyMaterials like existing example _portfolio. 
 
-More importantly, this type of *introductory texts* is allowed or not.
+It works indeed. (by example, apjfolio)
+1. Define the apjfolio `collection` variable in `_config.yml` like the one _portfolio_.
+* Create `_apjfolio`, this page itself.
+1.Put project files in `_apjfolio` folder. Notice that, individual project files' layout are _post_, not _pages_. 
+1. Create _apjfolio.html_ in `_includes`. Only change in _portfolio.html_ is _site.portfolio_ to _site.apjfolio_. Other heading, sectioning mechanisms of _portfolio_ remained utilized as it should be.
+1. Include _apjfolio.html_ in _apjfolio.md_  file by _liquid_ as is done in this file.
 
 {% include apjfolio.html %}
