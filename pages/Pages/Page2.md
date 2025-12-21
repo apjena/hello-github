@@ -47,7 +47,7 @@ $$
 U = \langle H(q, p) \rangle = \int H(q, p) \rho(q, p) d^{\otimes N}q d^{\otimes N}p
 $$
 
-[testlinkmarkor](pages/CppCBCSPhysics1.ipynb)
+[testlinkmarkor](pages/Pages/CppCBCSPhysics1.ipynb)
 
 <style>
 mark{

@@ -2,7 +2,7 @@
 layout: page
 title : Apjfolio 
 permalink: /apjfolio/
-subtitle: "Projects being worked on $$\alpha$$" 
+subtitle: "Projects being worked on \alpha " 
 feature-img: "assets/img/pexels/computer.jpeg"
 position: 5
 tags: [Page]
