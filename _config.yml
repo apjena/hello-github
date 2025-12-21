@@ -20,7 +20,7 @@ footer_text: >
   2025; Powered by <a href="https://jekyllrb.com/">Jekyll</a> based on <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a> theme and proudly hosted on <a href="https://github.com">GitHub</a>.
 
 # BLOG & PAGINATION
-paginate: 5
+paginate: 8
 paginate_path: "/blog/page:num"
 excerpt: false                                           # Or "truncate" (first 250 characters), "false" to disable
 post_navigation: true
