@@ -2,7 +2,7 @@
 layout: page
 title : Apjfolio 
 permalink: /apjfolio/
-subtitle: "Projects being worked on <span style='background-color:#ffcb2e;'>Text with background color / highlight</span> " 
+subtitle: "Projects being worked on <span style='background-color:#ffcb2e;'>Text with background color / highlight</span>" 
 feature-img: "assets/img/pexels/computer.jpeg"
 position: 5
 tags: [Page]
