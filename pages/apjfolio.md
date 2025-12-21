@@ -1,6 +1,6 @@
 --- 
 layout: page
-title : apjfolio 
+title : Apjfolio 
 permalink: /apjfolio/
 subtitle: "Projects APJ is working on" 
 feature-img: "assets/img/pexels/computer.jpeg"
