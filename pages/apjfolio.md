@@ -14,5 +14,4 @@ can we have another stuff like this with other name say study materials, and hav
 
 More importantly, this type of *introductory texts* is allowed or not.
 
-To see: linking in markdown note taking, not possible randomly. The whole folder perhaps has to be imported so that jekyll creates all the links!!!
 {% include apjfolio.html %}

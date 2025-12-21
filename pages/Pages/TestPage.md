@@ -12,12 +12,14 @@ header:
 # Observations so far
 * pagination works with `layout: home` only in `index.html` not in `index.md` or any other file.
 * $$katex$$ support in kramdown only supports `$$ math $$` not single dollar as in case of many md based note takers! Inline and display modes are detected automatically. 
-* `site.portfolio` is identified as a liquid variable by jekyll when _config.yml defines a collections by that name.
+* `site.portfolio` is identified as a liquid variable by jekyll when _config.yml defines a collections by that name. see [apjfolio]()
 * Posts in _posts folder without file name convention, even if, it has layout defined by yaml, is not jekylled.
 
 # And then,
 * ipynb parsing and possibilities in academician theme.
 * a1 theme to be looked. Not suitably required to be used.
+* To see: Linking in markdown note taking apps to work in theme pages folder: seems not possible randomly, The whole folder perhaps has to be uploaded so that jekyll creates all the links!!!
+
 
 # Bootstrap testing.
 <div class="dropdown">
