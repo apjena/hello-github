@@ -2,12 +2,12 @@
 layout: page
 title : Apjfolio 
 permalink: /apjfolio/
-subtitle: "Projects APJ is working on" 
+subtitle: "Projects being worked on $$\alpha$$" 
 feature-img: "assets/img/pexels/computer.jpeg"
 position: 5
 tags: [Page]
 ---
-## test apj Portfolio forked by name apjfolio
+## Test apj Portfolio forked by name apjfolio
 Can it be renamed/replicated to something else, say questions/cbcs policies etc. to group all Semester wise questions?
 Can we have another stuff like this with other name say study materials, and have it's own folios. with that name grouped in that folder _studyMaterials like existing example _portfolio. 
 
