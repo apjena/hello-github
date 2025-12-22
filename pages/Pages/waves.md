@@ -42,6 +42,19 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 
 <ul class="fa-ul">
 {% for item in site.pages %}
+  <li class="fa-li">
+    <i class="fa-solid fa-feather"></i>
+    <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+    {% if item.author %}
+      by {{ item.author }}
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+
+<ul class="fa-ul">
+{% for item in site.pages %}
 <fa-li> <i class="fa-solid fa-feather"></i> [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
  {% if item.author %} by {{ item.author }}{% endif %} 
 </fa-li>
