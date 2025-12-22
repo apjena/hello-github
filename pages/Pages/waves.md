@@ -23,9 +23,12 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 
 ---
 ## All the Pages.
+<ul class="fa-ul">
 {% for item in site.pages %}
-* [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
- {% if item.author %} by {{ item.author }}{% endif %}{% endfor %}
+<li> <i class="fa-solid fa-feather"> [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
+ {% if item.author %} by {{ item.author }}{% endif %}</li>
+  {% endfor %}
+</ul>
 ~      
 ---
 ## List of Posts.
