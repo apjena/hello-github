@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Tower of Hanoi
-img: "assets/img/portfolio/toh.png"
+title: Semester 3
+img: "assets/img/apjfolio/sem3.png"
 date: September 2014
+tags: [phy, utkal]
 ---
 
 The tower of Hanoi...
