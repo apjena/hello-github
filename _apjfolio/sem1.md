@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Ninja
-img: "assets/img/portfolio/ninja.png"
+title: Semester 1
+img: "assets/img/apjfolio/sem1.png"
 date: April, 08 2014
-tags: [Lorem]
+tags: [phy, utkal]
 ---
 
 ![image]({{ page.img | relative_url }})
