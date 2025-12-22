@@ -16,7 +16,7 @@ header:
   <li><i class="fa-solid fa-box"></i> Item 3</li>
 </ul>
 
-<ul>
+<ul class="fa-ul">
   <li {% if page.url contains '/getting-started' %}class="active"{% endif %}><a href="/getting-started/">Getting started</a></li>
   <li {% if page.url contains '/without-plugin' %}class="active"{% endif %}><a href="/without-plugins/">Without plugins</a></li>
   <li {% if page.url contains '/about' %}class="active"{% endif %}><a href="/about/">About</a></li>
@@ -32,7 +32,7 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 <ul class="fa-ul">
   
 {% for item in site.pages %}
-<li> <i class="fa-solid fa-feather"> [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
+<li> <i class="fa-solid fa-feather"> </i>[{{ item.title }}]({{ site.baseurl }}{{ item.url }})
  {% if item.author %} by {{ item.author }}{% endif %} </li>
   {% endfor %}
   
