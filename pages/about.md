@@ -18,13 +18,11 @@ After trying one of the free and most
 popular platforms for blogging, realised that different methods are suitable for different 
 needs for convenience. Mere possibility is not always the absolute requirement.
 
-This site utilizes the efforts of Type on Strap theme on GitHub platform.
+This site utilizes the efforts of [Type on Strap](https://github.com/sylhare/Type-on-Strap) theme on GitHub platform.
 Type on Strap is based on Type Theme, a free and open-source theme for 
 [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
 
-For comprehensive information regarding installation, features, and documentation, please 
-refer to the Type-on-Strap theme's official [GitHub repository](https://github.com/sylhare/Type-on-Strap) for much 
-more information about Type on Strap or to install this theme on your own Jekyll site.
+#For comprehensive information regarding installation, features, and documentation, please refer to the Type-on-Strap theme's official [GitHub repository](https://github.com/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
 
 
  
