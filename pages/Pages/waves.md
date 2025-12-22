@@ -10,10 +10,10 @@ header:
   overlay_image: assets/img/header/headerbanner.jpg
 ---
 
-<ul class="fa-ul"><i class="fa-solid fa-feather" style="font-size:48px;color:red">
+<ul class="fa-ul"><i style="font-size:48px;color:red"></i>
   <li> Item 1</li>
   <li><i class="fa-solid fa-feather"></i> Item 2</li>
-  <li><i class="fa-solid fa-box"></i> Item 3</li> </i>
+  <li><i class="fa-solid fa-box"></i> Item 3</li>
 </ul>
 
 <ul class="fa-ul">
