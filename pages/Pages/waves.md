@@ -10,12 +10,6 @@ header:
   overlay_image: assets/img/header/headerbanner.jpg
 ---
 
-<ul class="fa-ul"><i style="font-size:48px;color:red"></i>
-  <li> Item 1</li>
-  <li><i class="fa-solid fa-feather"></i> Item 2</li>
-  <li><i class="fa-solid fa-box"></i> Item 3</li>
-</ul>
-
 <ul class="fa-ul">
   <li {% if page.url contains '/getting-started' %}class="active"{% endif %}><a href="/getting-started/">Getting started</a></li>
   <li {% if page.url contains '/without-plugin' %}class="active"{% endif %}><a href="/without-plugins/">Without plugins</a></li>
@@ -30,7 +24,7 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 ---
 ## All the Pages.
 
-<ul class="fa-ul" style="font-size:18px;color:red">
+<ul class="fa-ul" >
 {% for item in site.pages %}
   <li class="fa-li">
     <i class="fa-solid fa-feather"></i>
