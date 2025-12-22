@@ -31,16 +31,6 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 ## All the Pages.
 
 <ul class="fa-ul">
-  {% for item in site.data.social %}
-    <li>
-      <a href="{{ item.url }}">
-        <i class="{{ item.icon }}"></i> {{ item.name }}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
-
-<ul class="fa-ul">
 {% for item in site.pages %}
   <li class="fa-li">
     <i class="fa-solid fa-feather"></i>
@@ -53,13 +43,11 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 </ul>
 
 
-<ul class="fa-ul">
+
 {% for item in site.pages %}
-<fa-li> <i class="fa-solid fa-feather"></i> [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
+* [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
  {% if item.author %} by {{ item.author }}{% endif %} 
-</fa-li>
   {% endfor %}
-</ul>
 ~      
   
 ---
