@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Cake
-feature-img: "assets/img/portfolio/cake.png"
+title: Semester 4
+feature-img: "assets/img/apjfolio/sem4.png"
 img: "assets/img/portfolio/cake.png"
 date: 27 September 2015
-tags: [Lorem, Ipsum]
+tags: [phy, utkal]
 ---
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
