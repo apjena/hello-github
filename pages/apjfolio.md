@@ -5,7 +5,7 @@ permalink: /apjfolio/
 subtitle: "<span style='background-color:#ffcb2e;'>Projects  being worked on</span>" 
 feature-img: "assets/img/pexels/computer.jpeg"
 position: 5
-tags: [Page]
+tags: [Page, phy, utkal]
 ---
 ## Test apj Portfolio forked by name apjfolio
 Can it be renamed/replicated to something else, say questions/cbcs policies etc. to group all Semester wise questions?
