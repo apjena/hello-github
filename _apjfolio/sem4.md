@@ -2,7 +2,7 @@
 layout: post
 title: Semester 4
 feature-img: "assets/img/apjfolio/sem4.jpg"
-img: "assets/img/portfolio/sem4.jpg"
+img: "assets/img/apjfolio/sem4.jpg"
 date: 27 September 2015
 tags: [phy, utkal]
 ---
