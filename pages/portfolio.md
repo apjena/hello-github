@@ -5,7 +5,7 @@ permalink: /portfolio/
 subtitle: "Projects I am working on" 
 feature-img: "assets/img/pexels/computer.jpeg"
 position: 4
-tags: [Page]
+tags: [core]
 ---
 ## test apj
 can it be renamed to say, questions/cbcs policies etc. 

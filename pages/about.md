@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
-tags: [Page]
+tags: [core]
 ---
 
 This webpage is designed to deliver curated content in a controlled, streamlined, and 
