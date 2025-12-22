@@ -44,7 +44,7 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 {% for item in site.pages %}
 <fa-li> <i class="fa-solid fa-feather"></i> [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
  {% if item.author %} by {{ item.author }}{% endif %} 
-</li>
+</fa-li>
   {% endfor %}
 </ul>
 ~      
