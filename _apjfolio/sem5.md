@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Semester 5
-feature-img: "assets/img/apjfolio/sem5.png"
-img: "assets/img/portfolio/cabin.png"
+feature-img: "assets/img/apjfolio/sem5.jpg"
+img: "assets/img/apjfolio/sem5.jpg"
 date: 2017-05-26
 tags: [phy, utkal]
 ---
