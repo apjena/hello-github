@@ -25,6 +25,7 @@ Type on Strap is based on Type Theme, a free and open-source theme for
 #For comprehensive information regarding installation, features, and documentation, please refer to the Type-on-Strap theme's official [GitHub repository](https://github.com/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
 
 <ul class="fa-ul">
+  * test
   <li><i class="fa-solid fa-check"></i> Item 1</li>
   <li><i class="fa-solid fa-feather"></i> Item 2</li>
   <li><i class="fa-solid fa-box"></i> Item 3</li>
