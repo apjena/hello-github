@@ -27,7 +27,7 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 <ul class="fa-ul" >
 {% for item in site.pages %}
   <li class="fa-li">
-    <span class="fa-li"><i class="fa-solid fa-check-square"></i></span>[{{ site.baseurl }}{{ item.url }}]({{ item.title }})
+    <span><i class="fa-solid fa-check-square"></i></span><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
     {% if item.author %}
       by {{ item.author }}
     {% endif %}
