@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Semester 2
-img: "assets/img/portfolio/sem2.png"
+img: "assets/img/apjfolio/sem2.png"
 date: September 2014
 tags: [phy, utkal]
 ---
