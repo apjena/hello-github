@@ -30,7 +30,7 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 ---
 ## All the Pages.
 
-<ul class="fa-ul">
+<ul class="fa-ul" style="font-size:18px;color:red">
 {% for item in site.pages %}
   <li class="fa-li">
     <i class="fa-solid fa-feather"></i>
