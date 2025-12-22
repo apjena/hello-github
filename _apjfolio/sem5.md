@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Jekyll
-feature-img: "assets/img/portfolio/cabin.png"
+title: Semester 5
+feature-img: "assets/img/apjfolio/sem5.png"
 img: "assets/img/portfolio/cabin.png"
 date: 2017-05-26
+tags: [phy, utkal]
 ---
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
