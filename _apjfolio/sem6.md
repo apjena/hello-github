@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Semester 6
-img: "assets/img/portfolio/sem6.jpg"
+img: "assets/img/apjfolio/sem6.jpg"
 date: 20-10-2017
 tags: [phy, utkal]
 ---
