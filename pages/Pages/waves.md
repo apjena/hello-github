@@ -10,6 +10,12 @@ header:
   overlay_image: assets/img/header/headerbanner.jpg
 ---
 
+<ul class="fa-ul">
+  <li><i class="fa-solid fa-check"></i> Item 1</li>
+  <li><i class="fa-solid fa-feather"></i> Item 2</li>
+  <li><i class="fa-solid fa-box"></i> Item 3</li>
+</ul>
+
 <ul>
   <li {% if page.url contains '/getting-started' %}class="active"{% endif %}><a href="/getting-started/">Getting started</a></li>
   <li {% if page.url contains '/without-plugin' %}class="active"{% endif %}><a href="/without-plugins/">Without plugins</a></li>
