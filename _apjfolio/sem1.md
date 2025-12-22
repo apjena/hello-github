@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Semester 1
-img: "assets/img/apjfolio/sem1.png"
+img: "assets/img/apjfolio/sem1.jpg"
 date: April, 08 2014
 tags: [phy, utkal]
 ---
