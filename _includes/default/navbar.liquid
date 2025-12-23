@@ -31,7 +31,7 @@
 	{% for word in words %}
     	{% assign hltitle = hltitle | push: <span>{{ word }}</span> %}
 	{% endfor %}
-	{% assign hltitle = '</hl>' %}
+	{% assign hltitle = hltitle | push: </hl> %}
 
         <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
 		{{ hltitle }}
