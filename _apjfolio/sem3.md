@@ -2,13 +2,14 @@
 layout: post
 title: Semester 3
 img: "assets/img/apjfolio/sem3.jpg"
+feature-img: "assets/img/apjfolio/sem3.jpg"
 date: September 2014
 tags: [phy, utkal]
 ---
 
 The tower of Hanoi...
 
-![image]({{ page.img | relative_url }})
+`![image]({{ page.img | relative_url }})`
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
 eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 

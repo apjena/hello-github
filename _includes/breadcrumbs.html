@@ -1,5 +1,5 @@
 <!-- # apjena from https://jekyllcodex.org/without-plugin/breadcrumbs/ -->
-{% unless page.title == home %} 
+{% unless page.title contains home %} 
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
@@ -13,8 +13,7 @@
 			{% for crumb in crumbs limit: crumb_limit %}
 			 	{{ crumb | append: / }} 
 		 	{% endfor %} 
-			">
-		  {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
+			"> | {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
 	 		</a></li>
   	{% endif %}
 	{% endfor %}

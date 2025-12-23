@@ -2,11 +2,12 @@
 layout: post
 title: Semester 6
 img: "assets/img/apjfolio/sem6.jpg"
+feature-img: "assets/img/apjfolio/sem6.jpg"
 date: 20-10-2017
 tags: [phy, utkal]
 ---
 
-![image]({{ page.img | relative_url }})
+`![image]({{ page.img | relative_url }})`
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
 eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
