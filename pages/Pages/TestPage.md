@@ -41,7 +41,15 @@ header:
     <text x="400" y="-500" font-size="64" font-family="monospace" fill="                                          
     <g font-size="24" font-family="monospace" fill="#060">
       <text x="100" y="-400" transform="rotate(20 100 -400)">if (code == 'run') {</text>
-      <text x="150" y="-350" transform="rotate
+      <text x="150" y="-350" transform="rotate(-10 150 -350)">console.log('Hello World');</text>
+      <text x="200" y="-300" transform="rotate(5 200 -300)">}</text>
+      <text x="250" y="-250" transform="rotate(-15 250 -250)">function build() {</text>
+      <text x="300" y="-200" transform="rotate(10 300 -200)">return 'success';</text>
+      <text x="350" y="-150" transform="rotate(-5 350 -150)">}</text>
+    </g>
+  </g>
+</svg>
+
 
 
 # Bootstrap testing.
