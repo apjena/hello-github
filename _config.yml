@@ -3,7 +3,7 @@
 url: "https://apjena.github.io"
 
 # META AND BRANDING
-title: "<hl class=\"load\"><span>Waves</span> <span>of</span> <span>Thoughts</span></hl>"             # site's title
+title: "<span>Waves</span> <span>of</span> <span>Thoughts</span>"             # site's title
 description: "me with you"                         # used by search engines
 avatar: assets/img/avtar.png #triangle.png         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                        # Icon displayed in the tab
