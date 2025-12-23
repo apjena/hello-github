@@ -29,7 +29,7 @@
 	{% assign words = site.title | split: " " %}
 	{% assign hltitle = '<hl class="load">' %}
 	{% for word in words %}
-  		{% capture tag %}<span>{{ word }}</span>{% endcapture %}
+  		{% capture tag %}<span>{{ word }}</span> {% endcapture %}
   		{% assign hltitle = hltitle | append: tag %}
 	{% endfor %}
 	{% assign hltitle = hltitle | append: '</hl>' %}
