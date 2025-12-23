@@ -18,15 +18,25 @@
 	Note a less involved method is to just hard code the line here!!!
 	But this will break the flow of theme's documentation to follow latter, as site.title
 	variable in config file will be useless.
-
+        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
+	<hl class="load"><span>Waves</span> <span>of</span> <span>Thoughts</span></hl>
+	</a>
+	ORIGINAL:
         <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
         {{ site.title }}
 	</a>
 	{% endcomment %}
-        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
-	<hl class="load"><span>Waves</span> <span>of</span> <span>Thoughts</span></hl>
-	</a>
+	{% assign words = site.title | split: " " %}
+	{% assign hltitle = '<hl class="load">' %}
+	{% for word in words %}
+    	{% assign hltitle = hltitle | push: <span>{{ word }}</span> %}
+	{% endfor %}
+	{% assign hltitle = '</hl>' %}
 
+        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
+		{{ hltitle }}
+	</a>
+	{% comment %} Insertion Ends {% endcomment %}
 	</div>
 
     <!-- Toggle menu -->

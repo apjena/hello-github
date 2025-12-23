@@ -20,6 +20,19 @@ header:
 * a1 theme to be looked. Not suitably required to be used.
 * To see: Linking in markdown note taking apps to work in theme pages folder: seems not possible randomly, The whole folder perhaps has to be uploaded so that jekyll creates all the links!!!
 
+# Typical Jekyll Dir str:
+* `_includes/`: Contains reusable snippets of code or content (e.g., a site's navigation bar or a footer) that can be embedded into layouts or pages using Liquid's include tag.
+* `_layouts/`: Houses the HTML "shells" or templates that define the look and feel of your pages and posts. Content is injected into these layouts using the {{ content }} Liquid tag.
+* `_posts/`: This is where your blog posts live. Files must follow the strict YYYY-MM-DD-title.md naming convention to be processed correctly.
+* `_sass/`: Contains your Sass/SCSS files, which are compiled into a single main CSS file for styling your site.
+* `_data/`: Allows you to store extra site data in YAML, JSON, or CSV formats. This is useful for structured content like navigation links or lists of projects.
+* `_site/`: This directory is where Jekyll outputs the final, generated static HTML files. This folder is generated automatically and should not be edited manually.
+* `assets/`: A standard location for static assets such as images, compiled CSS, JavaScript files, and fonts. Subfolders (css/, images/) help keep things organized.
+* `index.md (or index.html)`: The main homepage for your site, located at the root directory.
+* `_config.yml`: The main configuration file for your entire Jekyll site, where you can define site-wide variables, plugins, and settings.
+* `Gemfile and Gemfile.lock`: These files manage the Ruby gems (including the jekyll gem and any plugins) required to build your site.
+* Excepting the system files and folders listed above, Jekyll ignores any other file or folder starting with an underscore. Jekyll works by treating everything else as static content or pages to be rendered into the _site directory.
+
 # Test waves
 <hl class="load"> 
 <span>P</span><span>U</span><span>L</span><span>S</span><span>E</span><span>-</span>
