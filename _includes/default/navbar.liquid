@@ -29,9 +29,10 @@
 	{% assign words = site.title | split: " " %}
 	{% assign hltitle = '<hl class="load">' %}
 	{% for word in words %}
-    	{% assign hltitle = hltitle | push: <span>{{ word }}</span> %}
+  		{% capture tag %}<span>{{ word }}</span>{% endcapture %}
+  		{% assign hltitle = hltitle | append: tag %}
 	{% endfor %}
-	{% assign hltitle = hltitle | push: </hl> %}
+	{% assign hltitle = hltitle | append: '</hl>' %}
 
         <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
 		{{ hltitle }}
