@@ -23,7 +23,7 @@ header:
 # Test waves
 <hl class="load"> 
 <span>P</span><span>U</span><span>L</span><span>S</span><span>E</span><span>-</span>
-<span>W</span><span>A</span><span>V</span><span>E</span>S<span>
+<span>W</span><span>A</span><span>V</span><span>E</span><span>S</span> 
 </hl>
 
 # SVG INKSCAPE EXPORTED IMAGE
