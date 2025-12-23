@@ -1,4 +1,5 @@
 <!-- # apjena from https://jekyllcodex.org/without-plugin/breadcrumbs/ -->
+{% unless page.title == home %} 
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
@@ -10,7 +11,7 @@
         	{% assign crumb_limit = forloop.index | plus: 1 %}
 		<li class="breadcrumb-item"><a href="
 			{% for crumb in crumbs limit: crumb_limit %}
-			 	{{ crumb | append: ' / ' }} 
+			 	{{ crumb | append: / }} 
 		 	{% endfor %} 
 			">
 		  {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
@@ -19,4 +20,4 @@
 	{% endfor %}
   </ol>
 </nav>
-
+{% endunless %}
