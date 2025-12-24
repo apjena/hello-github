@@ -27,7 +27,7 @@ header:
 
 # Typical Jekyll Dir str:
 * `_includes/`: Contains reusable snippets of code or content (e.g., a site's navigation bar or a footer) that can be embedded into layouts or pages using Liquid's include tag.
-* `_layouts/`: Houses the HTML "shells" or templates that define the look and feel of your pages and posts. Content is injected into these layouts using the `content` within double braces `{{` Liquid tag.
+* `_layouts/`: Houses the HTML "shells" or templates that define the look and feel of your pages and posts. Content is injected into these layouts using the `content` within double braces `\{\{` Liquid tag.
 * `_posts/`: This is where your blog posts live. Files must follow the strict YYYY-MM-DD-title.md naming convention to be processed correctly.
 * `_sass/`: Contains your Sass/SCSS files, which are compiled into a single main CSS file for styling your site.
 * `_data/`: Allows you to store extra site data in YAML, JSON, or CSV formats. This is useful for structured content like navigation links or lists of projects.
