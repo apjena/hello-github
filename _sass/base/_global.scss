@@ -83,6 +83,26 @@ summary {
   cursor: pointer;
 }
 
+/* ---- apjena To have print better --- */
+@media print {
+  /* Set the base font size for the body when printing */
+  body {
+    font-size: 12pt;
+    color: #000; /* Ensure text is black for print */
+  }
+
+  /* Paragraphs will inherit or can be set to specific pt sizes as well */
+  p {
+    font-size: 12pt;
+  }
+
+  /* Optional: Hide non-essential elements for printing */
+  .no-print {
+    display: none !important;
+  }
+}
+/* --- apjena upto here --- */
+
 /* ---- Responsive ---- */
 
 @media screen and (max-width: $break) {
