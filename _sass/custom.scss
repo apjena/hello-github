@@ -67,3 +67,22 @@ h1.load{
   animation-delay:1.20s;
 }
 
+/* FOLLOWING TRY IS TO PRINT (PDF) IN SMALL TEXT SIZES
+@media print {
+  body {
+    /* Set the base font size for the body when printing */
+    font-size: 12pt;
+    color: #000; /* Ensure text is black for print */
+  }
+
+  p {
+    /* Paragraphs will inherit or can be set to specific pt sizes as well */
+    font-size: 12pt;
+  }
+
+  /* Optional: Hide non-essential elements for printing */
+  .no-print {
+    display: none !important;
+  }
+}
+
