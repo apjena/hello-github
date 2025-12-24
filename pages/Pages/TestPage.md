@@ -10,6 +10,8 @@ header:
   overlay_image: assets/img/header/headerbanner.jpg
 ---
 
+# TOC
+{:toc}
 # Observations so far
 * pagination works with `layout: home` only in `index.html` not in `index.md` or any other file.
 * $$katex$$ support in kramdown only supports `$$ math $$` not single dollar as in case of many md based note takers! Inline and display modes are detected automatically. 
