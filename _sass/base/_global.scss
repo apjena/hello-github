@@ -87,8 +87,10 @@ summary {
 @media print {
   /* Set the base font size for the body when printing */
   body {
+    /* Specify 'Charter' as the primary font, with fallbacks for latex-ish print */
+    font-family: Charter, 'Bitstream Charter', Georgia, serif;
     font-size: 12pt;
-    color: #DC143C; /* #000 Ensure text is black for print */
+    color: black; /* Ensure text is black for print */
   }
 
   /* Paragraphs will inherit or can be set to specific pt sizes as well */
