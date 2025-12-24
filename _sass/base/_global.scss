@@ -83,34 +83,26 @@ summary {
   cursor: pointer;
 }
 
-/* ---- apjena To have print better --- * /
+/* ---- apjena To have print better --- */
 @media print {
-  /* Set the base font size for the body when printing * /
+  /* Set the base font size for the body when printing */
   body {
-    /* Specify 'Charter' as the primary font, with fallbacks for latex-ish print * /
+    /* Specify 'Charter' as the primary font, with fallbacks for latex-ish print */
     font-family: Charter, 'Bitstream Charter', Georgia, serif;
     font-size: 12pt;
-    color: black; /* Ensure text is black for print * /
+    color: black; /* Ensure text is black for print */
   }
 
-  /* Paragraphs will inherit or can be set to specific pt sizes as well * /
+  /* Paragraphs will inherit or can be set to specific pt sizes as well */
   p {
     font-size: 12pt;
   }
 
-  /* Optional: Hide non-essential elements for printing * /
+  /* Optional: Hide non-essential elements for printing */
   .no-print {
     display: none !important;
   }
-} */
-@media print {
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-           font-size: 20pt !important;
-	  }
-h1.entry-title {
-	  font-size: 24pt !important;
-         }
-}
+} 
 /* --- apjena upto here --- */
 
 /* ---- Responsive ---- */
