@@ -3,8 +3,8 @@
 url: "https://apjena.github.io"
 
 # META AND BRANDING
-title: "Pulse of Waves of Thoughts"                         # site's title
-description: "me with you"                         # used by search engines
+title: "Thought $$\Psi$$"                         # site's title
+description: "Waves of Thoughts"                         # used by search engines
 avatar: assets/img/avtar.png #triangle.png         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                        # Icon displayed in the tab
 color_theme: auto                                  # auto | dark | light
