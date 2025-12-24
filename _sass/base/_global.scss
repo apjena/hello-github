@@ -83,18 +83,12 @@ summary {
   cursor: pointer;
 }
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-<style>
-body {
-  font-family: "Sofia", sans-serif;
-}
-</style>
 /* ---- apjena To have print better --- */
 @media print {
   /* Set the base font size for the body when printing */
   body {
     /* Specify 'Charter' as the primary font, with fallbacks for latex-ish print */
-    font-family: Charter, 'Bitstream Charter', Georgia, serif;
+    font-family: "Sofia", Charter, 'Bitstream Charter', Georgia, serif;
     font-size: 12pt;
     color: black; /* Ensure text is black for print */
   }
