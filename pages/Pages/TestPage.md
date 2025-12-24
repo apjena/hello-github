@@ -2,6 +2,7 @@
 layout: page
 title: Incubator 
 author: apjena
+toc: true
 entries_layout: grid
 author_profile: true
 hide: true
