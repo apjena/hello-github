@@ -83,6 +83,12 @@ summary {
   cursor: pointer;
 }
 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
+}
+</style>
 /* ---- apjena To have print better --- */
 @media print {
   /* Set the base font size for the body when printing */
