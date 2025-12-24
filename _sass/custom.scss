@@ -69,20 +69,22 @@ h1.load{
 
 /* FOLLOWING TRY IS TO PRINT (PDF) IN SMALL TEXT SIZES
 @media print {
+
   body {
     /* Set the base font size for the body when printing */
     font-size: 12pt;
     color: #000; /* Ensure text is black for print */
   }
 
-  p {
+p {
     /* Paragraphs will inherit or can be set to specific pt sizes as well */
     font-size: 12pt;
-  }
-
-  /* Optional: Hide non-essential elements for printing */
-  .no-print {
-    display: none !important;
-  }
 }
 
+  /* Optional: Hide non-essential elements for printing */
+.no-print {
+    display: none !important;
+}
+
+}
+<link rel="stylesheet" href="https://latex.vercel.app/style.css">
