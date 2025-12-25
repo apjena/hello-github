@@ -112,7 +112,12 @@ Select a class below:
 {% assign grp_names = site.bscphys | group_by: 'group' %}
 {% for grp in grp_names %}
 {{ grp }}
-{{% endfor %}}
+<ul>
+{% for item in grp.items %}
+<li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
+{% endfor %}
 {% assign cards = site.bscphys | where: 'group', 'cards' %}
 CARDS: {{ cards }}
 {% for card in cards %}
