@@ -44,7 +44,7 @@ Select a class below:
     <p class="card-text">    
                 <div class="list-group">
                 {% for item in group.items %}
-        <a class="list-group-item" href="{{ item.url | relative_url }}"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; {{ item.title }} - {{ item.subtitle }} </a>
+        <a class="list-group-item" href="{{ item.url | relative_url }}"><i class="fa fa-book fa-fw" aria-hidden="false"></i>&nbsp; {{ item.title }} - {{ item.subtitle }} </a>
                 {% endfor %}
                 </div>
     <a href="#" class="btn btn-primary">Go somewhere</a>
