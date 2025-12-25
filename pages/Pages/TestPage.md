@@ -245,41 +245,20 @@ bootstrap: true
   <i class="icon-refresh icon-spin"></i> Synchronizing Content...</a>
 
 
-<div class="container">
-        <h1 style="color:green;">
-            GeeksforGeeks
-        </h1>
-        <h2>Dropdown Divider List</h2>
-        <div class="dropdown">
-            <button type="button" 
-                class="btn btn-success dropdown-toggle" 
-                data-toggle="dropdown">
-                Select Subjects
-            </button>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">
-                    Data Structure
-                  </a>
-                <a class="dropdown-item" href="#">
-                    Algorithm
-                  </a>
-                <a class="dropdown-item" href="#">
-                    Operating System
-                  </a>
-                <a class="dropdown-item" href="#">
-                    Computer Networks
-                  </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">
-                    Physics
-                  </a>
-                <a class="dropdown-item" href="#">
-                    Mathematics
-                  </a>
-                <a class="dropdown-item" href="#">
-                    Chemistry
-                  </a>
-            </div>
+<nav class="main-nav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Class Subjects ▼</a>
+      <div class="dropdown-content">
+        <!-- Add your columns and subject links here -->
+        <div class="menu-col">
+          <h3>Category Title</h3>
+          <a href="#">Subject Link</a>
+          </div>
         </div>
-</div>
-
+    </li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
