@@ -30,7 +30,7 @@ Here is an example from [startbootstrap.com](https://startbootstrap.com/snippets
         <div class="card-body">
           <h4 class="card-title">
             <a href="#">Project One</a>
-          </h4>
+          </h4> {{ post.title }}
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
         </div>
       </div>
