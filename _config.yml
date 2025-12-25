@@ -43,6 +43,10 @@ collections:
   apjfolio:
     output: true
     permalink: /:collection/:name
+  bscphys:
+    output: true
+    permalink: /:collection/:name
+
 
 # BUILD SETTINGS
 sass:
