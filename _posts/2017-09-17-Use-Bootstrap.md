@@ -26,12 +26,12 @@ Here is an example from [startbootstrap.com](https://startbootstrap.com/snippets
   <div class="row">
     <div class="col-lg-6 mb-4">
       <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <a href="#"><img class="card-img-top" src="assets/img/apjfolio/sem1.jpg" alt=""></a>
         <div class="card-body">
           <h4 class="card-title">
             <a href="#">Project One</a>
           </h4> {{ post.title }}
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+          <p class="card-text">This is a test text not lorem ipsum. Bootstrapping. </p>
         </div>
       </div>
     </div>
