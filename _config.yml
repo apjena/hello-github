@@ -24,7 +24,7 @@ paginate: 8
 paginate_path: "/blog/page:num"
 excerpt: false                                           # Or "truncate" (first 250 characters), "false" to disable
 post_navigation: true
-#color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
+color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
 
 # Features
 # More in the _data folder for comments, share buttons, author and language
@@ -33,7 +33,7 @@ katex: true           # Enable if using math markup
 mermaid: default      # Enable mermaid-js for diagrams, use theme: base, forest, dark, default, neutral
 google_analytics:         # Measurement ID, e.g. "G-00000"
 cookie_consent: false     # To respect the usage of cookies
-
+bootstrap: true
 
 # PORTFOLIO
 collections:
