@@ -285,15 +285,17 @@ bootstrap: true
 #SEE 2
 <div class="bootstrap-iso"> <!-- If using isolation CSS -->
   <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
-      Dropdown button 1
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button 1
     </button>
-    <div class="dropdown-menu">
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
       <a class="dropdown-item" href="#">Action11</a>
       <a class="dropdown-item" href="#">Action12</a>
       <a class="dropdown-item" href="#">Action13</a>
       <a class="dropdown-item" href="#">Action14</a>
     </div>
+  </div>
+  <div class="dropdown">
     <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
       Dropdown button 2
     </button>
