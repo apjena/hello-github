@@ -295,15 +295,19 @@ bootstrap: true
       <a class="dropdown-item" href="#">Action14</a>
     </div>
   </div>
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
-      Dropdown button 2
-    </button>
-    <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Action21</a>
-      <a class="dropdown-item" href="#">Action22</a>
-      <a class="dropdown-item" href="#">Action23</a>
-      <a class="dropdown-item" href="#">Action24</a>
+<!-- Add margin for visibility if needed -->
+    <div style="margin-top: 20px;"></div> 
+
+<div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown button 2
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <a class="dropdown-item" href="#">Action21</a>
+            <a class="dropdown-item" href="#">Action22</a>
+            <a class="dropdown-item" href="#">Action23</a>
+            <a class="dropdown-item" href="#">Action24</a>
+        </div>
     </div>
-  </div>
+
 </div>
