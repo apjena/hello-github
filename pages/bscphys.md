@@ -8,6 +8,12 @@ feature-img: "assets/img/pexels/computer.jpeg"
 position: 6
 tags: [Page, phy, utkal]
 ---
+### Implement:
+`collections` offered by jekyll does not support sub-folder sub-grouping.
+Out of many workarounds, chose the following:
+Every page will be inside bscphys collection folder.
+A new variable **group** is introduced. (semester1, semester2, etc.)
+By bootstrap cards, these groups will be separated by liquid coding. Thanks Google AI.
 
 # Physics @ Utkal
 
@@ -111,7 +117,7 @@ Select a class below:
 
 {% assign grp_names = site.bscphys | group_by: 'group' %}
 {% for grp in grp_names %}
-{{ grp }}
+### This is {{ grp.name }}
 <ul>
 {% for item in grp.items %}
 <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
