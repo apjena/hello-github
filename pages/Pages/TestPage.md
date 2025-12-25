@@ -242,27 +242,42 @@ header:
 <a class="btn btn-primary" href="#">
   <i class="icon-refresh icon-spin"></i> Synchronizing Content...</a>
 
-  <div class="container">
-  <h2>Glyphicon Examples</h2>
-  <p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>    
-  <p>Envelope icon as a link:
-    <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
-  </p>
-  <p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
-  <p>Search icon on a button:
-    <button type="button" class="btn btn-default">
-      <span class="glyphicon glyphicon-search"></span> Search
-    </button>
-  </p>
-  <p>Search icon on a styled button:
-    <button type="button" class="btn btn-info">
-      <span class="glyphicon glyphicon-search"></span> Search
-    </button>
-  </p>
-  <p>Print icon: <span class="glyphicon glyphicon-print"></span></p>      
-  <p>Print icon on a styled link button:
-    <a href="#" class="btn btn-success btn-lg">
-      <span class="glyphicon glyphicon-print"></span> Print 
-    </a>
-  </p> 
-</div>
+
+    <div class="container">
+        <h1 style="color:green;">
+            GeeksforGeeks
+        </h1>
+        <h2>Dropdown Divider List</h2>
+        <div class="dropdown">
+            <button type="button" 
+                class="btn btn-success dropdown-toggle" 
+                data-toggle="dropdown">
+                Select Subjects
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">
+                    Data Structure
+                  </a>
+                <a class="dropdown-item" href="#">
+                    Algorithm
+                  </a>
+                <a class="dropdown-item" href="#">
+                    Operating System
+                  </a>
+                <a class="dropdown-item" href="#">
+                    Computer Networks
+                  </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                    Physics
+                  </a>
+                <a class="dropdown-item" href="#">
+                    Mathematics
+                  </a>
+                <a class="dropdown-item" href="#">
+                    Chemistry
+                  </a>
+            </div>
+        </div>
+    </div>
+
