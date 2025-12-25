@@ -2,7 +2,7 @@
 layout: page
 title : Apjfolio 
 permalink: /apjfolio/
-subtitle: "<span style='background-color:#ffcb2e;'>Projects  being worked on</span>" 
+subtitle: "<span style='background-color:gray;'>Projects  being worked on</span>" 
 feature-img: "assets/img/pexels/computer.jpeg"
 position: 5
 tags: [Page, phy, utkal]
