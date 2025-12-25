@@ -196,3 +196,18 @@ header:
     <li><button class="dropdown-item" type="button">Dropdown item</button></li>
   </ul>
 </div>
+### test2 
+
+<div class="container">
+  <div class="row">
+    <!-- This column spans half (6/12) of the row width on medium screens and up -->
+    <div class="col-md-6">
+      Content goes here
+    </div>
+    <!-- This column also spans half (6/12) of the row width on medium screens and up -->
+    <div class="col-md-6">
+      More content
+    </div>
+  </div>
+</div>
+
