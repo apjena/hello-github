@@ -1,17 +1,15 @@
 --- 
 layout: page
-title : BSc Physics at Utkal University 
+title: BSc Physics at Utkal University 
 bootstrap: true
 permalink: /bscphys/
-subtitle: "<span style='background-color:gray;'>Course details and Questions</span>" 
+subtitle: "<span style='background-color:rgba(0, 0, 0, 0.5);'>Course details and Questions</span>" 
 feature-img: "assets/img/pexels/computer.jpeg"
 position: 6
 tags: [Page, phy, utkal]
 ---
 
 # Physics @ Utkal
-
-{% include apjfolio.html %}
 
 Select a class below:
 
@@ -24,7 +22,7 @@ Select a class below:
 
 <div class="list-group">
 {% for class in site.bscphys %}
-<a class="list-group-item" href="{{ class.url | relative_url }}"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; {{ class.title }}</a> - {{ class.subtitle }}
+<a class="list-group-item" href="{{ class.url | relative_url }}"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; {{ class.title }} - {{ class.subtitle }} </a>
 {% endfor %}
 </div>
 
@@ -32,35 +30,30 @@ Select a class below:
 <!-- Page Content -->
 <div class="container">
 
-<!-- Page Heading -->
-    <h1 class="my-4">Page Heading <small>Secondary Text</small> </h1>
-
-   <div class="row">
-        <div class="col-lg-6 mb-4">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="/assets/img/apjfolio/sem1.jpg" alt="SEM1"></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="#">SEMESTER One</a>
-                    </h4>
-                    <p class="card-text"> Card one text </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mb-4">
-            <div class="card h-100">
-                <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a href="#">Project Two</a>
-                    </h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam
-                        nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non
-                        magni, voluptates quae, necessitatibus unde temporibus.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mb-4">
+   <div class="row"> 
+   <div class="col-lg-3 mb-4"> <div class="card h-100">
+   <a href="#"><img class="card-img-top" src="/assets/img/apjfolio/sem1.jpg" alt="SEM1"></a>
+   <div class="card-body">
+        <h4 class="card-title">
+            <a href="#">SEMESTER One</a>
+        </h4>
+        <p class="card-text"> Card one text </p>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-3 mb-4"> <div class="card h-100">
+    <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
+    <div class="card-body">
+         <h4 class="card-title">
+             <a href="#">Project Two</a>
+         </h4>
+         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam
+           nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non
+           magni, voluptates quae, necessitatibus unde temporibus.</p>
+     </div>
+     </div>
+     </div>
+        <div class="col-lg-3 mb-4">
             <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
                 <div class="card-body">
@@ -72,7 +65,7 @@ Select a class below:
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 mb-4">
+        <div class="col-lg-3 mb-4">
             <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
                 <div class="card-body">
@@ -83,7 +76,7 @@ Select a class below:
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 mb-4">
+        <div class="col-lg-3 mb-4">
             <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
                 <div class="card-body">
@@ -94,7 +87,7 @@ Select a class below:
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 mb-4">
+        <div class="col-lg-3 mb-4">
             <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="https://via.placeholder.com/700x400" alt=""></a>
                 <div class="card-body">
