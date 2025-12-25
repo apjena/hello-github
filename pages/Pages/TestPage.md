@@ -51,9 +51,10 @@ header:
 </details>
 
 <details>
-  <summary>c. Lorentz Force Laws</summary>
-  The Lorentz Force is the total force \(\mathbf{F}\) exerted on a charge \(q\) moving with velocity \(\mathbf{v}\) in the presence of an electric field \(\mathbf{E}\) and a magnetic field \(\mathbf{B}\):\(\mathbf{F}=q(\mathbf{E}+\mathbf{v}\times \mathbf{B})\) Electric Component (\(q\mathbf{E}\)): The force acts in the direction of the electric field.Magnetic Component (\(q\mathbf{v}\times \mathbf{B}\)): The force is perpendicular to both the velocity and the magnetic field. 
-  <p>More hidden details.</p>
+  <summary>Lorentz Force Laws</summary>
+  The Lorentz Force is the total force \(\mathbf{F}\) exerted on a charge \(q\) moving with velocity \(\mathbf{v}\) in the presence of an electric field \(\mathbf{E}\) and a magnetic field \(\mathbf{B}\):\(\mathbf{F}=q(\mathbf{E}+\mathbf{v}\times \mathbf{B})\) 
+  * Electric Component (\(q\mathbf{E}\)): The force acts in the direction of the electric field.
+  * Magnetic Component (\(q\mathbf{v}\times \mathbf{B}\)): The force is perpendicular to both the velocity and the magnetic field. 
 </details>
 
 
