@@ -243,7 +243,7 @@ header:
   <i class="icon-refresh icon-spin"></i> Synchronizing Content...</a>
 
 
-    <div class="container">
+<div class="container">
         <h1 style="color:green;">
             GeeksforGeeks
         </h1>
@@ -279,5 +279,5 @@ header:
                   </a>
             </div>
         </div>
-    </div>
+</div>
 
