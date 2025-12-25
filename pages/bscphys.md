@@ -31,11 +31,10 @@ Select a class below:
 <!-- Page Content -->
 <div class="container">
 
-
+   <div class="row"> 
     {% assign groupnames = site.bscphys | group_by: 'group' %}
     {% for group in groupnames %}
 
-   <div class="row"> 
    <div class="col-lg-6 mb-4"> <div class="card h-100">
    <a href="#"><img class="card-img-top" src="/assets/img/bscphys/{{ group.name }}.jpg" 
             alt="{{ group.name }}"></a>
