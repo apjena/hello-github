@@ -13,13 +13,11 @@ tags: [Page, phy, utkal]
 
 Select a class below:
 
-<ul>
+<div class="list-group">
 {% for class in site.bscphys %}
-  <li>
-    <a href="{{ class.url | relative_url }}">{{ class.title }}</a> - {{ class.subtitle }}
-    </li>
+<a class="list-group-item" href="{{ class.url | relative_url }}"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; {{ class.title }}</a> - {{ class.subtitle }}
 {% endfor %}
-</ul>
+</div>
 
 <div class="btn-group open">
   <a class="btn btn-primary" href="#"><i class="fa fa-user fa-fw"></i> User</a>
