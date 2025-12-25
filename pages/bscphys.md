@@ -19,13 +19,18 @@ By bootstrap cards, these groups will be separated by liquid coding. Thanks Goog
 
 Select a class below:
 
+    {% assign groupnames = site.bscphys | group_by: 'group' %}
+    {% for group in groupnames %}
+## {{ group.name | capitalize }}
 <ol class="fa-ul">
-{% for class in site.bscphys %}
+{% for class in group.items %}
 <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>
-<a href="{{ class.url | relative_url }}">{{ class.title }}</a> - {{ class.subtitle }} </li>
+<a href="{{ class.url | relative_url }}">{{ class.title }}</a> 
+       {% if class.subtitle %} - {{ class.subtitle }} {% endif %} </li>
 {% endfor %}
 </ol>
 
+----
 
 ## Bootstrapping
 <!-- Page Content -->
