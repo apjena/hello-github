@@ -31,6 +31,7 @@ Select a class below:
        {% if class.subtitle %} - {{ class.subtitle }} {% endif %} </li>
 {% endfor %}
 </ol>
+    {% endfor %}
 
 ----
 
