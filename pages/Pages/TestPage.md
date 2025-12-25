@@ -27,8 +27,8 @@ bootstrap: true
 * a1 theme to be looked. Not suitably required to be used.
 * To see: Linking in markdown note taking apps to work in theme pages folder: seems not possible randomly, The whole folder perhaps has to be uploaded so that jekyll creates all the links!!!
 * Bootstrap including JQuerry and Popper js, still dropdown menu not working! So much overloading for nothing.
-* Gemini: Correct Order for these three libraries: jQuery, Popper.js, Bootstrap JS.
-* Loading in `_includes/default/head.liquid`
+    * Gemini: Correct Order for these three libraries: jQuery, Popper.js, Bootstrap JS.
+    * Loading in `_includes/default/head.liquid` ... And Works..
 
 # Typical Jekyll Dir str:
 * `_includes/`: Contains reusable snippets of code or content (e.g., a site's navigation bar or a footer) that can be embedded into layouts or pages using Liquid's include tag.
@@ -286,10 +286,22 @@ bootstrap: true
 <div class="bootstrap-iso"> <!-- If using isolation CSS -->
   <div class="dropdown">
     <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
-      Dropdown button
+      Dropdown button 1
     </button>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Action11</a>
+      <a class="dropdown-item" href="#">Action12</a>
+      <a class="dropdown-item" href="#">Action13</a>
+      <a class="dropdown-item" href="#">Action14</a>
+    </div>
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+      Dropdown button 2
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action21</a>
+      <a class="dropdown-item" href="#">Action22</a>
+      <a class="dropdown-item" href="#">Action23</a>
+      <a class="dropdown-item" href="#">Action24</a>
     </div>
   </div>
 </div>
