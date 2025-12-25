@@ -202,7 +202,7 @@ header:
   <div class="row">
     <!-- This column spans half (6/12) of the row width on medium screens and up -->
     <div class="col-md-6">
-      Content goes here
+      Content goes here.  
     </div>
     <!-- This column also spans half (6/12) of the row width on medium screens and up -->
     <div class="col-md-6">
@@ -211,3 +211,16 @@ header:
   </div>
 </div>
 
+### test3
+<div class="btn-group open">
+  <a class="btn btn-primary" href="#"><i class="icon-user"></i> User</a>
+  <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+    <span class="icon-caret-down"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="#"><i class="icon-fixed-width icon-pencil"></i> Edit</a></li>
+    <li><a href="#"><i class="icon-fixed-width icon-trash"></i> Delete</a></li>
+    <li><a href="#"><i class="icon-fixed-width icon-ban-circle"></i> Ban</a></li>
+    <li class="divider"></li>
+    <li><a href="#"><i class="i"></i> Make admin</a></li>
+  </ul>
+</div>
