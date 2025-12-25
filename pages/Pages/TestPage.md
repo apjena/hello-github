@@ -46,9 +46,8 @@ header:
 
 # expand collapse
 * <details>
-  <summary>Click to expand</summary>
-  <!-- The content you want to hide goes here -->
-  <p>This is the hidden content that will be revealed when the summary is clicked.</p>
+  <summary>Energy Stored in an Inductor</summary>
+  The energy \(U\) stored in an inductor is given by $$U=\frac{1}{2}LI^{2}$$. $$U=\frac{1}{2}\times 0.5\times (2)^{2}=\mathbf{1.0}\text{\ J}$$
 </details>
 
 * <details>
