@@ -281,3 +281,15 @@ bootstrap: true
     </li>
   </ul>
 </div>
+
+#SEE 2
+<div class="bootstrap-iso"> <!-- If using isolation CSS -->
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+    </div>
+  </div>
+</div>
