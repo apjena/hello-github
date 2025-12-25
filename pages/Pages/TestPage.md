@@ -9,6 +9,7 @@ hide: true
 permalink: /:pages/
 header:
   overlay_image: assets/img/header/headerbanner.jpg
+bootstrap: true
 ---
 
 # TOC⬇️🟠 not working by default!!!
