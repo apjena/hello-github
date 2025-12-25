@@ -44,6 +44,18 @@ header:
 <span>W</span><span>A</span><span>V</span><span>E</span><span>S</span> 
 </hl>
 
+# expand collapse
+* <details>
+  <summary>Click to expand</summary>
+  <!-- The content you want to hide goes here -->
+  <p>This is the hidden content that will be revealed when the summary is clicked.</p>
+</details>
+
+* <details>
+  <summary>Another section</summary>
+  <p>More hidden details.</p>
+</details>
+
 # SVG INKSCAPE EXPORTED IMAGE
 
 <svg
