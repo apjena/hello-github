@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Semester 5
+title: "Semester 5"
 feature-img: "assets/img/apjfolio/sem5.jpg"
 img: "assets/img/apjfolio/sem5.jpg"
 date: 2017-05-26
 tags: [phy, utkal]
+group: "semester5"
 ---
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 

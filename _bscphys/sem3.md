@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Semester 3
+title: "Semester 3"
 img: "assets/img/apjfolio/sem3.jpg"
 feature-img: "assets/img/apjfolio/sem3.jpg"
 date: September 2014
 tags: [phy, utkal]
+group: "semester3"
 ---
 
 The tower of Hanoi...

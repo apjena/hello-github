@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Semester 2
+title: "Semester 2"
 img: "assets/img/apjfolio/sem2.jpg"
 feature-img: "assets/img/apjfolio/sem2.jpg"
 date: September 2014
 tags: [phy, utkal]
+group: "semester2"
 ---
 
 `![image]({{ page.img | relative_url }})`
