@@ -35,7 +35,7 @@ Select a class below:
     {% assign groupnames = site.bscphys | group_by: 'group' %}
     {% for group in groupnames %}
 
-   <div class="col-lg-6 mb-4 h-100"> <div class="card h-100">
+   <div class="col-lg-6 mb-3 h-100"> <div class="card h-100">
    <a href="#"><img class="card-img-top" src="/assets/img/bscphys/{{ group.name }}.jpg" 
             alt="{{ group.name }}"></a>
     <div class="card-body">
@@ -44,7 +44,7 @@ Select a class below:
     <p class="card-text">    
                 <div class="list-group">
                 {% for item in group.items %}
-        <a class="list-group-item bg-transparent border-0" href="{{ item.url | relative_url }}"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; {{ item.title }} - {{ item.subtitle }} </a>
+        <a class="list-group-item bg-opacity-50 border-1" href="{{ item.url | relative_url }}"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; {{ item.title }} - {{ item.subtitle }} </a>
                 {% endfor %}
                 </div>
 <!--    <a href="#" class="btn btn-primary">Go somewhere</a>
