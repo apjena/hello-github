@@ -109,6 +109,10 @@ Select a class below:
 </div>
 <!-- /.container -->
 
+{% assign grp_names = site.bscphys | group_by: 'group' %}
+{% for grp in grp_names %}
+{{ grp }}
+{{% endfor %}}
 {% assign cards = site.bscphys | where: 'group', 'cards' %}
 CARDS: {{ cards }}
 {% for card in cards %}
