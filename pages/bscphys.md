@@ -1,9 +1,11 @@
 --- 
 layout: page
-title: BSc Physics at Utkal University 
+title: Physics  
 bootstrap: true
 permalink: /bscphys/
-subtitle: "<span style='background-color:rgba(0, 0, 0, 0.4) !important;'>Course details and Questions</span>" 
+subtitle: >
+    "B.Sc. at Utkal University.</br>
+    <span style='background-color:rgba(0, 0, 0, 0.4) !important;'>Course Details and Questions</span>" 
 feature-img: "assets/img/pexels/computer.jpeg"
 position: 6
 tags: [Page, phy, utkal]
