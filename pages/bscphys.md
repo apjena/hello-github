@@ -53,6 +53,7 @@ Select a class below:
     </div>
 
     {% endfor %}
+</div>
     <!-- /.row -->
 </div>
 <!-- /.container -->
