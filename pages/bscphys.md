@@ -36,7 +36,7 @@ Select a class below:
     {% for group in groupnames %}
 
    <div class="row"> 
-   <div class="col-lg-3 mb-4"> <div class="card h-100">
+   <div class="col-lg-6 mb-4"> <div class="card h-100">
    <a href="#"><img class="card-img-top" src="/assets/img/bscphys/{{ group.name }}.jpg" 
             alt="{{ group.name }}"></a>
     <div class="card-body">
