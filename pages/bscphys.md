@@ -110,6 +110,7 @@ Select a class below:
 <!-- /.container -->
 
 {% assign cards = site.bscphys | where: 'group', 'cards' %}
+CARDS: {{ cards }}
 {% for card in cards %}
   <a href="{{ card.url }}">{{ card.title }}</a>
 {% endfor %}
