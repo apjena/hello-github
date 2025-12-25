@@ -224,3 +224,45 @@ header:
     <li><a href="#"><i class="i"></i> Make admin</a></li>
   </ul>
 </div>
+
+<a class="btn" href="#">
+  <i class="icon-repeat"></i> Reload</a>
+<a class="btn btn-success" href="#">
+  <i class="icon-shopping-cart icon-large"></i> Checkout</a>
+<a class="btn btn-large btn-primary" href="#">
+  <i class="icon-comment"></i> Comment</a>
+<a class="btn btn-small btn-info" href="#">
+  <i class="icon-info-sign"></i> Info</a>
+<a class="btn btn-danger" href="#">
+  <i class="icon-trash icon-large"></i> Delete</a>
+<a class="btn btn-small" href="#">
+  <i class="icon-cog"></i> Settings</a>
+<a class="btn btn-large btn-danger" href="#">
+  <i class="icon-flag icon-2x pull-left"></i> Font Awesome<br>Version 3.2.1</a>
+<a class="btn btn-primary" href="#">
+  <i class="icon-refresh icon-spin"></i> Synchronizing Content...</a>
+
+  <div class="container">
+  <h2>Glyphicon Examples</h2>
+  <p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>    
+  <p>Envelope icon as a link:
+    <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+  </p>
+  <p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+  <p>Search icon on a button:
+    <button type="button" class="btn btn-default">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+  </p>
+  <p>Search icon on a styled button:
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+  </p>
+  <p>Print icon: <span class="glyphicon glyphicon-print"></span></p>      
+  <p>Print icon on a styled link button:
+    <a href="#" class="btn btn-success btn-lg">
+      <span class="glyphicon glyphicon-print"></span> Print 
+    </a>
+  </p> 
+</div>
