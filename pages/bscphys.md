@@ -39,6 +39,7 @@ Select a class below:
    <a href="#"><img class="card-img-top" src="/assets/img/bscphys/{{ group.name }}.jpg" 
             alt="{{ group.name }}"></a>
     <div class="card-body">
+    <div class="card-img-overlay">
     <h4 class="card-title"> <a href="#">{{ group.name | capitalize }}</a> </h4>
     <p class="card-text">    
                 <div class="list-group">
@@ -47,7 +48,10 @@ Select a class below:
                 {% endfor %}
                 </div>
     <a href="#" class="btn btn-primary">Go somewhere</a>
+<a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
     </p>
+    </div>
     </div>
     </div>
     </div>
