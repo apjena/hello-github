@@ -45,16 +45,16 @@ header:
 </hl>
 
 # expand collapse
-<details>
+* <details>
   <summary>Energy Stored in an Inductor</summary>
   The energy \(U\) stored in an inductor is given by $$U=\frac{1}{2}LI^{2}$$. $$U=\frac{1}{2}\times 0.5\times (2)^{2}=\mathbf{1.0}\text{\ J}$$
 </details>
 
-<details>
+* <details>
   <summary>Lorentz Force Laws</summary>
   The Lorentz Force is the total force \(\mathbf{F}\) exerted on a charge \(q\) moving with velocity \(\mathbf{v}\) in the presence of an electric field \(\mathbf{E}\) and a magnetic field \(\mathbf{B}\):\(\mathbf{F}=q(\mathbf{E}+\mathbf{v}\times \mathbf{B})\) 
-  * Electric Component (\(q\mathbf{E}\)): The force acts in the direction of the electric field.
-  * Magnetic Component (\(q\mathbf{v}\times \mathbf{B}\)): The force is perpendicular to both the velocity and the magnetic field. 
+   * Electric Component (\(q\mathbf{E}\)): The force acts in the direction of the electric field.
+   * Magnetic Component (\(q\mathbf{v}\times \mathbf{B}\)): The force is perpendicular to both the velocity and the magnetic field. 
 </details>
 
 
