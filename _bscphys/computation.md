@@ -2,7 +2,7 @@
 layout: post
 title: Code n Compute 
 subtitle: "Coding teaches lessions beyond computers. Actuality of traveling from imagination to realization."
-feature-img: assets/img/compncode.jpg
+img: assets/img/compncode.jpg
 group: computer-lab
 ---
 "A phantom’s draft in logic’s light, where silent ink grants vision sight."--GGemini
