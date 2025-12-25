@@ -1,5 +1,5 @@
 ---
-layout: post 
+layout: page 
 title: Semester 1
 feature-img: "assets/img/apjfolio/sem1.jpg"
 img: "assets/img/apjfolio/sem1.jpg"
