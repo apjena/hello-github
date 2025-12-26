@@ -49,8 +49,6 @@ To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
 * [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
  {% if item.author %} by {{ item.author }}{% endif %}{% endfor %}
 ---
-
-<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 ---
 
 ## HTML canvas drawings:

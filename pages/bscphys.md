@@ -83,4 +83,409 @@ Select a class below:
 {% endfor %}
 {% endcomment %}
 
+-----
+-----
 
+### CBCS Model syllabus 2019
+
+Utkal University implemented the DHE, Odisha Model Syllabus 2019 during the transitional phase immediately preceding the adoption of the National Education Policy (NEP) 2020. This system served as the standardized educational framework for undergraduate programs across the state prior to the current reforms.
+
+The DHE, Odisha, had developed the 2019 syllabus to standardize undergraduate education across the state's universities and colleges. This system typically operated under a **CBCS (Choice Based Credit System)** framework and a semester-based structure, which was the prevailing system nationwide before the holistic restructuring mandated by NEP 2020.
+
+The structure of the three-year B.Sc. Physics Honours program at Utkal University, under the 2019 DHE, Odisha CBCS model syllabus, was divided into six semesters with specific course types: Core Courses (CC), Ability Enhancement Compulsory Courses (AECC), Skill Enhancement Courses (SEC), and Discipline Specific Elective (DSE) courses. 
+
+The curriculum was structured as follows:
+
+<table>
+  <thead>
+    <tr>
+      <th>Semester</th>
+      <th>Course Type</th>
+      <th>Course Name</th>
+      <th>Credits (Theory + Practical)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4"><strong>I</strong></td>
+      <td><strong>AECC-I</strong></td>
+      <td>English/MIL Communication / Environmental Science</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><strong>Core-I</strong></td>
+      <td>Mathematical Physics-I</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>Core-II</strong></td>
+      <td>Mechanics</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>GE-I</strong></td>
+      <td>Generic Elective-I (from other discipline)</td>
+      <td>4+2 or 5+1</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><strong>II</strong></td>
+      <td><strong>AECC-II</strong></td>
+      <td>Environmental Science / English/MIL Communication</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><strong>Core-III</strong></td>
+      <td>Electricity and Magnetism</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>Core-IV</strong></td>
+      <td>Waves and Optics</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>GE-II</strong></td>
+      <td>Generic Elective-II (from other discipline)</td>
+      <td>4+2 or 5+1</td>
+    </tr>
+    <tr>
+      <td rowspan="5"><strong>III</strong></td>
+      <td><strong>Core-V</strong></td>
+      <td>Mathematical Physics-II</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>Core-VI</strong></td>
+      <td>Thermal Physics</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>Core-VII</strong></td>
+      <td>Digital Systems and Applications</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>SEC-I</strong></td>
+      <td>Skill Enhancement Course-I (from Physics)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><strong>GE-III</strong></td>
+      <td>Generic Elective-III (from other discipline)</td>
+      <td>4+2 or 5+1</td>
+    </tr>
+    <tr>
+      <td rowspan="5"><strong>IV</strong></td>
+      <td><strong>Core-VIII</strong></td>
+      <td>Mathematical Physics-III</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>Core-IX</strong></td>
+      <td>Elements of Modern Physics</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>Core-X</strong></td>
+      <td>Analog Systems and Applications</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>SEC-II</strong></td>
+      <td>Skill Enhancement Course-II (from Physics)</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><strong>GE-IV</strong></td>
+      <td>Generic Elective-IV (from other discipline)</td>
+      <td>4+2 or 5+1</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><strong>V</strong></td>
+      <td><strong>Core-XI</strong></td>
+      <td>Quantum Mechanics and Applications</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>Core-XII</strong></td>
+      <td>Solid State Physics</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>DSE-I</strong></td>
+      <td>Discipline Specific Elective-I (from Physics options)</td>
+      <td>5+1 or 4+2</td>
+    </tr>
+    <tr>
+      <td><strong>DSE-II</strong></td>
+      <td>Discipline Specific Elective-II (from Physics options)</td>
+      <td>5+1 or 4+2</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><strong>VI</strong></td>
+      <td><strong>Core-XIII</strong></td>
+      <td>Electromagnetic Theory</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>Core-XIV</strong></td>
+      <td>Statistical Mechanics</td>
+      <td>4+2</td>
+    </tr>
+    <tr>
+      <td><strong>DSE-III</strong></td>
+      <td>Discipline Specific Elective-III (from Physics options)</td>
+      <td>5+1 or 4+2</td>
+    </tr>
+    <tr>
+      <td><strong>DSE-IV</strong></td>
+      <td>Discipline Specific Elective-IV (Project/from Physics options)</td>
+      <td>6 or 4+2</td>
+    </tr>
+  </tbody>
+</table>
+
+
+The structure of the 3 years degree course for the B.Sc. Physics Honours program at Utkal University, adhering to the CBCS curriculum (2019 model syllabus), divided into 6 semesters is structured as tabulated below. 
+
+<table>
+<thead>
+<tr><th>Sem 1</th><th>Sem 2</th><th>Sem 3</th><th>Sem 4</th><th>Sem 5</th><th>Sem 6</th></tr>
+</thead>
+<tbody>
+<tr><td>Core 1: Mathematical Physics-I<br/> (Calculus &amp; Vectors)</td>
+<td>Core 3: Electricity and Magnetism</td>
+<td>Core 5: Mathematical Physics-II</br> (Fourier series,  Polynomials & PDE)</td>
+<td>Core 8: Mathematical Physics-III</br>(Complex Analysis & Integral transforms)</td>
+<td>Core 11: Quantum Mechanics and Applications</td>
+<td>Core 13: Electromagnetic Theory</td>
+</tr>
+<tr><td>Core 2: Mechanics </td>
+<td>Core 4: Waves and Optics</td>
+<td>Core 6: Thermal Physics</td>
+<td> Core 9: Elements of Modern Physics</td>
+<td>Core 12: Solid State Physics</td>
+<td>Core 14: Statistical mechanics </td>
+</tr>
+<tr><td> -- </td>
+<td> -- </td>
+<td>Core 7: Analog Systems and Applications</td>
+<td>Core 10: Digital Systems and Applications</td>
+<td>DSE 1: Classical Dynamics</td>
+<td>DSE 3: Nano Materials and Applications</td>
+</tr>
+<tr><td>GE 1.1 (Chemistry)</td>
+<td> GE 2.1 (Mathematics) </td>
+<td> GE 1.2 (Chemistry) </td>
+<td> GE 2.2 (Mathematics) </td>
+<td>DSE 2: Nuclearand and Particle Physics</td>
+<td>DSE 4: Basic Instrumentation OR Project </td>
+</tr>
+<tr><td> AECC 1 </td>
+<td> AECC 2</td>
+<td>SECC 1:</td>
+<td>SECC 2: </td>
+<td>--</td>
+<td>-- </td>
+</tr>
+<tr><td> Cr:22, M: 400 </td>
+<td> Cr:22, M: 400</td>
+<td>Cr:28, M: 500</td>
+<td>Cr:28, M: 500</td>
+<td>Cr:24, M: 400</td>
+<td>Cr:24, M: 400 </td>
+</tr>
+</tbody>
+</table>
+<b>Total</b> Core Papers =14, DSE = 4, Credit =148, Marks = 2600 . </br>
+Credits for Core Courses, Generic Electives & DSE 4:: Theory + Practical:: credit 4+2.</br>
+Credits for Discipline Specific Electives (DSE) 1,2 & 3::Theory + Tutorial:: credit 5+1 (i.e., no practical)</br>
+Credits for Ability Enhancement Cumpolsory Courses (AECC), Skill Enhancement Cumpolsory Course (SECC) :: Credit 4.</br>
+<table style="width: 100%; border-width: 1px; border-style: solid; border-color: #dddddd; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th>Course type</th>
+      <th>Credit</th>
+      <th>Total marks</th>
+      <th>mid term</th>
+      <th>end term</th>
+      <th>Practical</th>
+      <th>Teaching hours</th>
+    </tr>  </thead>
+  <tbody>
+    <tr>
+      <td>Without Practical</td>
+      <td>6 </td>
+      <td>100</td>
+      <td>20</td>
+      <td>80</td>
+      <td>--</td>
+      <td>50 Theory +10 Tutorial</td>
+</tr>
+    <tr>
+      <td>With Practical</td>
+      <td>6</td>
+      <td>100</td>
+      <td>15</td>
+      <td>60</td>
+      <td>25</td>
+      <td>40 Theory +20 Tutorial</td>
+</tr>
+  </tbody>
+</table>
+
+
+### NEP 2020
+
+The implementation of NEP 2020 introduced a significant paradigm shift in Education sector, most notably through the establishment of the **Four-Year Undergraduate Programme (FYUP)**. Key features of the new system include flexible multiple entry and exit points, an updated credit architecture, and a strong emphasis on interdisciplinary studies and vocational skills, moving away from the previous prescriptive model.
+
+Utkal University Physics Single Major (Honours) Two Minor Scheme & Questions.
+Effective from the 2024–25 academic session, Utkal University has implemented the <b>National Education Policy (NEP) 2020</b> for all undergraduate degree courses. Under the new structure, every paper culminates in a final examination worth a total of 100 marks. This final exam weightage is 50% for subjects with a practical component and 60% for purely non-practical (theory) subjects. What were previously known as '<b>Honours Core Papers</b>' are now officially referred to as '<b>Major Papers</b>'. While there is a change in the examination question pattern, the core syllabus content aligns well with that of the corresponding new major papers.
+
+Utkal University has adopted  Single Major (Honours) Two Minor Scheme for its affiliated colleges in place of the Honours streme. The **Physics Single Major two Minors (Chemistry & Math)** will have the following Paper structure as per the regulations of OSHEC.
+
+ <table style="width: 100%; border-width: 1px; border-style: solid; border-color: #dddddd; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th>Papers of Semester: </th> <th>I</th> <th>II</th>
+      <th>III</th> <th>IV</th> <th>V</th> <th>VI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Major-1- </td>
+      <td>Paper 1 & 2 </td>
+      <td>Paper 3 & 4 </td>
+      <td>Paper 5, 6 & 7 </td>
+      <td>Paper 8, 9 & 10 </td>
+      <td>Paper 11, 12 & 13 </td>
+      <td>Paper 14 & 15 </td>
+    </tr>
+     <tr>
+      <td>Minor-1-</td>
+      <td>Paper 1 </td>
+      <td>-- </td>
+      <td>Paper 2 </td>
+      <td>-- </td>
+      <td>Paper 3 </td>
+      <td>-- </td>
+    </tr>
+      <tr>
+      <td>Minor-2-</td>
+      <td>-- </td>
+      <td>Paper 1 </td>
+      <td>-- </td>
+      <td>Paper 2 </td>
+      <td>-- </td>
+      <td>Paper 3 </td>
+    </tr>
+     <tr>
+      <td>Multi Disciplinary</td>
+      <td>MDC 1 </td>
+      <td>MDC 2 </td>
+      <td>MDC 3 </td>
+      <td>-- </td>
+      <td>--  </td>
+      <td>-- </td>
+    </tr> 
+      <tr>
+      <td>AEC</td>
+      <td>AEC 1 Odia</td>
+      <td>AEC 2 English </td>
+      <td>-- </td>
+      <td>-- </td>
+      <td>-- </td>
+      <td>-- </td>
+    </tr>
+     <tr>
+      <td>SEC</td>
+      <td>-- </td>
+      <td>SEC 1 </td>
+      <td>-- </td>
+      <td>-- </td>
+      <td>SEC 2 </td>
+      <td>SEC 3 </td>
+    </tr>     
+    <tr>
+      <td>VAC</td>
+      <td>VAC 1 ES&DM </td>
+      <td>-- </td>
+      <td>VAC 2 </td>
+      <td>-- </td>
+      <td>VAC 3 </td>
+      <td>VAC 4 </td>
+    </tr>     
+    <tr>
+      <td>CES</td>
+      <td>-- </td>
+      <td>-- </td>
+      <td>-- </td>
+      <td>Paper 1</td>
+      <td>-- </td>
+      <td>-- </td>
+    </tr>
+  </tbody>
+</table>
+
+Community Engagement & Service/ Fieldwork/ Internship (CES).</br>
+Papers with 4 credits each: Major(15×4), Minor(6×4), AEC(2×4) & CES(1×4) = 96.
+Papers with 3 credits each: MDC(3×3), SEC(3×3) & VAC(4×3) = 30.
+
+##### Distribution of Marks<
+Every paper has full marks 100 irrespective of credit in a course /Paper. 
+<table style="width: 100%; border-width: 1px; border-style: solid; border-color: #dddddd; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th>Course Type</th>
+      <th>Semester end Theory</th>
+      <th>Continuous evaluation or sessional marks</th>
+      <th>Mid Semester Theory mark</th>
+       <th>Semester end Practical marks</th>
+      <th>Mid Semester Practical marks</th>
+    </tr>  </thead>
+  <tbody>
+    <tr>
+      <td>Without Practical</td>
+      <td>60</td>
+      <td>20</td>
+      <td>20</td>
+      <td>--</td>
+      <td>--</td>
+</tr>
+    <tr>
+      <td>With Practical</td>
+      <td>50</td>
+      <td>10</td>
+      <td>10</td>
+      <td>20</td>
+      <td>10</td>
+</tr>
+  </tbody>
+</table>
+Semester end Theory examination shall be for 100 marks of three hours duration. However, the weightage shall be 50 or 60 for papers with or without Practical, respectively. 
+
+<h5>Distribution of Continuous Evaluation or Sessional Marks</h5> 
+<table style="width: 100%; border-width: 1px; border-style: solid; border-color: #dddddd; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th>Course type</th>
+      <th>Attendance</th>
+      <th>Surprise Test/ Quiz</th>
+      <th>Assignment / Presentation</th>
+    </tr>  </thead>
+  <tbody>
+    <tr>
+      <td>Without Practical</td>
+      <td rowspan="2">Above 95% 5 marks
+      </br>85% -- 94%  4 marks </br>
+      75% -- 84%  3 marks </td>
+      <td>10</td>
+      <td>05</td>
+</tr>
+    <tr>
+      <td>With Practical</td>
+      <td>05</td>
+      <td>nil</td>
+</tr>
+  </tbody>
+</table>
