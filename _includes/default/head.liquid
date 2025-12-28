@@ -54,10 +54,7 @@
     <!-- KaTeX 0.16.25 -->
     {% if site.katex or site.theme_settings.katex %}
     <script defer src="{{ '/assets/js/vendor/katex.min.js' | relative_url }}"></script>
-    <script defer src="{{ '/assets/js/vendor/katex.auto-render.min.js' | relative_url }}"></script> <!-- onload="renderMathInElement(document.body );"></script -->
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
+    <script defer src="{{ '/assets/js/vendor/katex.auto-render.min.js' | relative_url }}" onload="renderMathInElement(document.body, {
           delimiters: [
               {left: '$$', right: '$$', display: true},
               {left: '$', right: '$', display: false},
@@ -65,9 +62,8 @@
               {left: '\\[', right: '\\]', display: true}
           ],
           throwOnError : false
-        });
-    });
-</script>
+        } );"></script>
+
     {% endif %}
     {% comment %} apjena: , {delimiters: [{left: "$", right: "$", display: false }]}  {% endcomment %}
 
