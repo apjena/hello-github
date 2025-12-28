@@ -104,6 +104,9 @@ summary {
   .no-print {
     display: none !important;
   }
+  nav,footer,#comment-section>.comments-form,div#formContainer {
+      display: none !important;
+  }
   /* extra */
   blockquote {
     border: 1px solid #999;
