@@ -101,10 +101,10 @@ summary {
   }
 
   /* Optional: Hide non-essential elements for printing */
-  .no-print {
+  .no-print, .tag-list {
     display: none !important;
   }
-  nav,div#tag-list,footer,#comment-section>.comments-form,div#formContainer {
+  nav,footer,#comment-section>.comments-form,div#formContainer {
       display: none !important;
   }
   /* extra */
