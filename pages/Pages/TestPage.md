@@ -190,6 +190,24 @@ bootstrap: true
   </g>
 </svg>
 
+# Draw.io 
+* Shares with Google drive saving.
+* supports latex math text.
+* export as png and svg as well.
+
+[:posts, :pages].each do |hook|
+  Jekyll::Hooks.register hook, :post_render do |item|
+    if item.output_ext == ".html"
+      content = item.output
+      # Wrap <table> tags with a div with style="overflow-x:auto;"
+      content.gsub!(/<table(.*?)>/m, '<div style="overflow-x:auto;"><table\1>')
+      content.gsub!(/<\/table>/m, '</table></div>')
+      # Update the item content
+      item.output = content
+    end
+  end
+end
+
 # Bootstrap testing.
 <div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
