@@ -32,7 +32,7 @@ Select a class below:
     </mask>
   </defs>
   <rect x="0" y="0" width="250" height="60" fill="red" mask=" url(#mask4)"/>
-    <text fill="#ffffff" font-size="25" font-family="Verdana" x="2" y="2">{{ group.name | capitalize }}</text>
+    <text fill="#ffffff" font-size="25" font-family="Verdana" x="10" y="20">{{ group.name | capitalize }}</text>
 </svg>
 
 <ol class="fa-ul">
