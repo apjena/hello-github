@@ -1,159 +1,61 @@
-﻿
+---
+layout: page
+title: "Syllabus NEP"
+---
 
-
-
-
-
-Model Curriculum for Three/Four Year Degree Course (With
-Multiple Entry /Exit Option)
+# Model Curriculum for Three/Four Year Degree Course (With Multiple Entry /Exit Option)
 Based on NEP-2020
 
-
-
-
-
-
-
-
 ## Physics
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Odisha State Higher Education Council, Bhubaneswar
 Government of Odisha
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Semester Subjects
 
 ## I
-Core I -  Mathemat ical Physics-I
-Core II-  Mechanics
+* Core I -  Mathemat ical Physics-I
+* Core II-  Mechanics
 ## II
-Core III-  Electricity and Magnetism
-Core IV -  Mathemat ical Physics-II
+* Core III-  Electricity and Magnetism
+* Core IV -  Mathemat ical Physics-II
 ## III
-Core V-   Waves and Optics
-Core VI-  Mathematical Physics-III
-Core VII-   Thermal Physics
+* Core V-   Waves and Optics
+* Core VI-  Mathematical Physics-III
+* Core VII-   Thermal Physics
 ## IV
-Core VIII-  Analog Systems
-Core  IX-  Basic Instrument at io n
-Core  X-  Nuclear and Particle Physics
+* Core VIII-  Analog Systems
+* Core  IX-  Basic Instrument at io n
+* Core  X-  Nuclear and Particle Physics
 ## V
-Core XI-   Digital Systems
-Core  XII-  Quantum Mechanics and Applications
-Core XIII-  Solid State Physics
+* Core XI-   Digital Systems
+* Core  XII-  Quantum Mechanics and Applications
+* Core XIII-  Solid State Physics
 ## VI
-Core  XIV-  E le c t ro ma g ne t ic T he o r y
-Core XV-  Statist ical Mechanics
+* Core  XIV-  E le c t ro ma g ne t ic T he o r y
+* Core XV-  Statist ical Mechanics
 ## VII
-Core XVI-  Mathematical Methods in Physics
-Core XVII-  Classical Mechanics
-Core XVIII-  QUANTUM MECHANICS
-Core  XIX-  LABORATORY: COMPUTATIONAL PHYSICS
+* Core XVI-  Mathematical Methods in Physics
+* Core XVII-  Classical Mechanics
+* Core XVIII-  QUANTUM MECHANICS
+* Core  XIX-  LABORATORY: COMPUTATIONAL PHYSICS
 ## VIII
-Core XX-  Classical Electrodynamics
-Core  XXI-  QUANTUM MECHANICS-II
-Core XXII-  Electronics
-Core XXIII-  Laboratory: Optics and Modern Physics Lab
-
-
-
-
-
-
-
-
+* Core XX-  Classical Electrodynamics
+* Core  XXI-  QUANTUM MECHANICS-II
+* Core XXII-  Electronics
+* Core XXIII-  Laboratory: Optics and Modern Physics Lab
 
 
 
 PROGRAMME OUTCOMES :  B.Sc. PHYSICS
-
-PO1:      Acquire adequate knowledge of the subject
-
-PO2:      Craft a foundation for higher learning
-
-PO3:      Be initiated into the basics of research
-
-PO4:      Imbibe sound moral and ethical values
-
-PO5:      Become conscious of environmental and societal responsibilities
-
-PO6:      Attain skills for communication and career
-
-PO7:      Learn to tolerate diverse ideas and different points of view
-
-PO8:      Become empowered to face the challenges of the changing universe
-
+* PO1:      Acquire adequate knowledge of the subject
+* PO2:      Craft a foundation for higher learning
+* PO3:      Be initiated into the basics of research
+* PO4:      Imbibe sound moral and ethical values
+* PO5:      Become conscious of environmental and societal responsibilities
+* PO6:      Attain skills for communication and career
+* PO7:      Learn to tolerate diverse ideas and different points of view
+* PO8:      Become empowered to face the challenges of the changing universe
 
 PROGRAMME: B.Sc. PHYSICS
 
@@ -193,14 +95,7 @@ U ni t II
 product and its invariance under rotations, Vector product, Scalar triple product and their
 interpretation in terms of area and vo lume respect ively, Scalar and Vector fields.* Vector  Differentiation: Directional derivat ives and  normal derivative, Gradient of  a scalar
 field and its geometrical interpretation, Divergence and curl of a vector field, Del and
-Laplacian operators, Vector ident ities.
-
-
-
-
-
-
-
+Laplacian operators, Vector identities.
 
 
 Unit III
