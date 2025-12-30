@@ -21,18 +21,18 @@ Select a class below:
     {% assign groupnames = site.bscphys | group_by: 'group' %}
     {% for group in groupnames %}
 ## {{ group.name | capitalize }}
-<svg width="200" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg width="500" height="60" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="gradient1">
       <stop offset="0%" stop-color="#ffffff" />
       <stop offset="100%" stop-color="#000000" />
     </linearGradient>
     <mask id="mask4">
-      <rect x="0" y="0" width="100" height="100" fill="url(#gradient1)" />
+      <rect x="0" y="0" width="250" height="60" fill="url(#gradient1)" />
     </mask>
   </defs>
   <rect x="0" y="0" width="100" height="100" fill="red" mask=" url(#mask4)"/>
-    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+    <text fill="#ffffff" font-size="45" font-family="Verdana" x="20" y="20">{{ group.name | capitalize }}</text>
 </svg>
 
 <ol class="fa-ul">
