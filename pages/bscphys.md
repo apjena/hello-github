@@ -1,12 +1,10 @@
 --- 
 layout: page
-title: Physics  
+title: BSc Physics  
 bootstrap: true
 permalink: /bscphys/
-subtitle: >
-    "B.Sc. at Utkal University.</br>
-    <span style='background-color:rgba(0, 0, 0, 0.4) !important;'>Course Details and Questions</span>" 
-feature-img: "assets/img/pexels/computer.jpeg"
+subtitle: "B.Sc. at Utkal University" 
+feature-img: "assets/img/pexels/computer1.jpeg"
 tags: [Page, phy, utkal]
 ---
 ### Implement:
@@ -23,6 +21,20 @@ Select a class below:
     {% assign groupnames = site.bscphys | group_by: 'group' %}
     {% for group in groupnames %}
 ## {{ group.name | capitalize }}
+<svg width="200" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <mask id="mask4">
+      <rect x="0" y="0" width="100" height="100" fill="url(#gradient1)" />
+    </mask>
+  </defs>
+  <rect x="0" y="0" width="100" height="100" fill="red" mask=" url(#mask4)"/>
+    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+</svg>
+
 <ol class="fa-ul">
 {% for class in group.items %}
 <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>
