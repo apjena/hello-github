@@ -7,7 +7,6 @@ subtitle: >
     "B.Sc. at Utkal University.</br>
     <span style='background-color:rgba(0, 0, 0, 0.4) !important;'>Course Details and Questions</span>" 
 feature-img: "assets/img/pexels/computer.jpeg"
-position: 6
 tags: [Page, phy, utkal]
 ---
 ### Implement:

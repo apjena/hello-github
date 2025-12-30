@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Syllabus NEP"
+hide: true
 ---
 
 # Model Curriculum for Three/Four Year Degree Course (With Multiple Entry /Exit Option)
