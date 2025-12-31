@@ -3,7 +3,7 @@ layout: page
 title: BSc Physics  
 bootstrap: true
 permalink: /bscphys/
-subtitle: "B.Sc. at Utkal University" 
+subtitle: "under Utkal University" 
 feature-img: "assets/img/pexels/computer1.jpeg"
 tags: [Page, phy, utkal]
 ---
@@ -14,14 +14,11 @@ Every page will be inside bscphys collection folder.
 A new variable **group** is introduced. (semester1, semester2, etc.)
 By bootstrap cards, these groups will be separated by liquid coding. Thanks Google AI.
 
-# Physics @ Utkal
+# Physics @ Utkal University Colleges 
+{% assign groupnames = site.bscphys | group_by: 'group' %}
+{% for group in groupnames %}
 
-Select a class below:
-
-    {% assign groupnames = site.bscphys | group_by: 'group' %}
-    {% for group in groupnames %}
-
-<details><summary><h3><svg width="500" height="60" xmlns="http://www.w3.org/2000/svg">
+<details><h3><summary><svg width="600" height="60" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="gradient1">
       <stop offset="0%" stop-color="#ffffff" />
@@ -32,7 +29,7 @@ Select a class below:
     </mask>
   </defs>
   <rect x="0" y="0" width="250" height="60" fill="red" mask=" url(#mask4)"/>
-    <text fill="#ffffff" font-size="30" font-family="Helvetica" x="10" y="30">{{ group.name | capitalize }}</text>
+    <text fill="#ffffff" font-size="30" font-family="Tahoma" x="10" y="30">{{ group.name | capitalize }}</text>
 </svg></h3></summary>
 
 <ol class="fa-ul">
@@ -98,7 +95,7 @@ Select a class below:
 -----
 -----
 
-### CBCS Model syllabus 2019
+## CBCS Model syllabus 2019
 
 Utkal University implemented the DHE, Odisha Model Syllabus 2019 during the transitional phase immediately preceding the adoption of the National Education Policy (NEP) 2020. This system served as the standardized educational framework for undergraduate programs across the state prior to the current reforms.
 
@@ -111,159 +108,133 @@ The curriculum was structured as follows:
 <table>
   <thead>
     <tr>
-      <th>Course Type</th>
+      <th>Course Type<br>
+        Credits (Theory + Practical + Tutorial)</th>
       <th>Course Name</th>
-      <th>Credits (Theory + Practical)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td colspan="3"><strong>Semester 1</strong></td>
+      <td colspan="2"><strong>Semester 1</strong></td>
     </tr>
     <tr>
-      <td><strong>AECC-I</strong></td>
+      <td><strong>AECC-I</strong>(2+0+0)</td>
       <td>English/MIL Communication / Environmental Science</td>
-      <td>2</td>
     </tr>
     <tr>
-      <td><strong>Core-I</strong></td>
+      <td><strong>Core-I</strong>(4+2+0)</td>
       <td>Mathematical Physics-I</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>Core-II</strong></td>
+      <td><strong>Core-II</strong>(4+2+0)</td>
       <td>Mechanics</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>GE-I</strong></td>
+      <td><strong>GE-I</strong>(4+2+0) or (5+0+1)</td>
       <td>Generic Elective-I (from other discipline)</td>
-      <td>4+2 or 5+1</td>
     </tr>
     <tr>
-      <td colspan="3"><strong>Semester II</strong></td>
+      <td colspan="2"><strong>Semester II</strong></td>
     </tr>
     <tr>
-      <td><strong>AECC-II</strong></td>
+      <td><strong>AECC-II</strong>(2+0+0)</td>
       <td>Environmental Science / English/MIL Communication</td>
-      <td>2</td>
     </tr>
     <tr>
-      <td><strong>Core-III</strong></td>
+      <td><strong>Core-III</strong>(4+2+0)</td>
       <td>Electricity and Magnetism</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>Core-IV</strong></td>
+      <td><strong>Core-IV</strong>(4+2+0)</td>
       <td>Waves and Optics</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>GE-II</strong></td>
+      <td><strong>GE-II</strong>(4+2+0) or (5+0+1)</td>
       <td>Generic Elective-II (from other discipline)</td>
-      <td>4+2 or 5+1</td>
     </tr>
     <tr>
-      <td colspan="3"><strong>Semester III</strong></td>
+      <td colspan="2"><strong>Semester III</strong></td>
     </tr>
     <tr>
-      <td><strong>Core-V</strong></td>
+      <td><strong>Core-V</strong>(4+2+0)</td>
       <td>Mathematical Physics-II</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>Core-VI</strong></td>
+      <td><strong>Core-VI</strong>(4+2+0)</td>
       <td>Thermal Physics</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>Core-VII</strong></td>
+      <td><strong>Core-VII</strong>(4+2+0)</td>
       <td>Digital Systems and Applications</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>SEC-I</strong></td>
+      <td><strong>SEC-I</strong>(2+0+0)</td>
       <td>Skill Enhancement Course-I (from Physics)</td>
-      <td>2</td>
     </tr>
     <tr>
-      <td><strong>GE-III</strong></td>
+      <td><strong>GE-III</strong>(4+2+0) or (5+0+1)</td>
       <td>Generic Elective-III (from other discipline)</td>
-      <td>4+2 or 5+1</td>
     </tr>
     <tr>
-      <td colspan="3"><strong>Semester IV</strong></td>
+      <td colspan="2"><strong>Semester IV</strong></td>
     </tr>
     <tr>
-      <td><strong>Core-VIII</strong></td>
+      <td><strong>Core-VIII</strong>(4+2+0)</td>
       <td>Mathematical Physics-III</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>Core-IX</strong></td>
+      <td><strong>Core-IX</strong>(4+2+0)</td>
       <td>Elements of Modern Physics</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>Core-X</strong></td>
+      <td><strong>Core-X</strong>(4+2+0)</td>
       <td>Analog Systems and Applications</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>SEC-II</strong></td>
+      <td><strong>SEC-II</strong>(2+0+0)</td>
       <td>Skill Enhancement Course-II (from Physics)</td>
-      <td>2</td>
     </tr>
     <tr>
-      <td><strong>GE-IV</strong></td>
+      <td><strong>GE-IV</strong>(4+2+0) or (5+0+1)</td>
       <td>Generic Elective-IV (from other discipline)</td>
-      <td>4+2 or 5+1</td>
     </tr>
     <tr>
-      <td colspan="3"><strong>Semester V</strong></td>
+      <td colspan="2"><strong>Semester V</strong></td>
     </tr>
     <tr>
-      <td><strong>Core-XI</strong></td>
+      <td><strong>Core-XI</strong>(4+2+0)</td>
       <td>Quantum Mechanics and Applications</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>Core-XII</strong></td>
+      <td><strong>Core-XII</strong>(4+2+0)</td>
       <td>Solid State Physics</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>DSE-I</strong></td>
+      <td><strong>DSE-I</strong>(5+0+1)</td>
       <td>Discipline Specific Elective-I (from Physics options)</td>
-      <td>5+1 or 4+2</td>
     </tr>
     <tr>
-      <td><strong>DSE-II</strong></td>
+      <td><strong>DSE-II</strong>(5+0+1)</td>
       <td>Discipline Specific Elective-II (from Physics options)</td>
-      <td>5+1 or 4+2</td>
     </tr>
     <tr>
-      <td colspan="3"><strong>Semester VI</strong></td>
+      <td colspan="2"><strong>Semester VI</strong></td>
     </tr>
     <tr>
-      <td><strong>Core-XIII</strong></td>
+      <td><strong>Core-XIII</strong>(4+2+0)</td>
       <td>Electromagnetic Theory</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>Core-XIV</strong></td>
+      <td><strong>Core-XIV</strong>(4+2+0)</td>
       <td>Statistical Mechanics</td>
-      <td>4+2</td>
     </tr>
     <tr>
-      <td><strong>DSE-III</strong></td>
+      <td><strong>DSE-III</strong>(5+0+1)</td>
       <td>Discipline Specific Elective-III (from Physics options)</td>
-      <td>5+1 or 4+2</td>
     </tr>
     <tr>
-      <td><strong>DSE-IV</strong></td>
+      <td><strong>DSE-IV</strong>(6) or (4+2+0)</td>
       <td>Discipline Specific Elective-IV (Project/from Physics options)</td>
-      <td>6 or 4+2</td>
     </tr>
   </tbody>
 </table>
