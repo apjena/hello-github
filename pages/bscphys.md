@@ -9,6 +9,41 @@ tags: [Page, phy, utkal]
 ---
 # Physics @ Utkal University Colleges 
 
+Model Curriculum for Three/Four Year Degree Course (With Multiple Entry /Exit Option) Based on NEP-2020 for Physics by Odisha State Higher Education Council, Bhubaneswar, 
+Government of Odisha provides the following subjects:
+
+##### I
+* Core I -  Mathematical Physics-I
+* Core II-  Mechanics
+##### II
+* Core III-  Electricity and Magnetism
+* Core IV -  Mathematical Physics-II
+##### III
+* Core V-   Waves and Optics
+* Core VI-  Mathematical Physics-III
+* Core VII-  Thermal Physics
+##### IV
+* Core VIII-  Analog Systems
+* Core IX-  Basic Instrumentation
+* Core X-  Nuclear and Particle Physics
+##### V
+* Core XI-   Digital Systems
+* Core  XII-  Quantum Mechanics and Applications
+* Core XIII-  Solid State Physics
+##### VI
+* Core  XIV-  Electromagnetic Theory
+* Core XV-  Statistical Mechanics
+##### VII (4th year)
+* Core XVI-  Mathematical Methods in Physics
+* Core XVII-  Classical Mechanics
+* Core XVIII-  QUANTUM MECHANICS
+* Core  XIX-  LABORATORY: COMPUTATIONAL PHYSICS
+##### VIII (4th year)
+* Core XX-  Classical Electrodynamics
+* Core  XXI-  QUANTUM MECHANICS-II
+* Core XXII-  Electronics
+* Core XXIII-  Laboratory: Optics and Modern Physics Lab
+
 {% assign groupnames = site.bscphys | group_by: 'group' %}
 {% for group in groupnames %}
 
