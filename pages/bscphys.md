@@ -193,6 +193,7 @@ Credits for Discipline Specific Electives (DSE) 1,2 & 3::Theory + Tutorial:: 5+1
 Credits for Ability Enhancement Cumpolsory Courses (AECC), Skill Enhancement Cumpolsory Course (SECC) :: Credit 4.<br>
 
 * For Credit 6, Total marks 100:
+
 | Course type | mid | end | Practical | Teaching hours |
 |-------------|-----|-----|-----------|----------------|
 |Without Practical | 20 | 80 |-- | 50 Theory +10 Tutorial |
