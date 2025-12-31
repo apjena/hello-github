@@ -21,7 +21,7 @@ Select a class below:
     {% assign groupnames = site.bscphys | group_by: 'group' %}
     {% for group in groupnames %}
 
-<h3><svg width="500" height="60" xmlns="http://www.w3.org/2000/svg">
+<details><summary><h3><svg width="500" height="60" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="gradient1">
       <stop offset="0%" stop-color="#ffffff" />
@@ -33,7 +33,7 @@ Select a class below:
   </defs>
   <rect x="0" y="0" width="250" height="60" fill="red" mask=" url(#mask4)"/>
     <text fill="#ffffff" font-size="30" font-family="Helvetica" x="10" y="30">{{ group.name | capitalize }}</text>
-</svg></h3>
+</svg></h3></summary>
 
 <ol class="fa-ul">
 {% for class in group.items %}
@@ -42,6 +42,7 @@ Select a class below:
        {% if class.subtitle %} - {{ class.subtitle }} {% endif %} </li>
 {% endfor %}
 </ol>
+</details>
     {% endfor %}
 
 ----
