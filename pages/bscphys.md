@@ -20,8 +20,7 @@ Select a class below:
 
     {% assign groupnames = site.bscphys | group_by: 'group' %}
     {% for group in groupnames %}
-## {{ group.name | capitalize }}
-<svg width="500" height="60" xmlns="http://www.w3.org/2000/svg">
+## <svg width="500" height="60" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="gradient1">
       <stop offset="0%" stop-color="#ffffff" />
@@ -32,12 +31,12 @@ Select a class below:
     </mask>
   </defs>
   <rect x="0" y="0" width="250" height="60" fill="red" mask=" url(#mask4)"/>
-    <text fill="#ffffff" font-size="25" font-family="Verdana" x="10" y="20">{{ group.name | capitalize }}</text>
+    <text fill="#ffffff" font-size="30" font-family="Helvetica" x="10" y="30">{{ group.name | capitalize }}</text>
 </svg>
 
 <ol class="fa-ul">
 {% for class in group.items %}
-<li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>
+<li><span class="fa-li"><i class="fa-solid fa-book"></i></span>
 <a href="{{ class.url | relative_url }}">{{ class.title }}</a> 
        {% if class.subtitle %} - {{ class.subtitle }} {% endif %} </li>
 {% endfor %}
@@ -55,7 +54,7 @@ Select a class below:
     {% for group in groupnames %}
 
    <div class="col-lg-6 mb-5 h-100"> <div class="card h-100">
-   <a href="#"><img class="card-img-top" src="/assets/img/bscphys/{{ group.name }}.jpg" 
+   <a href="#"><img class="card-img-top" src="/assets/img/bscphys/{{ group.name }}1.jpg" 
             alt="{{ group.name }}"></a>
     <div class="card-body">
     <div class="card-img-overlay">
