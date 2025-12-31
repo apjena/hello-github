@@ -4,50 +4,6 @@ title: "Syllabus NEP"
 hide: true
 ---
 
-# Model Curriculum for Three/Four Year Degree Course (With Multiple Entry /Exit Option)
-Based on NEP-2020
-
-## Physics
-
-## Odisha State Higher Education Council, Bhubaneswar
-Government of Odisha
-
-## Semester Subjects
-
-## I
-* Core I -  Mathemat ical Physics-I
-* Core II-  Mechanics
-## II
-* Core III-  Electricity and Magnetism
-* Core IV -  Mathemat ical Physics-II
-## III
-* Core V-   Waves and Optics
-* Core VI-  Mathematical Physics-III
-* Core VII-   Thermal Physics
-## IV
-* Core VIII-  Analog Systems
-* Core  IX-  Basic Instrument at io n
-* Core  X-  Nuclear and Particle Physics
-## V
-* Core XI-   Digital Systems
-* Core  XII-  Quantum Mechanics and Applications
-* Core XIII-  Solid State Physics
-## VI
-* Core  XIV-  E le c t ro ma g ne t ic T he o r y
-* Core XV-  Statist ical Mechanics
-## VII
-* Core XVI-  Mathematical Methods in Physics
-* Core XVII-  Classical Mechanics
-* Core XVIII-  QUANTUM MECHANICS
-* Core  XIX-  LABORATORY: COMPUTATIONAL PHYSICS
-## VIII
-* Core XX-  Classical Electrodynamics
-* Core  XXI-  QUANTUM MECHANICS-II
-* Core XXII-  Electronics
-* Core XXIII-  Laboratory: Optics and Modern Physics Lab
-
-
-
 PROGRAMME OUTCOMES :  B.Sc. PHYSICS
 * PO1:      Acquire adequate knowledge of the subject
 * PO2:      Craft a foundation for higher learning
