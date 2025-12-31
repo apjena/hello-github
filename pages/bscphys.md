@@ -296,11 +296,10 @@ Credits for Core Courses, Generic Electives & DSE 4:: Theory + Practical:: credi
 Credits for Discipline Specific Electives (DSE) 1,2 & 3::Theory + Tutorial:: credit 5+1 (i.e., no practical)</br>
 Credits for Ability Enhancement Cumpolsory Courses (AECC), Skill Enhancement Cumpolsory Course (SECC) :: Credit 4.</br>
 <table style="width: 100%; border-width: 1px; border-style: solid; border-color: #dddddd; border-collapse: collapse;">
+  <caption>For Credit 6, Total marks 100</caption>
   <thead>
     <tr>
       <th>Course type</th>
-      <th>Credit</th>
-      <th>Total marks</th>
       <th>mid term</th>
       <th>end term</th>
       <th>Practical</th>
@@ -309,8 +308,6 @@ Credits for Ability Enhancement Cumpolsory Courses (AECC), Skill Enhancement Cum
   <tbody>
     <tr>
       <td>Without Practical</td>
-      <td>6 </td>
-      <td>100</td>
       <td>20</td>
       <td>80</td>
       <td>--</td>
@@ -318,8 +315,6 @@ Credits for Ability Enhancement Cumpolsory Courses (AECC), Skill Enhancement Cum
 </tr>
     <tr>
       <td>With Practical</td>
-      <td>6</td>
-      <td>100</td>
       <td>15</td>
       <td>60</td>
       <td>25</td>
