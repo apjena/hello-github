@@ -52,7 +52,7 @@ sass:
   style: compressed
   quiet_deps: true
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-relative-links, jektex]
-exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*", ".github/*", "README.md"]
+exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*", ".github/*", "README.md", "/assets/css/main.css", "/assets/data/search.liquid", "/assets/css/style.css", "/feed.xml"]
 
 #theme: type-on-strap                                  # if using the theme as a jekyll theme gem
 #remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
