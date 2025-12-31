@@ -20,7 +20,8 @@ Select a class below:
 
     {% assign groupnames = site.bscphys | group_by: 'group' %}
     {% for group in groupnames %}
-## <svg width="500" height="60" xmlns="http://www.w3.org/2000/svg">
+
+<svg width="500" height="60" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="gradient1">
       <stop offset="0%" stop-color="#ffffff" />
@@ -54,7 +55,7 @@ Select a class below:
     {% for group in groupnames %}
 
    <div class="col-lg-6 mb-5 h-100"> <div class="card h-100">
-   <a href="#"><img class="card-img-top" src="/assets/img/bscphys/{{ group.name }}1.jpg" 
+   <a href="#"><img class="card-img-top" src="/assets/img/bscphys/{{ group.name }}.jpg" 
             alt="{{ group.name }}"></a>
     <div class="card-body">
     <div class="card-img-overlay">
