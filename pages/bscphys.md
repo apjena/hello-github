@@ -203,11 +203,11 @@ Credits for Ability Enhancement Cumpolsory Courses (AECC), Skill Enhancement Cum
 # NEP 2020
 The implementation of NEP 2020 introduced a significant paradigm shift in Education sector, most notably through the establishment of the **Four-Year Undergraduate Programme (FYUP)**. Key features of the new system include **flexible multiple entry and exit points**, an updated credit architecture, and a strong emphasis on interdisciplinary studies and vocational skills, moving away from the previous prescriptive model.
 
-Utkal University offers for its affiliated Colleges, `Single Major (Honours) Two Minor Scheme` in lieu of the earler existing **Honours** curriculum. Effective from the **2024–25** academic session, Utkal University has implemented the <b>National Education Policy (NEP) 2020</b> for all undergraduate degree courses. Under the new structure, every paper culminates in a final examination worth a total of **100 marks**. This final exam weightage is 50% for subjects with a practical component and 60% for purely non-practical (theory) subjects, to the gradesheet. Previously known  <b>Honours Core Papers</b> are now officially referred to as <b>Major Papers</b>. Despite changes in examination question patterns and paper redistribution, the core syllabus content of relevant subjects remains consistent with the corresponding new major papers. 
+Utkal University offers for its affiliated Colleges, **Single Major (Honours) Two Minor Scheme** in lieu of the earler existing **Honours** curriculum. Effective from the **2024–25** academic session, Utkal University has implemented the <b>National Education Policy (NEP) 2020</b> for all undergraduate degree courses. Under the new structure, every paper culminates in a final examination worth a total of **100 marks**. This final exam weightage is 50% for subjects with a practical component and 60% for purely non-practical (theory) subjects, to the gradesheet. Previously known  <b>Honours Core Papers</b> are now officially referred to as <b>Major Papers</b>. Despite changes in examination question patterns and paper redistribution, the core syllabus content of relevant subjects remains consistent with the corresponding new major papers. 
 
 Utkal University has adopted  Single Major (Honours) Two Minor Scheme for its affiliated colleges in place of the Honours stream. The **Physics Single Major two Minors (Chemistry & Math)** will have the following Paper structure as per the regulations of OSHEC.
 
- <table style="width: 100%; border-width: 1px; border-style: solid; border-color: #dddddd; border-collapse: collapse;">
+ <table>
   <thead>
     <tr>
       <th>Semester: </th> <th>I</th> <th>II</th>
@@ -295,36 +295,16 @@ Papers with 4 credits each: Major(15×4), Minor(6×4), AEC(2×4) & CES(1×4) = 9
 Papers with 3 credits each: MDC(3×3), SEC(3×3) & VAC(4×3) = 30.
 
 ##### Distribution of Marks
-Every paper has full marks 100 irrespective of credit in a course /Paper. 
-<table style="width: 100%; border-width: 1px; border-style: solid; border-color: #dddddd; border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th>Course Type</th>
-      <th>Semester end Theory</th>
-      <th>Continuous evaluation or sessional marks</th>
-      <th>Mid Semester Theory mark</th>
-       <th>Semester end Practical marks</th>
-      <th>Mid Semester Practical marks</th>
-    </tr>  </thead>
-  <tbody>
-    <tr>
-      <td>Without Practical</td>
-      <td>60</td>
-      <td>20</td>
-      <td>20</td>
-      <td>--</td>
-      <td>--</td>
-</tr>
-    <tr>
-      <td>With Practical</td>
-      <td>50</td>
-      <td>10</td>
-      <td>10</td>
-      <td>20</td>
-      <td>10</td>
-</tr>
-  </tbody>
-</table>
+Every paper has full marks 100 irrespective of credit in a course/ Paper.
+
+| Course Type | Without Practical | With Practical |
+|-------------|-------------------|----------------|
+| Semester end Theory | 60 | 50 |
+| Continuous evaluation or sessional marks | 20 | 10 |
+| Mid Semester Theory mark | 20 | 10 |
+| Semester end Practical marks | -- | 20 |
+| Mid Semester Practical marks | -- | 10 |
+
 Semester end Theory examination shall be for 100 marks of three hours duration. However, the weightage shall be 50 or 60 for papers with or without Practical, respectively. 
 
 <h5>Distribution of Continuous Evaluation or Sessional Marks</h5> 
@@ -340,8 +320,9 @@ Semester end Theory examination shall be for 100 marks of three hours duration. 
     <tr>
       <td>Without Practical</td>
       <td rowspan="2">Above 95% 5 marks
-      </br>85% -- 94%  4 marks </br>
-      75% -- 84%  3 marks </td>
+      <br>85% -- 94%  4 marks 
+      <br>75% -- 84%  3 marks 
+      </td>
       <td>10</td>
       <td>05</td>
 </tr>
