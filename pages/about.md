@@ -1,14 +1,33 @@
 ---
 layout: page
-title: About
+title: "Waves of Thoughts" #About
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [core]
 ---
+<marquee behavior="scroll" direction="left" scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()">
+  The page is maintained by A. P. Jena, serving to needs that include *some* educational needs of *some* students! | Go <a href="#">here</a> for more details...
+</marquee>
 
 This webpage is designed to deliver curated content in a controlled, streamlined, and user-friendly manner for a select audience, prioritizing minimal effort and convenience over mere technical possibility.
 
-The page is maintained by A. P. Jena, serving to needs that include *some* educational needs of *some* students.
+# All the Pages.
+
+<ul class="fa-ul" >
+{% for item in site.pages %}
+  <li>
+    <span><i class="fa-solid fa-feather"></i></span><a href="{{ site.baseurl }}{{ item.url }}"> {{ item.title }}</a> {% if item.author %}by {{ item.author }} {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+
+# All the Posts... Available in home, though.
+{% for item in site.posts %}
+* [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
+ {% if item.author %} by {{ item.author }}{% endif %}{% endfor %}
+
+---
 
 ##### Technical Details:
 
@@ -18,9 +37,4 @@ The page is maintained by A. P. Jena, serving to needs that include *some* educa
 ** Type on Strap is based on Type Theme, a free and open-source theme for 
 [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
 
-<ul class="fa-ul">
-  <li><i class="fa-solid fa-feather"></i> Type-on-Strap</li>
-  <li><i class="fa-solid fa-feather"></i> Academicpages.github.io</li>
-  <li><i class="fa-solid fa-feather"></i> Al-folio</li>
-</ul>
  

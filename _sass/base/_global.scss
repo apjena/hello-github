@@ -291,7 +291,7 @@ kbd {
 details {
   & > summary {
     cursor: pointer;
-    display: list-item;
+    display: none; /* list-item; apjena */ 
   }
 
   &[open] > summary {

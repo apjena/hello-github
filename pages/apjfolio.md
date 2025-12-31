@@ -4,6 +4,7 @@ title : Apjfolio
 permalink: /apjfolio/
 subtitle: "<span style='background-color:gray;'>Projects  being worked on</span>" 
 feature-img: "assets/img/pexels/computer.jpeg"
+hide: true
 position: 5
 tags: [Page, phy, utkal]
 ---
