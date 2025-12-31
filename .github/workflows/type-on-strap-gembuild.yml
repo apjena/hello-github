@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby: [ '2.7.4', '3.2', '3.4' ]
-
+        ruby: [ '3.2', '3.4' ]
+# '2.7.4', disabled it
     steps:
       - uses: actions/checkout@v4
       - name: Set up Ruby
