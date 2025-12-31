@@ -18,7 +18,7 @@ By bootstrap cards, these groups will be separated by liquid coding. Thanks Goog
 {% assign groupnames = site.bscphys | group_by: 'group' %}
 {% for group in groupnames %}
 
-<details><h3><summary><svg width="600" height="60" xmlns="http://www.w3.org/2000/svg">
+<details><summary><h3></h3><svg width="600" height="60" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="gradient1">
       <stop offset="0%" stop-color="#ffffff" />
@@ -29,7 +29,7 @@ By bootstrap cards, these groups will be separated by liquid coding. Thanks Goog
     </mask>
   </defs>
   <rect x="0" y="0" width="250" height="60" fill="red" mask=" url(#mask4)"/>
-    <text fill="#ffffff" font-size="30" font-family="Tahoma" x="10" y="30">{{ group.name | capitalize }}</text>
+    <text fill="#ffffff" font-size="30" font-family="Optima" x="10" y="30">{{ group.name | capitalize }}</text>
 </svg></h3></summary>
 
 <ol class="fa-ul">
