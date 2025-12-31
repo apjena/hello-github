@@ -14,7 +14,7 @@ This webpage is designed to deliver curated content in a controlled, streamlined
 # All the Pages.
 
 <ul class="fa-ul" >
-{% for item in site.pages %}
+{% for item in site.html_pages %}
   <li>
     <span><i class="fa-solid fa-feather"></i></span><a href="{{ site.baseurl }}{{ item.url }}"> {{ item.title }}</a> {% if item.author %}by {{ item.author }} {% endif %}
   </li>
