@@ -350,7 +350,7 @@ Papers with 3 credits each: MDC(3×3), SEC(3×3) & VAC(4×3) = 30.
 
 #### Distribution of Continuous Evaluation or Sessional Marks: 10/20
 
-<table style="width: 100%; border-width: 1px; border-style: solid; border-color: #dddddd; border-collapse: collapse;">
+<table style="width: 50%; border-width: 1px; border-style: solid; border-color: #7b0606ff; border-collapse: collapse;">
   <thead>
     <tr>
       <th>Course type</th>
