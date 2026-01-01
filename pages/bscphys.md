@@ -336,24 +336,24 @@ Papers with 4 credits each: Major(15×4), Minor(6×4), AEC(2×4) & CES(1×4) = 9
 Papers with 3 credits each: MDC(3×3), SEC(3×3) & VAC(4×3) = 30.
 
 ##### Distribution of Marks
-Every paper has full marks 100 irrespective of credit in a course/ Paper.
+**Every paper has full marks 100 irrespective of credit in a course/ Paper**. In the structured grading system all papers are initially worth a nominal 100 marks, but the components are weighted differently when contributing to the final grade. **The Semester end Theory examination shall be for 100 marks of three hours duration**. However, the weightage shall be 50 or 60 for papers with or without Practical component, respectively. The weightage breakdown provided is as follows:
 
 | Course Type | Without Practical | With Practical |
 |-------------|-------------------|----------------|
-| Semester end Theory | 60 | 50 |
+| Semester end Theory(100) | 60(weighted)| 50(weighted)|
 | Continuous evaluation or sessional marks | 20 | 10 |
 | Mid Semester Theory mark | 20 | 10 |
 | Semester end Practical marks | -- | 20 |
 | Mid Semester Practical marks | -- | 10 |
 
-Semester end Theory examination shall be for 100 marks of three hours duration. However, the weightage shall be 50 or 60 for papers with or without Practical, respectively. 
+ 
 
-<h5>Distribution of Continuous Evaluation or Sessional Marks</h5> 
+<h5>Distribution of Continuous Evaluation or Sessional Marks: 10</h5> 
 <table style="width: 100%; border-width: 1px; border-style: solid; border-color: #dddddd; border-collapse: collapse;">
   <thead>
     <tr>
       <th>Course type</th>
-      <th>Attendance</th>
+      <th>Attendance(5)</th>
       <th>Surprise Test/ Quiz</th>
       <th>Assignment / Presentation</th>
     </tr>  </thead>
