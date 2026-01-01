@@ -93,11 +93,16 @@ summary {
     text-shadow: none !important;
     background: transparent !important;
     box-shadow: none !important;
-
   }
   /* body & Paragraphs will inherit or can be set to specific pt sizes as well */
   body, p {
     font-size: 12pt;
+    
+    column-count: 2; /* Divides the body content into 2 columns */
+    -webkit-column-count: 2; /* For older WebKit browsers */
+    -moz-column-count: 2; /* For older Firefox browsers */
+    column-gap: 2em; /* Adds space between the columns */
+    column-fill: auto; /* Fills each column vertically before moving to the next page, generally works better for printing */
   }
 
   /* Optional: Hide non-essential elements for printing */
