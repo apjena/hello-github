@@ -104,6 +104,10 @@ summary {
     column-gap: 2em; /* Adds space between the columns */
     column-fill: auto; /* Fills each column vertically before moving to the next page, generally works better for printing */
   }
+  h1, h2, h3, h4 {
+    column-span: all; 
+    text-align: center;
+  }
 
   /* Optional: Hide non-essential elements for printing */
   .no-print, .tag-list {
