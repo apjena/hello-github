@@ -229,11 +229,10 @@ The structure of the three-year B.Sc. Physics Honours program at Utkal Universit
   </tbody>
 </table>
 
-**Total** Core Papers =14, DSE = 4, Credit =148, Marks = 2600 . <br>
-Credits for Core Courses, Generic Electives & DSE 4:: Theory + Practical:: 4+2.<br>
-Credits for Discipline Specific Electives (DSE) 1,2 & 3::Theory + Tutorial:: 5+1 (i.e., no practical)<br>
-Credits for Ability Enhancement Cumpolsory Courses (AECC), Skill Enhancement Cumpolsory Course (SECC) :: Credit 4.<br>
-
+* Total Core Papers =14, DSE = 4, Credit =148, Marks = 2600.
+* Credits for Core Courses, Generic Electives & DSE 4:: Theory + Practical:: 4+2.
+* Credits for Discipline Specific Electives (DSE) 1,2 & 3::Theory + Tutorial:: 5+1 (i.e., no practical).
+* Credits for Ability Enhancement Cumpolsory Courses (AECC), Skill Enhancement Cumpolsory Course (SECC) :: Credit 4.
 * For Credit 6, Total marks 100:
 
 | Course type | mid | end | Practical | Teaching hours |
