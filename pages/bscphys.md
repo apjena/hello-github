@@ -12,23 +12,31 @@ tags: [Page, phy, utkal]
 Model Curriculum for Three/Four Year Degree Course (With Multiple Entry /Exit Option) Based on NEP-2020 for Physics by Odisha State Higher Education Council, Bhubaneswar, 
 Government of Odisha provides the following subjects:
 
+<div class="container-fluid">
 ##### I
 * Core I -  Mathematical Physics-I
-* Core II-  Mechanics
-  
+* Core II-  Mechanics  
+</div>
+
+<div class="container-fluid">  
 ##### II
 * Core III-  Electricity and Magnetism
 * Core IV -  Mathematical Physics-II
+</div>
 
+<div class="container-fluid">
 ##### III
 * Core V-   Waves and Optics
 * Core VI-  Mathematical Physics-III
 * Core VII-  Thermal Physics
+</div>
 
+<div class="container-fluid">
 ##### IV
 * Core VIII-  Analog Systems
 * Core IX-  Basic Instrumentation
 * Core X-  Nuclear and Particle Physics
+</div>
 
 ##### V
 * Core XI-   Digital Systems
@@ -80,7 +88,7 @@ Government of Odisha provides the following subjects:
 
 {% endfor %}
 
------
+--------
 
 # CBCS Model syllabus 2019
 Prior to the adoption of the National Education Policy (NEP) 2020, Utkal University implemented the Model Syllabus 2019 as prescribed by DHE, Odisha. This system served as the standardized educational framework for undergraduate programs across the state prior to the current reforms. The DHE, Odisha, had developed the 2019 syllabus to standardize undergraduate education across the state's universities and colleges. This system typically operated under a **CBCS (Choice Based Credit System)** framework and a semester-based structure, which was the prevailing system nationwide before the holistic restructuring mandated by NEP 2020.
@@ -350,7 +358,7 @@ Papers with 3 credits each: MDC(3×3), SEC(3×3) & VAC(4×3) = 30.
 
 #### Distribution of Continuous Evaluation or Sessional Marks: 10/20
 
-<table style="width: 50%; border-width: 1px; border-style: solid; border-color: #7b0606ff; border-collapse: collapse;">
+<table>
   <thead>
     <tr>
       <th>Course type</th>
