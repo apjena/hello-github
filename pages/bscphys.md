@@ -4,7 +4,7 @@ title: BSc Physics
 bootstrap: true
 permalink: /bscphys/
 subtitle: "under Utkal University" 
-feature-img: "assets/img/pexels/computer1.jpeg"
+feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Page, phy, utkal]
 ---
 # Physics @ Utkal University Colleges 
@@ -335,7 +335,7 @@ Community Engagement & Service(CES)/ Fieldwork/ Internship.<br>
 Papers with 4 credits each: Major(15×4), Minor(6×4), AEC(2×4) & CES(1×4) = 96.<br>
 Papers with 3 credits each: MDC(3×3), SEC(3×3) & VAC(4×3) = 30.
 
-##### Distribution of Marks
+### Distribution of Marks
 **Every paper has full marks 100 irrespective of credit in a course/ Paper**. In the structured grading system all papers are initially worth a nominal 100 marks, but the components are weighted differently when contributing to the final grade. **The Semester end Theory examination shall be for 100 marks of three hours duration**. However, the weightage shall be 50 or 60 for papers with or without Practical component, respectively. The weightage breakdown provided is as follows:
 
 | Course Type | Without Practical | With Practical |
@@ -348,7 +348,8 @@ Papers with 3 credits each: MDC(3×3), SEC(3×3) & VAC(4×3) = 30.
 
  
 
-<h5>Distribution of Continuous Evaluation or Sessional Marks: 10</h5> 
+#### Distribution of Continuous Evaluation or Sessional Marks: 10/20
+
 <table style="width: 100%; border-width: 1px; border-style: solid; border-color: #dddddd; border-collapse: collapse;">
   <thead>
     <tr>
@@ -360,9 +361,9 @@ Papers with 3 credits each: MDC(3×3), SEC(3×3) & VAC(4×3) = 30.
   <tbody>
     <tr>
       <td>Without Practical</td>
-      <td rowspan="2">Above 95% 5 marks
-      <br>85% -- 94%  4 marks 
-      <br>75% -- 84%  3 marks 
+      <td rowspan="2">Above 95% 5 
+      <br>85% -- 94%  4  
+      <br>75% -- 84%  3 
       </td>
       <td>10</td>
       <td>05</td>
