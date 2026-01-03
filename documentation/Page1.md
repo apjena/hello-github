@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "PAGE-ONE"
+---
+
 subtitle: "Being had a beginning!"
 #feature-img: "assets/img/header/headerbanner.jpg" 
 permalink: /Pages/page-one/                   # Set a permalink your your page
