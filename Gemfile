@@ -1,10 +1,7 @@
-Source "https://rubygems.org"
+# frozen_string_literal: true
 
-# Should be included in Jekyll but depending on the version Jekyll and Ruby version, it may not be included
-gem 'webrick'
-gem 'kramdown-parser-gfm'
-gem install jektex
-
-# For github pages compatibility
-# gem 'github-pages', group: :jekyll_plugins
+source "https://rubygems.org"
 gemspec
+
+gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
+gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
