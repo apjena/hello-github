@@ -1,8 +1,6 @@
 --- 
 layout: page
 title: BSc Physics  
----
-
 bootstrap: true
 permalink: /bscphys/
 subtitle: "under Utkal University" 
