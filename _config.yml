@@ -75,6 +75,8 @@ analytics:
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: MathJax
 exclude:
   - Gemfile
   - Gemfile.lock
