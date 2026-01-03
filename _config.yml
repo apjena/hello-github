@@ -14,3 +14,50 @@ avatar: assets/img/avtar.png #triangle.png         # Empty for no avatar in navb
 favicon: assets/favicon.ico                        # Icon displayed in the tab
 color_theme: auto                                  # auto | dark | light
 
+# THEME-SPECIFIC CONFIGURATION 
+# Header and footer text
+header_pages: 
+ - about.md
+header_text: Welcome to the waves           # Change Blog header text
+header_feature_image: assets/img/header/headerbanner.jpg         #assets/img/header/triangular.jpeg
+header_feature_image_responsive: true
+footer_text: >
+  2025; Powered by <a href="https://jekyllrb.com/">Jekyll</a> based on <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a> theme and proudly hosted on <a href="https://github.com">GitHub</a>.
+
+# BLOG & PAGINATION
+paginate: 8
+paginate_path: "/blog/page:num"
+excerpt: false                                           # Or "truncate" (first 250 characters), "false" to disable
+post_navigation: true
+color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
+
+# Features
+# More in the _data folder for comments, share buttons, author and language
+# For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
+katex: true           # Enable if using math markup
+#mermaid: false default      # Enable mermaid-js for diagrams, use theme: base, forest, dark, default, neutral
+google_analytics:         # Measurement ID, e.g. "G-00000"
+cookie_consent: false     # To respect the usage of cookies
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+  apjfolio:
+    output: true
+    permalink: /:collection/:name
+  bscphys:
+    output: true
+    permalink: /:collection/:name
+
+
+# BUILD SETTINGS
+sass:
+  style: compressed
+  quiet_deps: true
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-relative-links, jektex]
+exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*", ".github/*", "README.md"]
+
+
+
