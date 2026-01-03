@@ -1,21 +1,84 @@
-# SITE CONFIGURATION
-#baseurl: "/Type-on-Strap"
-url: "https://apjena.github.io"
+# name of the software
+name: Jekyll Docs Theme
 
-plugins:
-  - jekyll-remote-theme
-#theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-#remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
-remote_theme: allejo/jekyll-docs-theme@v1.0.0
+project:
+  version: 1.0.0
+  download_url: https://github.com/allejo/jekyll-docs-theme/releases
+  download_text: Download
 
+license:
+  software: MIT License
+  software_url: https://opensource.org/licenses/MIT
 
-# META AND BRANDING
-title: "Thought &#120511;"                         # site's title
-description: "Waves of Thoughts"                         # used by search engines
-avatar: assets/img/avtar.png #triangle.png         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                        # Icon displayed in the tab
-color_theme: auto                                  # auto | dark | light
+  docs: CC BY 3.0
+  docs_url: https://creativecommons.org/licenses/by/3.0/
 
+links:
+  header:
+    - title: GitHub
+      icon: github
+      brand: true
+      url: https://github.com/allejo/jekyll-docs-theme
+  homepage:
+    - title: View on GitHub
+      icon: github
+      brand: true
+      url: https://github.com/allejo/jekyll-docs-theme
+  footer:
+    - title: GitHub
+      icon: github
+      brand: true
+      url: https://github.com/allejo/jekyll-docs-theme
+    - title: Issues
+      icon: bug
+      url: https://github.com/allejo/jekyll-docs-theme/issues?state=open
 
+ui:
+  mode: 'auto' # 'auto', 'dark', 'light'
+  brand:
+    dark: "#00ceff"
+    light: "#a20000"
+  border_color:
+    dark: "#5f5f5f"
+    light: "#dee2e6"
+  header:
+    trianglify: true
+    dark:
+      color1: "#062a48"
+      color2: "#304e67"
+    light:
+      color1: "#080331"
+      color2: "#673051"
+  masthead:
+    color:
+      dark: "#fff"
+      light: "#fff"
+    align:
+      homepage: 'center'
+      page: 'left'
 
+social:
+  github:
+    user: allejo
+    repo: jekyll-docs-theme
+  twitter:
+    enabled: false
+    via:
+    hash:
+    account:
+  facebook:
+    enabled: false
+    profileUrl:
 
+analytics:
+  google: UA-123456-1
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-docs-theme.gemspec
+  - LICENSE.md
+  - README.md
+  - screenshot.png
