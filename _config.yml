@@ -2,6 +2,11 @@
 #baseurl: "/Type-on-Strap"
 url: "https://apjena.github.io"
 
+#theme: type-on-strap                                  # if using the theme as a jekyll theme gem
+#remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
+remote_theme: allejo/jekyll-docs-theme@v1.0.0
+
+
 # META AND BRANDING
 title: "Thought &#120511;"                         # site's title
 description: "Waves of Thoughts"                         # used by search engines
@@ -54,7 +59,4 @@ sass:
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-relative-links, jektex]
 exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*", ".github/*", "README.md"]
 
-#theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-#remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
-remote_theme: allejo/jekyll-docs-theme@v1.0.0
 
