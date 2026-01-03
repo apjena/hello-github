@@ -59,21 +59,12 @@ Government of Odisha provides the following subjects:
 ---
 
 <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
+  <button class="dropbtn">{{ group.name | capitalize }}</button>
   <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    {% for class in group.items %}
+    <a href="{{ class.url | relative_url }}">{{ class.title }}</a>
+    {% endfor %}
   </div>
-  <div class="dropdown">
-  <button class="dropbtn">Dropdown1</button>
-  <div class="dropdown-content">
-    <a href="#">Link 12</a>
-    <a href="#">Link 22</a>
-    <a href="#">Link 32</a>
-  </div>
-</div>
-
 </div>
 
 ---
