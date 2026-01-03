@@ -56,7 +56,27 @@ Government of Odisha provides the following subjects:
 
 {% assign groupnames = site.bscphys | group_by: 'group' %}
 {% for group in groupnames %}
+---
 
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  <div class="dropdown">
+  <button class="dropbtn">Dropdown1</button>
+  <div class="dropdown-content">
+    <a href="#">Link 12</a>
+    <a href="#">Link 22</a>
+    <a href="#">Link 32</a>
+  </div>
+</div>
+
+</div>
+
+---
 <details><summary><h3><svg width="400" height="60" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="gradient1">
