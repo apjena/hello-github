@@ -7,6 +7,9 @@ subtitle: "under Utkal University"
 feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Page, phy, utkal]
 ---
+* This will become a table of contents (this text will be scrapped).
+{:toc}
+
 # Physics @ Utkal University Colleges 
 
 Model Curriculum for Three/Four Year Degree Course (With Multiple Entry /Exit Option) Based on NEP-2020 for Physics by Odisha State Higher Education Council, Bhubaneswar, 
