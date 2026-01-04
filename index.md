@@ -13,6 +13,7 @@ A Jekyll theme inspired by Bootstrap's official documentation theme from a few y
 
 ## Math support 
 mathjax is enabled by default for kramdown. $$\Gamma(0)$$ is with double dollar.
+
 $$
 \sum_0^\infty x_i
 $$
