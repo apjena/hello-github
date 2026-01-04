@@ -11,6 +11,12 @@ A Jekyll theme inspired by Bootstrap's official documentation theme from a few y
 >
 > ~ _Anonymous_, 2020
 
+## Math support 
+mathjax is enabled by default for kramdown. $$\Gamma(0)$$ is with double dollar.
+$$
+\sum_0^\infty x_i
+$$
+
 This theme is designed for writing documentation websites instead of having large unmaintainable README files or several markdown files inside of a folder in a repository.
 
 <div class="row">
