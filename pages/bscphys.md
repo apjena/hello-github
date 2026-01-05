@@ -7,14 +7,20 @@ subtitle: "under Utkal University"
 feature-img: "assets/img/pexels/computer.jpeg"
 tags: [Page, phy, utkal]
 ---
-* This will become a table of contents (this text will be scrapped).
+{% comment %}
+* This will become a table of contents (this text will be scrapped). It works.
 {:toc}
+{% endcomment %}
 
 # Physics @ Utkal University Colleges 
 
 Model Curriculum for Three/Four Year Degree Course (With Multiple Entry /Exit Option) Based on NEP-2020 for Physics by Odisha State Higher Education Council, Bhubaneswar, 
 Government of Odisha provides the following subjects:
 
+<div class="row">
+<div class="col-lg-6" markdown="1">
+
+{:.mt-lg-0}
 ##### I
 * Core I -  Mathematical Physics-I
 * Core II-  Mechanics
@@ -28,6 +34,7 @@ Government of Odisha provides the following subjects:
 * Core VI-  Mathematical Physics-III
 * Core VII-  Thermal Physics
 
+{:.mt-lg-0}
 ##### IV
 * Core VIII-  Analog Systems
 * Core IX-  Basic Instrumentation
@@ -54,9 +61,11 @@ Government of Odisha provides the following subjects:
 * Core XXII-  Electronics
 * Core XXIII-  Laboratory: Optics and Modern Physics Lab
 
+</div>
+</div>
+
 {% assign groupnames = site.bscphys | group_by: 'group' %}
 {% for group in groupnames %}
----
 
 <div class="dropdown">
   <button class="dropbtn">{{ group.name | capitalize }}</button>
@@ -66,31 +75,6 @@ Government of Odisha provides the following subjects:
     {% endfor %}
   </div>
 </div>
-
----
-<details><summary><h3><svg width="400" height="60" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="gradient1">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#000000" />
-    </linearGradient>
-    <mask id="mask4">
-      <rect x="0" y="0" width="250" height="60" fill="url(#gradient1)" />
-    </mask>
-  </defs>
-  <rect x="0" y="0" width="250" height="60" fill="red" mask=" url(#mask4)"/>
-  <text fill="#ffffff" font-size="30" font-family="Optima" x="10" y="30">{{ group.name | capitalize }}</text>
-</svg></h3></summary>
-
-<ol class="fa-ul">
-{% for class in group.items %}
-<li><span class="fa-li"><i class="fa-solid fa-book"></i></span>
-<a href="{{ class.url | relative_url }}">{{ class.title }}</a> 
-  {% if class.subtitle %} - {{ class.subtitle }} {% endif %} 
-</li>
-{% endfor %}
-</ol>
-</details>
 
 {% endfor %}
 
