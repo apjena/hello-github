@@ -6,9 +6,9 @@ description: If mediocrity had a Jekyll theme...
 ---
 
 ## `Documentation` Included:
-* [config.md]({% link config.md %}) 
-* [front-matter]({% link front-matter.md %}) 
-* [markdown]({% link markdown.md %}) 
+* [config.md]({% link documentation/config.md %}) 
+* [front-matter]({% link documentation/front-matter.md %}) 
+* [markdown]({% link documentation/markdown.md %}) 
 
 A Jekyll theme inspired by Bootstrap's official documentation theme from a few years back. This theme started off by stealing all of Bootstrap Docs' CSS and being used in [mistic100's theme](https://github.com/mistic100/jekyll-bootstrap-doc). This theme has since be rewritten from scratch and remains solely inspired by the original design.
 
