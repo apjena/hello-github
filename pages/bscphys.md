@@ -34,7 +34,6 @@ Government of Odisha provides the following subjects:
 * Core VI-  Mathematical Physics-III
 * Core VII-  Thermal Physics
 
-{:.mt-lg-0}
 ##### IV
 * Core VIII-  Analog Systems
 * Core IX-  Basic Instrumentation
@@ -68,6 +67,7 @@ Government of Odisha provides the following subjects:
 </div>
 </div>
 
+---
 {% assign groupnames = site.bscphys | group_by: 'group' %}
 {% for group in groupnames %}
 
@@ -91,6 +91,7 @@ Prior to the adoption of the National Education Policy (NEP) 2020, Utkal Univers
 The structure of the three-year B.Sc. Physics Honours program at Utkal University, under the 2019 DHE, Odisha CBCS model syllabus, was divided into six semesters with specific course types: Core Courses (CC), Ability Enhancement Compulsory Courses (AECC), Skill Enhancement Courses (SEC), and Discipline Specific Elective (DSE) courses. 
 
 ### The structure of the curriculum was as follows:
+
 <table>
   <thead>
     <tr>
@@ -340,6 +341,7 @@ Papers with 4 credits each: Major(15×4), Minor(6×4), AEC(2×4) & CES(1×4) = 9
 Papers with 3 credits each: MDC(3×3), SEC(3×3) & VAC(4×3) = 30.
 
 ### Distribution of Marks
+
 **Every paper has full marks 100 irrespective of credit in a course/ Paper**. In the structured grading system all papers are initially worth a nominal 100 marks, but the components are weighted differently when contributing to the final grade. **The Semester end Theory examination shall be for 100 marks of three hours duration**. However, the weightage shall be 50 or 60 for papers with or without Practical component, respectively. The weightage breakdown provided is as follows:
 
 | Course Type | Without Practical | With Practical |
