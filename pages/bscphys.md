@@ -20,8 +20,8 @@ Government of Odisha provides the following subjects:
 <div class="row">
 <div class="col-lg-6" markdown="1">
 
-{:.mt-lg-0}
 ##### I
+{:.mt-lg-0}
 * Core I -  Mathematical Physics-I
 * Core II-  Mechanics
   
@@ -47,8 +47,8 @@ Government of Odisha provides the following subjects:
 </div>
 <div class="col-lg-6" markdown="1">
 
-{:.mt-lg-0}
 ##### VI
+{:.mt-lg-0}
 * Core  XIV-  Electromagnetic Theory
 * Core XV-  Statistical Mechanics
 
