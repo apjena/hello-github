@@ -43,4 +43,4 @@ $site-ui-masthead-color-light: {{ site.ui.masthead.color.light | default: '#fff'
 @import 'utilities/js';
 
 // Custom inspired from Type-on-strap
-@import 'custom';
+@import "custom";
