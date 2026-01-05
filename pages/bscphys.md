@@ -45,6 +45,10 @@ Government of Odisha provides the following subjects:
 * Core  XII-  Quantum Mechanics and Applications
 * Core XIII-  Solid State Physics
 
+</div>
+<div class="col-lg-6" markdown="1">
+
+{:.mt-lg-0}
 ##### VI
 * Core  XIV-  Electromagnetic Theory
 * Core XV-  Statistical Mechanics
@@ -81,6 +85,7 @@ Government of Odisha provides the following subjects:
 --------
 
 # CBCS Model syllabus 2019
+
 Prior to the adoption of the National Education Policy (NEP) 2020, Utkal University implemented the Model Syllabus 2019 as prescribed by DHE, Odisha. This system served as the standardized educational framework for undergraduate programs across the state prior to the current reforms. The DHE, Odisha, had developed the 2019 syllabus to standardize undergraduate education across the state's universities and colleges. This system typically operated under a **CBCS (Choice Based Credit System)** framework and a semester-based structure, which was the prevailing system nationwide before the holistic restructuring mandated by NEP 2020.
 
 The structure of the three-year B.Sc. Physics Honours program at Utkal University, under the 2019 DHE, Odisha CBCS model syllabus, was divided into six semesters with specific course types: Core Courses (CC), Ability Enhancement Compulsory Courses (AECC), Skill Enhancement Courses (SEC), and Discipline Specific Elective (DSE) courses. 
@@ -240,6 +245,7 @@ The structure of the three-year B.Sc. Physics Honours program at Utkal Universit
 
 
 # NEP 2020
+
 The implementation of NEP 2020 introduced a significant paradigm shift in Education sector, most notably through the establishment of the **Four-Year Undergraduate Programme (FYUP)**. Key features of the new system include **flexible multiple entry and exit points**, an updated credit architecture, and a strong emphasis on interdisciplinary studies and vocational skills, moving away from the previous prescriptive model.
 
 Utkal University offers for its affiliated Colleges, **Single Major (Honours) Two Minor Scheme** in lieu of the earler existing **Honours** curriculum. Effective from the **2024–25** academic session, Utkal University has implemented the <b>National Education Policy (NEP) 2020</b> for all undergraduate degree courses. Under the new structure, every paper culminates in a final examination worth a total of **100 marks**. This final exam weightage is 50% for subjects with a practical component and 60% for purely non-practical (theory) subjects, to the gradesheet. Previously known  <b>Honours Core Papers</b> are now officially referred to as <b>Major Papers</b>. Despite changes in examination question patterns and paper redistribution, the core syllabus content of relevant subjects remains consistent with the corresponding new major papers. 
