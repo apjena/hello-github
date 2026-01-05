@@ -2,6 +2,7 @@
 layout: full #page
 title: "Waves of Thoughts" #About
 homepage: true
+disable_anchors: true
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [core]

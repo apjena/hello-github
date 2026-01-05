@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: page #full
 homepage: false #true
 disable_anchors: true
 description: If mediocrity had a Jekyll theme...
