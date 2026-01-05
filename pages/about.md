@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: full #page
 title: "Waves of Thoughts" #About
+homepage: true
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [core]

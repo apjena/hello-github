@@ -1,6 +1,6 @@
 ---
 layout: full
-homepage: true
+homepage: false #true
 disable_anchors: true
 description: If mediocrity had a Jekyll theme...
 ---
@@ -10,13 +10,6 @@ A Jekyll theme inspired by Bootstrap's official documentation theme from a few y
 > I've never seen a more mediocre theme it actually hurts my insides.
 >
 > ~ _Anonymous_, 2020
-
-## Math support 
-mathjax is enabled by default for kramdown. $$\Gamma(0)$$ is with double dollar.
-
-$$
-\sum_0^\infty x_i
-$$
 
 This theme is designed for writing documentation websites instead of having large unmaintainable README files or several markdown files inside of a folder in a repository.
 
