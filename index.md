@@ -1,8 +1,9 @@
 ---
-layout: full #page
-title: "Waves of Thoughts" #About
+layout: full 
 homepage: true
 disable_anchors: true
+---
+title: "Waves of Thoughts" #About
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [core]
