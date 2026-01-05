@@ -114,3 +114,52 @@ h1.load{
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+/* ---- apjena To have print better --- */
+@media print {
+  /* Set the base font size for the body when printing */
+  * {
+    /* Specify 'Charter' as the primary font, with fallbacks for latex-ish print */
+    font-family: Charter, 'Bitstream Charter', Georgia, serif;
+    color: black !important; /* Ensure text is black for print */
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  /* body & Paragraphs will inherit or can be set to specific pt sizes as well */
+  body, p {
+    font-size: 12pt;
+  }
+
+  /* Optional: Hide non-essential elements for printing */
+  .no-print, .tag-list {
+    display: none !important;
+  }
+  nav,footer,#comment-section>.comments-form,div#formContainer {
+      display: none !important;
+  }
+  /* extra */
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  @page  {
+    /*margin: 1.5cm;  /* All margin set to 1.5cm */
+    margin: 10%; /* Relative to target size */
+  }
+  @page:first { margin-top: 4cm; } /* First page margin */
+}
+/* --- apjena upto here --- */
