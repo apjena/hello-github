@@ -1,11 +1,12 @@
 ---
 layout: page #full
 homepage: false #true
+title: "Allejo"
 disable_anchors: true
 description: If mediocrity had a Jekyll theme...
 ---
 
-## `Documentation` Included:
+## Jekyll-doc-theme `Documentation` Included:
 * [config.md]({% link documentation/config.md %}) 
 * [front-matter]({% link documentation/front-matter.md %}) 
 * [markdown]({% link documentation/markdown.md %}) 
