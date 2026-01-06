@@ -111,7 +111,7 @@ The structure of the three-year B.Sc. Physics Honours program at Utkal Universit
     </tr>
     <tr>
       <td><strong>Core-I</strong> (4+2+0)</td>
-      <td>Mathematical Physics-I<br/> (Calculus &amp; Vectors)</td>
+      <td>Mathematical Physics-I<br> (Calculus &amp; Vectors)</td>
     </tr>
     <tr>
       <td><strong>Core-II</strong> (4+2+0)</td>
@@ -147,7 +147,7 @@ The structure of the three-year B.Sc. Physics Honours program at Utkal Universit
     </tr>
     <tr>
       <td><strong>Core-V</strong> (4+2+0)</td>
-      <td>Mathematical Physics-II</br> (Fourier series,  Polynomials & PDE)</td>
+      <td>Mathematical Physics-II<br> (Fourier series,  Polynomials & PDE)</td>
     </tr>
     <tr>
       <td><strong>Core-VI</strong> (4+2+0)</td>
@@ -171,7 +171,7 @@ The structure of the three-year B.Sc. Physics Honours program at Utkal Universit
     </tr>
     <tr>
       <td><strong>Core-VIII</strong> (4+2+0)</td>
-      <td>Mathematical Physics-III</br>(Complex Analysis & Integral transforms)</td>
+      <td>Mathematical Physics-III<br>(Complex Analysis & Integral transforms)</td>
     </tr>
     <tr>
       <td><strong>Core-IX</strong> (4+2+0)</td>
