@@ -383,9 +383,9 @@ Utkal University has adopted  Single Major (Honours) Two Minor Scheme for its af
 </table>
 
 Without Practical
-    : Test 1 Test 2
+   : Test 1 Test 2
 
 With Practical
-    : Test 3 Test 4
+   : Test 3 Test 4
 
 
