@@ -195,6 +195,7 @@ The energy \(U\) stored in an inductor is given by $$U=\frac{1}{2}LI^{2}$$. $$U
 </svg>
 
 # Draw.io 
+
 * Shares with Google drive saving.
 * supports latex math text.
 * export as png and svg as well.
@@ -216,7 +217,7 @@ The energy \(U\) stored in an inductor is given by $$U=\frac{1}{2}LI^{2}$$. $$U
 </div>
 </div>
 
-### test2 
+# test2 
 
 <div class="container">
   <div class="row">
