@@ -253,7 +253,7 @@ Utkal University offers for its affiliated Colleges, **Single Major (Honours) Tw
 
 Utkal University has adopted  Single Major (Honours) Two Minor Scheme for its affiliated colleges in place of the Honours stream. The **Physics Single Major two Minors (Chemistry & Math)** will have the following Paper structure as per the regulations of OSHEC.
 
- <table>
+<table>
   <thead>
     <tr>
       <th>Semester: </th> <th>I</th> <th>II</th>
@@ -336,9 +336,9 @@ Utkal University has adopted  Single Major (Honours) Two Minor Scheme for its af
   </tbody>
 </table>
 
-Community Engagement & Service(CES)/ Fieldwork/ Internship.<br>
-Papers with 4 credits each: Major(15×4), Minor(6×4), AEC(2×4) & CES(1×4) = 96.<br>
-Papers with 3 credits each: MDC(3×3), SEC(3×3) & VAC(4×3) = 30.
+* Community Engagement & Service(CES)/ Fieldwork/ Internship.
+* Papers with 4 credits each: Major(15×4), Minor(6×4), AEC(2×4) & CES(1×4) = 96.
+* Papers with 3 credits each: MDC(3×3), SEC(3×3) & VAC(4×3) = 30.
 
 ### Distribution of Marks
 
