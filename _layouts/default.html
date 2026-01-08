@@ -20,7 +20,7 @@
         data-target="#page-toc"
         data-offset="{{ scrollSpyOffset }}"
     >
-    <button onclick="topFunction()" id="dropbtn" title="Go to top">Top</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
         {% include navigation.html %}
         {% include masthead.html %}
@@ -30,7 +30,7 @@
         {% include footer/full.html %}
 	{% comment %} { This is for go to top } {% endcomment %}
 	<script>
-var mybutton = document.getElementById("dropbtn");
+var mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
