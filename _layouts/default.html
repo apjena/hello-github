@@ -20,11 +20,29 @@
         data-target="#page-toc"
         data-offset="{{ scrollSpyOffset }}"
     >
+    <button onclick="topFunction()" id="dropbtn" title="Go to top">Top</button>
+
         {% include navigation.html %}
         {% include masthead.html %}
 
         {{ content }}
 
         {% include footer/full.html %}
+	{% comment %} { This is for go to top } {% endcomment %}
+	<script>
+var mybutton = document.getElementById("dropbtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
     </body>
 </html>
