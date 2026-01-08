@@ -47,3 +47,33 @@ $(function() {
         }
     }
 });
+
+/* Go to top apjena gemini */
+// Get the button element
+var scrollToTopBtn = document.getElementById("scroll-to-top");
+
+// When the user scrolls down 200px from the top of the document, show the button
+window.addEventListener("scroll", function() {
+    if (window.scrollY > 200) { // Adjust the 200px threshold as needed
+        scrollToTopBtn.style.opacity = 1;
+        scrollToTopBtn.style.display = "block";
+    } else {
+        scrollToTopBtn.style.opacity = 0;
+        // Optionally hide it completely after transition
+        setTimeout(function() {
+            if (window.scrollY <= 200) {
+                scrollToTopBtn.style.display = "none";
+            }
+        }, 300); // Matches the CSS transition time
+    }
+});
+
+// When the user clicks on the button, scroll to the top of the document
+scrollToTopBtn.addEventListener("click", function(e) {
+    e.preventDefault(); // Prevent default anchor behavior
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth" // Smooth scrolling behavior
+    });
+});
+
