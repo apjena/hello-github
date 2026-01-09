@@ -172,11 +172,6 @@ section {padding-bottom: 5rem;}
   top: 120vh;
   bottom: 2rem;
   right: 1rem;
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .scroll-top__link {
@@ -185,6 +180,13 @@ section {padding-bottom: 5rem;}
   top: 85vh;
   text-decoration:none;
   border-radius: .25rem;
+  
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
   background-color: blue;
   padding:1rem;
   color: white;
