@@ -47,3 +47,6 @@ categories: Tutorial
 * If using remote-theme options for any reason, better to avoid liquid tags extesively.
 * Own data in 'pages', `_posts`, portfolio folders, custom css scripts etc. must be retained carefully.
 * Theme specific example posts and pages may be avoided and removed for other theme breakdown.
+
+# Resources
+* A very nice article on css, html etc by [Warren](https://dev.to/warren_jitsing_dd1c1d6fc6/vanilla-html-css-javascript-markdown-syntax-highlighting-mathjax-article-viewer-3f3e).
