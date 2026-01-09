@@ -90,3 +90,6 @@ collections:
   bscphys:
     output: true
     permalink: /:collection/:name
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
