@@ -1,8 +1,8 @@
 # name of the software
 name: "Thought &#120511;" 
 
-#project:
-#  version: 1.0.0
+project:
+  version: 1.0.0
 #  download_url: https://github.com/allejo/jekyll-docs-theme/releases
 #  download_text: Download
 
@@ -75,8 +75,6 @@ analytics:
 
 # Build settings
 markdown: kramdown
-kramdown:
-  math_engine: katex
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -91,5 +89,4 @@ collections:
     output: true
     permalink: /:collection/:name
 
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
