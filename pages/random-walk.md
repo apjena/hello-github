@@ -8,6 +8,10 @@ image: "312241.png"
 toc: false
 ---
 
+# Obtained 
+
+This is a page downloaded from [MrinalCs Blog](https://github.com/mrinalcs/mrinalcs.github.io/tree/main)
+
 ## What is a Random Walk?
 
 A **random walk** is a mathematical process that describes a path consisting of a series of random steps. Each step's direction is determined randomly, making the trajectory unpredictable. The concept is simple yet powerful, with applications ranging from physics and biology to economics and computer science.
