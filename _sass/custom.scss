@@ -163,20 +163,38 @@ h1.load{
   @page:first { margin-top: 4cm; } /* First page margin */
 }
 /* --- apjena upto here --- */
-.back-to-top {
-    position: fixed;
-    bottom: 30px;
-    right: 40px;
-    display: none; /* Initially hide the button */
-    /* Add desired styling like background color, size, padding, etc. */
-    background-color: #000;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    z-index: 999; /* Ensure it's above other content */
-    opacity: 0; /* Use opacity for smoother transitions if using JavaScript toggle */
-    transition: opacity 0.3s ease-in-out;
+:root{scroll-behavior:smooth;}
+main {position: relative;}
+section {padding-bottom: 5rem;}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align:center;
+  padding: 3rem;
+}
+
+.scroll-top {
+  position: absolute;
+  top: 120vh;
+  bottom: 2rem;
+  right: 1rem;
+}
+
+.scroll-top__link {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 85vh;
+  text-decoration:none;
+  border-radius: .25rem;
+  background-color: blue;
+  padding:1rem;
+  color: white;
+  font-weight:700;
+  opacity:.3;
+}
+
+.scroll-top__link:hover {
+  opacity: initial;
 }
 
