@@ -15,7 +15,7 @@ categories: Tutorial
 
 # Breadcrumb without plugin
 * Create the file `_includes/breadcrumbs.html`.
-* In `_includes/default/navbar.liquid` inject the liquid command at appropriate place. `{% include breadcrumbs.html %}`
+* In `_includes/default/navbar.liquid` inject the liquid command at appropriate place. \`{% include breadcrumbs.html %}\`
 * But it reads and breaks the permalink, so not accurate.
 * Gets space that is extra without any good functions.
 * Let's discard it.
