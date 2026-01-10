@@ -50,3 +50,4 @@ categories: Tutorial
 
 # Resources
 * A very nice article on css, html etc by [Warren](https://dev.to/warren_jitsing_dd1c1d6fc6/vanilla-html-css-javascript-markdown-syntax-highlighting-mathjax-article-viewer-3f3e).
+* Jekyll, Netlify and github from scratch, by [KevQuirk](https://kevquirk.com/blog/how-to-build-jekyll-site-simple-css/)
