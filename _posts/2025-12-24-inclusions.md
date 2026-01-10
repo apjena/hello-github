@@ -51,3 +51,7 @@ categories: Tutorial
 # Resources
 * A very nice article on css, html etc by [Warren](https://dev.to/warren_jitsing_dd1c1d6fc6/vanilla-html-css-javascript-markdown-syntax-highlighting-mathjax-article-viewer-3f3e).
 * Jekyll, Netlify and github from scratch, by [KevQuirk](https://kevquirk.com/blog/how-to-build-jekyll-site-simple-css/)
+* The [Carpentry Workshop hosting solutionn](https://carpentry.library.ucsb.edu/2022-01-28-ucsb-webpub-online/03-github-pages/index.html) is fantastic on github, tabbed display, folding challenge and solution.
+
+# Articles:
+* Entropy & Enthalpy: Kali Destroys, Shiv Absorbs -- [Speaking tree on TOI.](https://timesofindia.indiatimes.com/blogs/toi-edit-page/entropy-enthalpy-kali-destroys-shiv-absorbs/)
