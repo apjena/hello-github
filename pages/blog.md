@@ -1,6 +1,7 @@
 ---
 layout: default
 header: Blog
+title: Collections
 summary: Where the magic happens - this is the blog!
 link: /blog/
 ---
