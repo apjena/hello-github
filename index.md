@@ -1,43 +1,45 @@
 ---
-layout: full 
-homepage: true
-disable_anchors: true
-title: "Waves of Thoughts" #About
+layout: default #home
+title: Wave of Thoughts 
+#nav: true
 ---
-permalink: /about/
-feature-img: "assets/img/pexels/travel.jpeg"
-tags: [core]
+
+# Hello World!!!
+To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
+
 ---
-<marquee behavior="scroll" direction="left" scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()">
-  The page is maintained by A. P. Jena, serving to needs that include *some* educational needs of *some* students! | Go <a href="#">here</a> for more details...
-</marquee>
 
-This webpage is designed to deliver curated content in a controlled, streamlined, and user-friendly manner for a select audience, prioritizing minimal effort and convenience over mere technical possibility.
-
-# All the Pages.
-
-<ul class="fa-ul" >
-{% for item in site.html_pages %}
-  <li>
-    <span><i class="fa-solid fa-feather"></i></span><a href="{{ site.baseurl }}{{ item.url }}"> {{ item.title }}</a> {% if item.author %}by {{ item.author }} {% endif %}
-  </li>
-{% endfor %}
-</ul>
-
-
-# All the Posts... Available in home, though.
+## posts.
 {% for item in site.posts %}
 * [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
  {% if item.author %} by {{ item.author }}{% endif %}{% endfor %}
+~      
 
----
+## pages.
+{% for item in site.pages %}
+* [{{ item.title }}]({{ site.baseurl }}{{ item.url }})
+ {% if item.author %} by {{ item.author }}{% endif %}{% endfor %}
+~      
 
-##### Technical Details:
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
-** After trying one of the free and most popular platforms for blogging, realised that different methods are suitable for different needs for convenience. Mere possibility is not always the absolute requirement.
+### HTML canvas drawings:
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+Your browser does not support the HTML canvas element.
+</canvas>
 
-** This site utilizes the efforts of [Type on Strap](https://github.com/sylhare/Type-on-Strap) theme on GitHub platform.
-** Type on Strap is based on Type Theme, a free and open-source theme for 
-[Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+<script>
+const canvas = document.getElementById("myCanvas"); // Step 1: Find the canvas element
+const ctx = canvas.getContext("2d");              // Step 2: Create a 2D drawing object
+ctx.fillStyle = "#FF0000";                        // Step 3: Set drawing style
+ctx.fillRect(10, 10, 150, 75);                    // Step 3: Draw a filled rectangle
+</script>
 
- 
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+<marquee behavior="scroll" direction="left" scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()">
+  Your rolling text message goes here! <a href="#">Link</a> | More Text Here...
+</marquee>

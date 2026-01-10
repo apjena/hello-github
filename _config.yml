@@ -1,91 +1,66 @@
-# name of the software
-name: "Thought &#120511;" 
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
 
-project:
-  version: 1.0.0
-#  download_url: https://github.com/allejo/jekyll-docs-theme/releases
-#  download_text: Download
+#remote_theme: sylhare/Type-on-Strap
+#remote_theme: barryclark/jekyll-now
+#remote_theme: sighingnow/jekyll-gitbook
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
-#license:
-#  software: MIT License
-#  software_url: https://opensource.org/licenses/MIT
 
-#  docs: CC BY 3.0
-#  docs_url: https://creativecommons.org/licenses/by/3.0/
+# SITE CONFIGURATION
+#baseurl: "/Type-on-Strap"
+url: "https://apjena.github.io"
 
-links:
-  header:
-    - title: GitHub
-      icon: github
-      brand: true
-#      url: https://github.com/allejo/jekyll-docs-theme
-  homepage:
-    - title: View on GitHub
-      icon: github
-      brand: true
-#      url: https://github.com/allejo/jekyll-docs-theme
-  footer:
-    - title: GitHub
-      icon: github
-      brand: true
-#      url: https://github.com/allejo/jekyll-docs-theme
-#    - title: Issues
-#      icon: bug
-#      url: https://github.com/allejo/jekyll-docs-theme/issues?state=open
+# THEME-SPECIFIC CONFIGURATION
+title: Waves of Thoughts                                   # site's title
+description: "me with you"                              # used by search engines
+#avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
+#favicon: assets/favicon.ico                             # Icon displayed in the tab
 
-ui:
-  mode: 'auto' # 'auto', 'dark', 'light'
-  brand:
-    dark: "#00ceff"
-    light: "#a20000"
-  border_color:
-    dark: "#5f5f5f"
-    light: "#dee2e6"
-  header:
-    trianglify: true
-    dark:
-      color1: "#062a48"
-      color2: "#304e67"
-    light:
-      color1: "#080331"
-      color2: "#673051"
-  masthead:
-    color:
-      dark: "#fff"
-      light: "#fff"
-    align:
-      homepage: 'center'
-      page: 'left'
+# Header and footer text
+#header_pages: 
+# - about.md
+#header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
+#header_feature_image: assets/img/headerbanner.jpg         #assets/img/header/triangular.jpeg
+#header_feature_image_responsive: true
+#footer_text: >
+#  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
-social:
-  github:
-    user: apjena
-    repo: 
-  twitter:
-    enabled: false
-    via:
-    hash:
-    account:
-  facebook:
-    enabled: false
-    profileUrl:
+# Blog
+#excerpt: false                                           # Or "truncate" (first 250 characters), "false" to disable
+#post_navigation: true
+#color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
 
-analytics:
-  google: 
+# Features
+# More in the _data folder for comments, share buttons, author and language
+# For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
+#katex: true                                             # Enable if using math markup
+#mermaid: default                                        # Enable mermaid-js for diagrams, use theme: base, forest, dark, default, neutral
+#google_analytics:                                       # Measurement ID, e.g. "G-00000"
+#cookie_consent: false                                   # To respect the usage of cookies
+#color_theme: auto                                       # auto, dark or light
 
-# Build settings
-markdown: kramdown
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - jekyll-docs-theme.gemspec
-  - LICENSE.md
-  - README.md
-  - screenshot.png
-#####################
+# PAGINATION
+#paginate: 5
+#paginate_path: "/blog/page:num"
+
 # PORTFOLIO
-collections:
-  bscphys:
-    output: true
-    permalink: /:collection/:name
+#collections:
+#  portfolio:
+#    output: true
+ #   permalink: /:collection/:name
 
+# BUILD SETTINGS
+#sass:
+#  style: compressed
+#  quiet_deps: true
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*", ".github/*"]
+
+
+# For github inbuilt themes instead:
+#theme: jekyll-theme-cayman  # other options below:
+# architect cayman dinky hacker leap-day merlot
+# midnight minimal minimal modernist 

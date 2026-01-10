@@ -1,29 +1,17 @@
 ---
-layout: page
-title: "PAGE-TWO"
-subtitle: "Being had a beginning!"
-feature-img: "assets/img/header/headerbanner.jpg" 
-permalink: /page-two/                   # Set a permalink your your page
-hide: false                           # Prevent the page title to appear in the navbar
-#icon: "fa-search"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
-tags: [sample, markdown, html, apj]
+layout: page #default 
+title: Wave of Thoughts main 
+nav: true
 ---
+<!-- <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> -->
 ```yaml
 ---
-layout: page
-title: "PAGE-TWO"
-subtitle: "Being had a beginning!"
-feature-img: "assets/img/header/headerbanner.jpg" 
-permalink: /page-two/                   # Set a permalink your your page
-hide: false                           # Prevent the page title to appear in the navbar
-#icon: "fa-search"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
-tags: [sample, markdown, html, apj]
+layout: page #default 
+title: Wave of Thoughts main 
+nav: true
 ---
 ```
-
-<!-- <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script> -->
-
-# HEAD:<span style='text-shadow: 0px 0px 2px #0000FF; color: white'>Random Thoughts</span> 
+# HEAD <span style='text-shadow: 0px 0px 2px #0000FF; color: white'>WAVE OF THOUGHTS</span> 
 
 - **bold** 
 - _italicks_
@@ -60,7 +48,7 @@ $$
 U = \langle H(q, p) \rangle = \int H(q, p) \rho(q, p) d^{\otimes N}q d^{\otimes N}p
 $$
 
-[testlinkmarkor](pages/CppCBCSPhysics1.ipynb)
+[testlinkmarkor](CppCBCSPhysics1.ipynb)
 
 <style>
 mark{
