@@ -1,66 +1,49 @@
-plugins:
-  - jekyll-remote-theme
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
+# Setup
+title:               Waves of Thoughts  #Proof
+tagline:             Life just flows  # a Jekyll Theme for Mathematical Writings
+description:         >- # this means to ignore newlines until "url:"
+  Me with You 
+#Proof is a minimal Jekyll theme for collaborating and documenting mathematics.
+url:                 https://apjena.github.io
+baseurl:             '/proof' # the subpath of your site, e.g. /blog
+gtag:                #UA-131373039-2 # Google Analytics Tag
 
-#remote_theme: sylhare/Type-on-Strap
-#remote_theme: barryclark/jekyll-now
-#remote_theme: sighingnow/jekyll-gitbook
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+# Color scheme. Options: red, orange, magenta, cyan, blue, brown
+color-scheme:        blue
 
+# Permalinks
+permalink: pretty
+permalink: /:title/
 
-# SITE CONFIGURATION
-#baseurl: "/Type-on-Strap"
-url: "https://apjena.github.io"
+# Set encoding to UTF-8
+encoding: utf-8
 
-# THEME-SPECIFIC CONFIGURATION
-title: Waves of Thoughts                                   # site's title
-description: "me with you"                              # used by search engines
-#avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-#favicon: assets/favicon.ico                             # Icon displayed in the tab
+# Collections for entries
+collections:
+  posts:
+    output: true
 
-# Header and footer text
-#header_pages: 
-# - about.md
-#header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
-#header_feature_image: assets/img/headerbanner.jpg         #assets/img/header/triangular.jpeg
-#header_feature_image_responsive: true
-#footer_text: >
-#  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+# Markdown specs
+markdown: kramdown
 
-# Blog
-#excerpt: false                                           # Or "truncate" (first 250 characters), "false" to disable
-#post_navigation: true
-#color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
+kramdown:
+  # we use KaTeX
+  math_engine: null
+  # ↩ followed by a symbol to prevent emoji conversion
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  # don't make typographical conversions like >> to »
+  gfm_quirks: [paragraph_end, no_auto_typographic]
+  # disables syntax highlighter
+  #syntax_highlighter_opts:
+  #  disable: true
 
-# Features
-# More in the _data folder for comments, share buttons, author and language
-# For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
-#katex: true                                             # Enable if using math markup
-#mermaid: default                                        # Enable mermaid-js for diagrams, use theme: base, forest, dark, default, neutral
-#google_analytics:                                       # Measurement ID, e.g. "G-00000"
-#cookie_consent: false                                   # To respect the usage of cookies
-#color_theme: auto                                       # auto, dark or light
+# Exclusions from the final site
+exclude:
+  - vendor
+  - README.md
+  - LICENSE.md
+  - Gemfile*
+  - proof.gemspec
 
-# PAGINATION
-#paginate: 5
-#paginate_path: "/blog/page:num"
-
-# PORTFOLIO
-#collections:
-#  portfolio:
-#    output: true
- #   permalink: /:collection/:name
-
-# BUILD SETTINGS
-#sass:
-#  style: compressed
-#  quiet_deps: true
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed, jekyll-include-cache]
-#exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*", ".github/*"]
-
-
-# For github inbuilt themes instead:
-#theme: jekyll-theme-cayman  # other options below:
-# architect cayman dinky hacker leap-day merlot
-# midnight minimal minimal modernist 
+# Theme
+remote_theme: "mahrud/proof"

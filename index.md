@@ -5,8 +5,8 @@ title: Wave of Thoughts
 ---
 
 # Hello World!!!
-To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
-
+* To start publishing, please see [the manual]({{ site.baseurl }}/manual/).
+* List of Posts: 
 ---
 
 ## posts.

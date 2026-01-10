@@ -1,4 +1,4 @@
 source "https://rubygems.org"
-#gemspec
+gemspec
 
-gem 'jekyll-include-cache'
+gem "html-proofer"
