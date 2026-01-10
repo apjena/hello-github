@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "PAGE-ONE11"
+title: "PAGE-ONE11-mathml"
 subtitle: "Being had a beginning!"
+hide: true
 ---
 
 <h3
