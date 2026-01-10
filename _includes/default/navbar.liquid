@@ -1,0 +1,76 @@
+<header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+        {% if site.avatar %}
+		<a href="{{ '/' | relative_url }}">
+			<img alt="logo img" class="avatar" src="{{ site.avatar | relative_url }}" loading="lazy"/>
+		</a>
+	{% endif %}
+	{% comment %}
+	apjena: The original following code is replaced by the next code block
+	to set the site title as 
+	<hl class="load"><span>Waves</span> <span>of</span> <span>Thoughts</span></hl>
+	that uses a code class definition in custom.scss for glowing text.
+	just giving above piece as title variable in _config.yml breaks the heading title
+	due to html tag interference. DONE So, thanks google ai, create a new variable
+	as title for this one purpose here to unaffect anything else. 
+	Note a less involved method is to just hard code the line here!!!
+	But this will break the flow of theme's documentation to follow latter, as site.title
+	variable in config file will be useless.
+        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
+	<hl class="load"><span>Waves</span> <span>of</span> <span>Thoughts</span></hl>
+	</a>
+	ORIGINAL:
+        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
+        {{ site.title }}
+	</a>
+	{% endcomment %}
+	{% assign words = site.title | split: " " %}
+	{% assign hltitle = '<hl class="load">' %}
+	{% for word in words %}
+  		{% capture tag %}<span>{{ word }}</span> {% endcapture %}
+  		{% assign hltitle = hltitle | append: tag %}
+	{% endfor %}
+	{% assign hltitle = hltitle | append: '</hl>' %}
+
+        <a class="site-title" aria-label="{{ site.title }}" href="{{ '/' | relative_url }}">
+		{{ hltitle }}
+	</a>
+	{% comment %} Insertion Ends {% endcomment %}
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fas fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="hide">
+        {% assign name_page = "" %}
+        {% assign emptyArray = '' | split: '' %}
+        {% assign menus = site.data.menu | default: emptyArray %}
+        {% assign pages = site.pages | concat: menus | sort: 'position' %}
+        {% for page in pages %}
+        {% unless page.title == null or page.hide or name_page contains page.title %}
+            <li class="separator"> | </li>
+            <li>
+                <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">
+                    {% if page.icon %} <i class="navbar-icon fas {{ page.icon }}" aria-hidden="true"></i>{% endif %}
+                    <span class="navbar-label {% if page.icon %}navbar-label-with-icon{% endif%}">{{ page.title }}</span>
+                </a>
+            </li>
+        {% endunless %}
+        {% assign name_page = page.title | append: name_page %}
+        {% endfor %}
+
+        {% if site.color_theme == 'auto' %}
+        <li class="separator"> | </li>
+        <li><a id="theme-toggle" title="{{ page.title }} " aria-label="{{ page.title }}" onclick="themeToggle()"></a></li>
+        {% endif %}
+    </ul>
+
+	</nav>
+	{% comment %}{% include breadcrumbs.html %}{% endcomment %}
+</header>
