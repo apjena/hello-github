@@ -17,13 +17,13 @@ Government of Odisha provides the following subjects:
 
 <div class="container">
   <div class="row">
-    <div class="col-md-6" markdown="1">
+    <div class="col-md-6">
 
-##### I
+**Sem I**
 * Core I -  Mathematical Physics-I
 * Core II-  Mechanics
   
-##### II
+**Sem II**
 * Core III-  Electricity and Magnetism
 * Core IV -  Mathematical Physics-II
 
@@ -39,7 +39,7 @@ Government of Odisha provides the following subjects:
 
   
     </div>
-    <div class="col-md-6" markdown="1">
+    <div class="col-md-6">
 
 ##### V
 * Core XI-   Digital Systems
