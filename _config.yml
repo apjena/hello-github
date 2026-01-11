@@ -6,7 +6,7 @@ plugins:
   - jekyll-remote-theme
 #theme: type-on-strap                                  # if using the theme as a jekyll theme gem
 #remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
-remote_theme: allejo/jekyll-docs-theme@v1.0.0
+#remote_theme: allejo/jekyll-docs-theme@v1.0.0
 
 
 # META AND BRANDING
