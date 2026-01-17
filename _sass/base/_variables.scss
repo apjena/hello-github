@@ -72,6 +72,7 @@ html[data-theme="dark"] {
   --border: rgba(255, 255, 255, 0.5); // border
   --cusdis--color-text-default: var(--text);
   --cusdis--color-comment-username-text: var(--link);
+  img.dark { filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(150%); }
 }
 
 /* BASE16 CODE HIGHLIGHT */
