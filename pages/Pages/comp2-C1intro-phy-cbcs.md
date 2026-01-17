@@ -1,3 +1,15 @@
+---
+layout: page
+title: Incubator
+author: apjena
+toc: true
+entries_layout: grid
+author_profile: true
+hide: true
+permalink: /:pages/
+header:
+  overlay_image: assets/img/header/headerbanner.jpg
+---
 # Learning C for CBCS Physics Hons.
 ## Preliminaries
 Before we begin, about this platform **Google Colab**. This platform is Google's _give back_ contribution to the community, offering a Jupyter-like Python execution environment online, similar to Google Drive file. It provides a Unix console, numerous libraries and GPU access etc.. which is sufficient for our purposes even in the free version. It provides gnu compilers for C, C++, Fortran, Java out of the box. Text documentation supports Markdown. Thanks Google!
