@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Incubator
+title: comp2
 author: apjena
 toc: true
 entries_layout: grid
