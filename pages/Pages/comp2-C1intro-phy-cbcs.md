@@ -6,7 +6,6 @@ toc: true
 entries_layout: grid
 author_profile: true
 hide: true
-permalink: /:pages/
 header:
   overlay_image: assets/img/header/headerbanner.jpg
 ---
