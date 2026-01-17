@@ -48,22 +48,25 @@ html, html[data-theme="light"] {
   --h5: #262626;
   --h6: #262626;
   --border: rgba(0, 0, 0, 0.2);
+  /* apj GEmini image inversion: define variable none here, in dark and then <img> usage */
+  --img-filter: none; /* No inversion for light mode */
+  --img-opacity: 1;
 }
 
 html[data-theme="dark"] {
-  --background: #22272e; // brand, background
-  --blockquote: #373e47; // blockquote
-  --selection: #545d68; // selection
-  --meta: #909dab; // meta
-  --link: #00a8e0; // theme, link, link shadow header bg
-  --header-background: #2A3444; // Color before header image load
-  --header-text: #e7f3f4; // header text, feature img text
-  --header-link: #adbac7; // header link, search color
+  --background: #22272e; /* brand, background */
+  --blockquote: #373e47; /* blockquote */
+  --selection: #545d68; /* selection */
+  --meta: #909dab; /* meta */
+  --link: #00a8e0; /* theme, link, link shadow header bg */
+  --header-background: #2A3444; /* Color before header image load */
+  --header-text: #e7f3f4; /* header text, feature img text */
+  --header-link: #adbac7; /* header link, search color */
   --code-background: #2A3444;
   --code-inline: #d9b600;
-  --text-shadow: #2d333b; // text shadow
-  --text: #cdd9e5; // text
-  --h1: #d40059; // headers
+  --text-shadow: #2d333b; /* text shadow */
+  --text: #cdd9e5; /* text */
+  --h1: #d40059; /* headers */
   --h2: #b37eff;
   --h3: #ff66c2;
   --h4: #00af9e;
@@ -72,7 +75,17 @@ html[data-theme="dark"] {
   --border: rgba(255, 255, 255, 0.5); // border
   --cusdis--color-text-default: var(--text);
   --cusdis--color-comment-username-text: var(--link);
-  img.dark { filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(150%); }
+
+  /* Inverts colors and shifts hue back to maintain brand colors */
+  --img-filter: invert(1) hue-rotate(180deg) brightness(120%) contrast(150%);
+  --img-opacity: 0.85; /* Soften images for dark eyes */
+  /* Usage * /
+  img {
+    filter: var(--img-filter);
+    opacity: var(--img-opacity);
+    transition: filter 0.3s ease; /* Smooth transition when toggling * /
+  } */
+
 }
 
 /* BASE16 CODE HIGHLIGHT */
