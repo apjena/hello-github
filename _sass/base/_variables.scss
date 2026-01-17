@@ -77,10 +77,10 @@ html[data-theme="dark"] {
   --cusdis--color-comment-username-text: var(--link);
 
   /* Inverts colors and shifts hue back to maintain brand colors */
-  --img-filter: invert(70%) hue-rotate(180deg) brightness(120%) contrast(150%);
+  --img-filter: invert(80%) hue-rotate(180deg) brightness(120%) contrast(150%);
   --img-opacity: 0.85; /* Soften images for dark eyes */
-  /* Usage in class of avatar * /
-  img {
+  /* Usage in img class of avatar * /
+  avatar {
     filter: var(--img-filter);
     opacity: var(--img-opacity);
     transition: filter 0.3s ease; /* Smooth transition when toggling * /
