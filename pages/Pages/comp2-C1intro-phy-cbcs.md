@@ -530,7 +530,7 @@ Syntax: `datatype array_name[size_of_arrays];`
 `datatype array_name[size_of_rows][size_of_columns];`
 For e.g. : `int a[10]; float b[5]`
 * In C, array index starts from 0. `a[3]` array has elements `a[0], a[1] and a[2]`.
-* Array Initialization: `int a[5]={2,4,34,3,4};` `int b[3][2]={{11,12},{21,22},{31,32}};` NOTE: This initialization can not take array size as an initialized variable as compiler wouldn't know the size to allocate. So, only `#define SIZE 3` COMPILER TIME CONSTANT WOULD WORK.
+* Array Initialization: `int a[5]={2,4,34,3,4};` `int b[3][2]=\{\{11,12\},\{21,22\},\{31,32\}\};` NOTE: This initialization can not take array size as an initialized variable as compiler wouldn't know the size to allocate. So, only `#define SIZE 3` COMPILER TIME CONSTANT WOULD WORK.
 
 
 
