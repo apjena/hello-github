@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class & Subject Selector</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        select { padding: 8px; width: 200px; }
+        button { padding: 10px 15px; cursor: pointer; background: #007bff; color: white; border: none; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <h2>Select Question Paper</h2>
+
+    <div class="form-group">
+        <label for="classSelect">Choose Class:</label>
+        <select id="classSelect" onchange="updateSubjects()">
+            <option value="">-- Select Class --</option>
+            <option value="class10">Class 10</option>
+            <option value="class12">Class 12</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="subjectSelect">Choose Subject:</label>
+        <select id="subjectSelect" disabled>
+            <option value="">-- Select Class First --</option>
+        </select>
+    </div>
+
+    <button onclick="viewQuestions()">View Questions</button>
+
+    <script>
+        // Define subject options for each class
+        const classData = {
+            "class10": ["Mathematics", "Science", "English", "Social Science"],
+            "class12": ["Physics", "Chemistry", "Biology", "Accountancy", "Economics"]
+        };
+
+        function updateSubjects() {
+            const classDropdown = document.getElementById("classSelect");
+            const subjectDropdown = document.getElementById("subjectSelect");
+            const selectedClass = classDropdown.value;
+
+            // Clear existing options
+            subjectDropdown.innerHTML = '<option value="">-- Select Subject --</option>';
+
+            if (selectedClass && classData[selectedClass]) {
+                subjectDropdown.disabled = false;
+                
+                // Add new options based on selection
+                classData[selectedClass].forEach(subject => {
+                    let option = document.createElement("option");
+                    option.value = subject.toLowerCase().replace(/\s+/g, '-');
+                    option.textContent = subject;
+                    subjectDropdown.appendChild(option);
+                });
+            } else {
+                subjectDropdown.disabled = true;
+                subjectDropdown.innerHTML = '<option value="">-- Select Class First --</option>';
+            }
+        }
+
+        function viewQuestions() {
+            const cls = document.getElementById("classSelect").value;
+            const sub = document.getElementById("subjectSelect").value;
+
+            if (cls && sub) {
+                alert(`You selected Class: ${cls.replace('class', '')} and Subject: ${sub.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}. You would typically navigate to a page like "${cls}-${sub}.html" here.`);
+            } else {
+                alert("Please select both Class and Subject!");
+            }
+        }
+    </script>
+
+</body>
+</html>
